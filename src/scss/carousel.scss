@@ -1,0 +1,52 @@
+.carousel {
+  padding: 10px;
+  position: relative;
+  .comic_slot {
+    height: 335px;
+    width: 242px;
+    a {
+      color: transparent;
+      display: block;
+      height: 335px;
+      width: 242px;
+    }
+  }
+  .slot_0 {
+    a {
+      background-image: url('../../static/comic_imew.png');
+    }
+  }
+  .slot_1 {
+    a {
+      background-image: url('../../static/comic_pap.png');
+    }
+  }
+  .slot_2 {
+    a {
+      background-image: url('../../static/comic_cb.png');
+    }
+  }
+  .slot_3 {
+    a {
+      background-image: url('../../static/comic_pmp.png');
+    }
+  }
+  .control {
+    bottom: 0;
+    cursor: pointer;
+    height: 270px;
+    margin-bottom: auto;
+    margin-top: auto;
+    position: absolute;
+    top: 0;
+    width: 30px;
+  }
+  .previous_slot {
+    background-image: url('../../static/navbar_left.png');
+    left: -30px;
+  }
+  .next_slot {
+    background-image: url('../../static/navbar_right.png');
+    right: -30px;
+  }
+}

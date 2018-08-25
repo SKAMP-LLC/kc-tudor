@@ -1,0 +1,88 @@
+.cast-page {
+  font-family: Arial, sans-serif;
+
+  .box {
+    border-radius: 20px;
+    color: white;
+    margin: 100px auto 0;
+    height: 500px;
+    position: relative;
+    width: 90%;
+    div {
+      display: inline-block;
+    }
+    .image {
+      position: absolute;
+      top: -60px;
+      height: 640px;
+      width: 380px;
+    }
+    .stats {
+      position: absolute;
+      top: 40px;
+      width: 470px;
+      text-align: left;
+    }
+    .stats.left {
+      left: 80px;
+    }
+    .stats.right {
+      left: 45%;
+    }
+    .image.left {
+      left: 20px;
+    }
+    .image.right {
+      right: 0px;
+    }
+    &:last-child {
+      margin-bottom: 100px;
+    }
+    &:before {
+      position: absolute;
+      content: '';
+      border-radius: 20px;
+      border: 20px solid #FFFFFF;
+      height: 460px;
+      top: 0px;
+      margin: 20px;
+      width: calc(100% - 40px);
+    }
+  }
+  .sandy {
+    background-color: #cc6666;
+    // shade 993300
+    box-shadow: 5px 5px 5px 0px rgba(153, 51, 0, .75);
+    .image {
+      background-image: url('../../static/cast-sandy.png');
+      background-repeat: no-repeat;
+    }
+  }
+  .kona {
+    background-color: #cc0033;
+    // shade 660000
+    box-shadow: 5px 5px 5px 0px rgba(102, 0, 0, .75);
+    .image {
+      background-image: url('../../static/cast-kona.png');
+      background-repeat: no-repeat;
+    }
+  }
+  .miko {
+    background-color: #336699;
+    // shade 003366
+    box-shadow: 5px 5px 5px 0px rgba(0, 51, 102, .75);
+    .image {
+      background-image: url('../../static/cast-miko.png');
+      background-repeat: no-repeat;
+    }
+  }
+  .maxine {
+    background-color: #339933;
+    // shade 006600
+    box-shadow: 5px 5px 5px 0px rgba(0, 102, 0, .75);
+    .image {
+      background-image: url('../../static/cast-maxine.png');
+      background-repeat: no-repeat;
+    }
+  }
+}

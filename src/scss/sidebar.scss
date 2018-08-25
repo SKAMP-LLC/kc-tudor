@@ -1,0 +1,25 @@
+.sidebar {
+  .widget_custom-twitter-feeds-widget {
+   background-color: hsl(21, 83%, 29%);
+   color: #ffffff;
+   margin-top: 5px;
+   padding: 10px;
+   a {
+    color: #ffffff;
+    text-decoration: none;
+   } 
+   .ctf-tweet-meta {
+     margin: 0 !important;
+     padding: 0 !important;
+   }
+   .ctf-tweet-content {
+     padding: 5px 0 !important;
+   }
+  }
+  .custom-html-widget {
+    margin-top: 5px;
+    img {
+      width: 100%;
+    }
+  }
+}

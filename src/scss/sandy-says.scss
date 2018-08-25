@@ -1,0 +1,49 @@
+.sandy-says {
+  background-color: #89390d;
+  border-radius: 5px;
+  height: 225px;
+  position: relative;
+  width: 100%;
+  .sandy {
+    background-image: url('../../static/sandy_synopsis_1.gif');
+    bottom: 0;
+    height: 250px;
+    left: -25px;
+    position: absolute;
+    width: 250px;
+  }
+  .speech_bubble {
+    background-color: #ffffff;
+    border-radius: 5px;
+    height: 215px;
+    margin-left: 250px;
+    padding: 40px 7px 0;
+    position: relative;
+    top: 5px;
+    left: -5px;
+    .arrow {
+      border-style: solid;
+      position: absolute;
+      border-color: #ffffff transparent transparent transparent;
+      border-width: 12px 12px 12px 12px;
+      left: -12px;
+      top: 130px;
+    }
+    .rating, .title {
+      background-color: #cd7e53;
+      border-radius: 5px;
+      color: #ffffff;
+      font-size: 1.5em;
+      margin: 5px;
+      padding: 10px;
+      position: absolute;
+      top: 0;
+    }
+    .rating {
+      right: 0;
+    }
+    .title {
+      left: 0;
+    }
+  }
+}

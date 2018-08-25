@@ -1,0 +1,37 @@
+@import './header.scss';
+@import './carousel.scss';
+@import './cast-page.scss';
+@import './sandy-says.scss';
+@import './sidebar.scss';
+@import './post-grid.scss';
+@import './footer.scss';
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+    background-image: url('../../static/background.png');
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 1080px;
+    min-width: 1080px;
+    width: 1080px;
+    padding: 0 24px;
+    margin: 0 auto
+}
+
+.two-column {
+  display: flex;
+  justify-content: space-between;
+  .sidebar {
+    width: 20%;
+  }
+  .content-area {
+    width: 80%;
+  }
+}

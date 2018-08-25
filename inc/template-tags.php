@@ -1,0 +1,208 @@
+<?php
+/**
+ * Custom Tudor template tags
+ *
+ * Eventually, some of the functionality here could be replaced by core features.
+ *
+ * @package WordPress
+ * @subpackage Tudor
+ * @since Tudor 1.0
+ */
+
+if ( ! function_exists( 'tudor_entry_meta' ) ) :
+/**
+ * Prints HTML with meta information for the categories, tags.
+ *
+ * Create your own tudor_entry_meta() function to override in a child theme.
+ *
+ * @since Tudor 1.0
+ */
+function tudor_entry_meta() {
+	if ( in_array( get_post_type(), array( 'post', 'attachment' ) ) ) {
+		tudor_entry_date();
+	}
+}
+endif;
+
+if ( ! function_exists( 'tudor_entry_date' ) ) :
+/**
+ * Prints HTML with date information for current post.
+ *
+ * Create your own tudor_entry_date() function to override in a child theme.
+ *
+ * @since Tudor 1.0
+ */
+function tudor_entry_date() {
+	$time_string = '<time class="entry-date published updated" datetime="%1$s">%2$s</time>';
+
+	if ( get_the_time( 'U' ) !== get_the_modified_time( 'U' ) ) {
+		$time_string = '<time class="entry-date published" datetime="%1$s">%2$s</time>';
+	}
+
+	$time_string = sprintf( $time_string,
+		esc_attr( get_the_date( 'c' ) ),
+		get_the_date(),
+		esc_attr( get_the_modified_date( 'c' ) ),
+		get_the_modified_date()
+	);
+
+	printf( '<span class="posted-on"><span class="screen-reader-text">%1$s </span></span>',
+		$time_string
+	);
+}
+endif;
+
+if ( ! function_exists( 'tudor_entry_taxonomies' ) ) :
+/**
+ * Prints HTML with category and tags for current post.
+ *
+ * Create your own tudor_entry_taxonomies() function to override in a child theme.
+ *
+ * @since Tudor 1.0
+ */
+function tudor_entry_taxonomies() {
+	$categories_list = get_the_category_list( _x( ', ', 'Used between list items, there is a space after the comma.', 'tudor' ) );
+	if ( $categories_list && tudor_categorized_blog() ) {
+		printf( '<span class="cat-links"><span class="screen-reader-text">%1$s </span>%2$s</span>',
+			_x( 'Categories', 'Used before category names.', 'tudor' ),
+			$categories_list
+		);
+	}
+
+	$tags_list = get_the_tag_list( '', _x( ', ', 'Used between list items, there is a space after the comma.', 'tudor' ) );
+	if ( $tags_list && ! is_wp_error( $tags_list ) ) {
+		printf( '<span class="tags-links"><span class="screen-reader-text">%1$s </span>%2$s</span>',
+			_x( 'Tags', 'Used before tag names.', 'tudor' ),
+			$tags_list
+		);
+	}
+}
+endif;
+
+if ( ! function_exists( 'tudor_post_thumbnail' ) ) :
+/**
+ * Displays an optional post thumbnail.
+ *
+ * Wraps the post thumbnail in an anchor element on index views, or a div
+ * element when on single views.
+ *
+ * Create your own tudor_post_thumbnail() function to override in a child theme.
+ *
+ * @since Tudor 1.0
+ */
+function tudor_post_thumbnail() {
+	if ( post_password_required() || is_attachment() || ! has_post_thumbnail() ) {
+		return;
+	}
+
+	if ( is_singular() ) :
+	?>
+
+	<div class="post-thumbnail">
+		<?php the_post_thumbnail(); ?>
+	</div><!-- .post-thumbnail -->
+
+	<?php else : ?>
+
+	<a class="post-thumbnail" href="<?php the_permalink(); ?>" aria-hidden="true">
+		<?php the_post_thumbnail( 'post-thumbnail', array( 'alt' => the_title_attribute( 'echo=0' ) ) ); ?>
+	</a>
+
+	<?php endif; // End is_singular()
+}
+endif;
+
+if ( ! function_exists( 'tudor_excerpt' ) ) :
+	/**
+	 * Displays the optional excerpt.
+	 *
+	 * Wraps the excerpt in a div element.
+	 *
+	 * Create your own tudor_excerpt() function to override in a child theme.
+	 *
+	 * @since Tudor 1.0
+	 *
+	 * @param string $class Optional. Class string of the div element. Defaults to 'entry-summary'.
+	 */
+	function tudor_excerpt( $class = 'entry-summary' ) {
+		$class = esc_attr( $class );
+
+		if ( has_excerpt() || is_search() ) : ?>
+			<div class="<?php echo $class; ?>">
+				<?php the_excerpt(); ?>
+			</div><!-- .<?php echo $class; ?> -->
+		<?php endif;
+	}
+endif;
+
+if ( ! function_exists( 'tudor_excerpt_more' ) && ! is_admin() ) :
+/**
+ * Replaces "[...]" (appended to automatically generated excerpts) with ... and
+ * a 'Continue reading' link.
+ *
+ * Create your own tudor_excerpt_more() function to override in a child theme.
+ *
+ * @since Tudor 1.0
+ *
+ * @return string 'Continue reading' link prepended with an ellipsis.
+ */
+function tudor_excerpt_more() {
+	$link = sprintf( '<a href="%1$s" class="more-link">%2$s</a>',
+		esc_url( get_permalink( get_the_ID() ) ),
+		/* translators: %s: Name of current post */
+		sprintf( __( 'Continue reading<span class="screen-reader-text"> "%s"</span>', 'tudor' ), get_the_title( get_the_ID() ) )
+	);
+	return ' &hellip; ' . $link;
+}
+add_filter( 'excerpt_more', 'tudor_excerpt_more' );
+endif;
+
+if ( ! function_exists( 'tudor_categorized_blog' ) ) :
+/**
+ * Determines whether blog/site has more than one category.
+ *
+ * Create your own tudor_categorized_blog() function to override in a child theme.
+ *
+ * @since Tudor 1.0
+ *
+ * @return bool True if there is more than one category, false otherwise.
+ */
+function tudor_categorized_blog() {
+	if ( false === ( $all_the_cool_cats = get_transient( 'tudor_categories' ) ) ) {
+		// Create an array of all the categories that are attached to posts.
+		$all_the_cool_cats = get_categories( array(
+			'fields'     => 'ids',
+			// We only need to know if there is more than one category.
+			'number'     => 2,
+		) );
+
+		// Count the number of categories that are attached to the posts.
+		$all_the_cool_cats = count( $all_the_cool_cats );
+
+		set_transient( 'tudor_categories', $all_the_cool_cats );
+	}
+
+	if ( $all_the_cool_cats > 1 || is_preview() ) {
+		// This blog has more than 1 category so tudor_categorized_blog should return true.
+		return true;
+	} else {
+		// This blog has only 1 category so tudor_categorized_blog should return false.
+		return false;
+	}
+}
+endif;
+
+/**
+ * Flushes out the transients used in tudor_categorized_blog().
+ *
+ * @since Tudor 1.0
+ */
+function tudor_category_transient_flusher() {
+	if ( defined( 'DOING_AUTOSAVE' ) && DOING_AUTOSAVE ) {
+		return;
+	}
+	// Like, beat it. Dig?
+	delete_transient( 'tudor_categories' );
+}
+add_action( 'edit_category', 'tudor_category_transient_flusher' );
+add_action( 'save_post',     'tudor_category_transient_flusher' );

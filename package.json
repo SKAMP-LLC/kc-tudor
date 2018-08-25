@@ -1,0 +1,39 @@
+{
+  "name": "tudor",
+  "version": "1.0.0",
+  "description": "Wordpress theme for Kemono Cafe",
+  "main": "index.js",
+  "scripts": {
+    "serve": "./node_modules/.bin/webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/SKAMPLLC/tudor-theme.git"
+  },
+  "author": "Devin Leonhart",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://gitlab.com/SKAMPLLC/tudor-theme/issues"
+  },
+  "homepage": "https://gitlab.com/SKAMPLLC/tudor-theme#readme",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.5",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^2.1.0",
+    "file-loader": "^3.0.1",
+    "mini-css-extract-plugin": "^0.5.0",
+    "node-sass": "^4.11.0",
+    "raw-loader": "^1.0.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "url-loader": "^1.1.2",
+    "webpack": "^4.28.4",
+    "webpack-cli": "^3.2.1"
+  },
+  "dependencies": {
+    "siema": "^1.5.1"
+  }
+}
