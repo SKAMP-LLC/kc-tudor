@@ -5,12 +5,13 @@
   position: relative;
   width: 100%;
   .sandy {
-    background-image: url('../../static/sandy_synopsis_1.gif');
+    background-image: url('../../static/sandy_synopsis_2.gif');
+    background-repeat: no-repeat;
     bottom: 0;
-    height: 250px;
-    left: -25px;
+    height: 231px;
+    left: 5px;
     position: absolute;
-    width: 250px;
+    width: 227px;
   }
   .speech_bubble {
     background-color: #ffffff;
