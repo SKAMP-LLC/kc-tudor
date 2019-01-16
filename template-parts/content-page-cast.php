@@ -42,5 +42,13 @@
         <p>Description</p>
       </div>
     </div>
+    <div class="jill box">
+      <div class="left image"></div>
+      <div class="right stats">
+        <h1>Name</h1>
+        <h2>Race</h2>
+        <p>Description</p>
+      </div>
+    </div>
   </div>
 </article>
