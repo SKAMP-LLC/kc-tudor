@@ -85,4 +85,15 @@
       background-repeat: no-repeat;
     }
   }
+  .jill {
+    background-color: #993300;
+    // shade 660000
+    box-shadow: 5px 5px 5px 0px rgba(102, 0, 0, .75);
+    .image {
+      background-image: url('../../static/cast-jill.png');
+      background-repeat: no-repeat;
+      left: -110px !important; //Adjustment for large tail.
+      width: 524px; //Adjustment for large tail.
+    }
+  }
 }
