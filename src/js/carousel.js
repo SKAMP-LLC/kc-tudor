@@ -19,7 +19,6 @@ document.addEventListener("DOMContentLoaded", () => {
     perPage: 4,
     loop: true,
     onInit: function () {
-      console.log(this);
       sammy_says(this.currentSlide)
     },
     onChange: function() {
