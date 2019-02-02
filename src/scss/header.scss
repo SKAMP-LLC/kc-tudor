@@ -9,7 +9,7 @@ header.site-header {
   .site-header-menu {
     align-content: center;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 
     nav {
       overflow: hidden;
@@ -41,15 +41,15 @@ header.site-header {
       a {
         font-family: 'Georgia serif';
       }
-      a::before {
+      a::after {
         content: '\00B7';
-        padding-right: 10px;
+        padding-left: 10px;
       }
     }
     li:last-child {
       a::after {
-        content: '\00B7';
-        padding-left: 10px;
+        content: none;
+        padding-right: 10px;
       }
     }
   }
