@@ -43,7 +43,7 @@
         <h1>Miko</h1>
         <h2>Height ~ 172cm</h2>
         <h2>Favorite Food ~ Glazed Donuts</h2>
-        <p>Does Fable really need a police officer? Technically, it does! Miko’s on the job! But the poor doggo has so little to do in the peaceful town that she’d give up her morning donut a real perp to chase! She’s really excited about the cafe opening back up because with all the new people coming through, maybe she’ll have a real job again! But be careful when you visit Fable... If you’re caught breaking the law, Miko will give you such a warning!</p>
+        <p>Does Fable really need a police officer? Technically, it does! Miko’s on the job! But the poor doggo has so little to do in the peaceful town that she’d give up her morning donut for a real perp to chase! She’s really excited about the cafe opening back up because with all the new people coming through, maybe she’ll have a real job again! But be careful when you visit Fable... If you’re caught breaking the law, Miko will give you such a warning!</p>
       </div>
     </div>
     <div class="jill box">
