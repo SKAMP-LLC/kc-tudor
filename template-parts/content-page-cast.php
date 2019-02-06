@@ -16,7 +16,7 @@
         <h1>Sandy</h1>
         <h2>Height ~ 170cm</h2>
         <h2>Favorite Food ~ Fried Chicken</h2>
-        <p>Imagine yourself coming into possession of a magical ticket. Behind you is a predictable life. You have a dead-end job, every day is filled with the anxiety to keep it and the longing to escape it. There’s no room for dreams where you live. A bright red train pulls into the station and brings with it a  promise of another world, but one entirely unknown. That train came for Sandy and, with a dream for a better life burning in her heart, she gave the ticket to the conductor and off they went. Now Sandy is the newest resident of Fable, a world between worlds, and runs the cafe there; a home for all travellers who take their tickets and follow their dreams.</p>
+        <p>Imagine yourself coming into possession of a magical ticket. Behind you is a predictable life. There’s no room for dreams where you live. A bright red train pulls into the station and brings with it a promise of another world, but one entirely unknown. That train came for Sandy and, with a dream for a better life burning in her heart, she gave the ticket to the conductor and off they went. Now Sandy is the newest resident of Fable, a world between worlds, and runs the cafe there; a home for all travellers who take their tickets and follow their dreams.</p>
       </div>
     </div>
     <div class="kona box">
