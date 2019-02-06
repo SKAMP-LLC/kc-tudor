@@ -1,4 +1,7 @@
 header.site-header {
+  
+  font-family: 'Roboto Slab', serif;
+
   .brown-header-rule {
     background-color: #89390d;
     height: 20px;
@@ -39,7 +42,7 @@ header.site-header {
       line-height: 75px;
       padding-right: 5px;
       a {
-        font-family: 'Georgia serif';
+        text-shadow: 1px 1px #222222;
       }
       a::after {
         content: '\00B7';

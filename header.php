@@ -23,6 +23,8 @@
     <?php wp_head(); ?>
   </head>
 
+  <link href="https://fonts.googleapis.com/css?family=Lato|Roboto+Slab" rel="stylesheet">
+
   <body <?php body_class(); ?>>
     <div id="page" class="site">
       

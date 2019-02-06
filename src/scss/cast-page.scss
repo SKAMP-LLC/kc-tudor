@@ -1,5 +1,5 @@
 .cast-page {
-  font-family: Arial, sans-serif;
+  font-family: 'Lato', sans-serif;
 
   .box {
     border-radius: 20px;
@@ -11,6 +11,11 @@
     div {
       display: inline-block;
     }
+    h1 {
+      font-family: 'Roboto Slab', serif;
+      font-size: 3em;
+      text-align: center;
+    }
     .image {
       position: absolute;
       top: -60px;
@@ -18,9 +23,10 @@
       width: 380px;
     }
     .stats {
+      line-height: 1.5em;
       position: absolute;
       top: 40px;
-      width: 470px;
+      width: 450px;
       text-align: left;
     }
     .stats.left {
