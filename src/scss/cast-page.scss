@@ -1,11 +1,11 @@
 .cast-page {
-  .box {
     border-radius: 20px;
     color: $off_white;
-    margin: 100px auto 0;
     height: 500px;
+    margin: 100px auto 0;
     position: relative;
     width: 90%;
+  .box {
     div {
       display: inline-block;
     }
@@ -15,17 +15,17 @@
       text-align: center;
     }
     .image {
+      height: 640px;
       position: absolute;
       top: -60px;
-      height: 640px;
       width: 380px;
     }
     .stats {
       line-height: 1.5em;
       position: absolute;
+      text-align: left;
       top: 40px;
       width: 450px;
-      text-align: left;
     }
     .stats.left {
       left: 80px;
@@ -43,13 +43,13 @@
       margin-bottom: 100px;
     }
     &:before {
-      position: absolute;
-      content: '';
       border-radius: 20px;
       border: 20px solid $off_white;
+      content: '';
       height: 460px;
-      top: 0px;
       margin: 20px;
+      position: absolute;
+      top: 0px;
       width: calc(100% - 40px);
     }
   }

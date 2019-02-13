@@ -1,12 +1,12 @@
 .world-page {
   .map {
     background-image: url('../../static/world_map.png');
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
-    width: 1080px;
     height: 802px;
     margin: 0 auto;
+    width: 1080px;
   }
   .locations {
     display: flex;
@@ -15,17 +15,17 @@
     width: 100%;
     .location {
       background-color: $off_white;
-      border: 2px solid $hardwood_text;
       border-radius: 5px;
+      border: 2px solid $hardwood_text;
       color: $hardwood_text;
-      width: 45%;
       margin-bottom: .5em;
       padding: 5px;
+      width: 45%;
       .image {
-        height: 135px;
-        width: 135px;
         float: left;
+        height: 135px;
         margin-right: 10px;
+        width: 135px;
       }
       h1 {
         font-family: 'Roboto Slab', serif;

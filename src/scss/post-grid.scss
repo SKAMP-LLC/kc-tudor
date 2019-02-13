@@ -11,21 +11,21 @@ main.site-main {
     background-image: url('../../static/divider_more_news.png');
   }
   .ad-banner {
+    background-image: url('../../static/ad_banner.png');
     height: 90px;
     margin: 10px auto;
     width: 720px;
-    background-image: url('../../static/ad_banner.png');
   }
   .article-container {
-    display: flex;
-    flex-wrap: wrap;
     align-content: center;
     align-items: center;
+    display: flex;
+    flex-wrap: wrap;
     article {
       color: $kemono_brown;
-      width: 33%;
-      padding: 10px;
       margin-bottom: 10px;
+      padding: 10px;
+      width: 33%;
       h2 {
         margin: 0;
         padding: 0;
