@@ -1,9 +1,7 @@
 .cast-page {
-  font-family: 'Lato', sans-serif;
-
   .box {
     border-radius: 20px;
-    color: white;
+    color: $off_white;
     margin: 100px auto 0;
     height: 500px;
     position: relative;
@@ -48,7 +46,7 @@
       position: absolute;
       content: '';
       border-radius: 20px;
-      border: 20px solid #FFFFFF;
+      border: 20px solid $off_white;
       height: 460px;
       top: 0px;
       margin: 20px;
@@ -56,45 +54,40 @@
     }
   }
   .sandy {
-    background-color: #cc6666;
-    // shade 993300
-    box-shadow: 5px 5px 5px 0px rgba(153, 51, 0, .75);
+    background-color: $sandy_peach;
+    box-shadow: 5px 5px 5px 0px $sandy_peach_off;
     .image {
       background-image: url('../../static/cast-sandy.png');
       background-repeat: no-repeat;
     }
   }
   .kona {
-    background-color: #cc0033;
-    // shade 660000
-    box-shadow: 5px 5px 5px 0px rgba(102, 0, 0, .75);
+    background-color: $kona_red;
+    box-shadow: 5px 5px 5px 0px $kona_red_off;
     .image {
       background-image: url('../../static/cast-kona.png');
       background-repeat: no-repeat;
     }
   }
   .miko {
-    background-color: #336699;
-    // shade 003366
-    box-shadow: 5px 5px 5px 0px rgba(0, 51, 102, .75);
+    background-color: $miko_blue;
+    box-shadow: 5px 5px 5px 0px $miko_blue_off;
     .image {
       background-image: url('../../static/cast-miko.png');
       background-repeat: no-repeat;
     }
   }
   .maxine {
-    background-color: #339933;
-    // shade 006600
-    box-shadow: 5px 5px 5px 0px rgba(0, 102, 0, .75);
+    background-color: $maxine_green;
+    box-shadow: 5px 5px 5px 0px $maxine_green_off;
     .image {
       background-image: url('../../static/cast-maxine.png');
       background-repeat: no-repeat;
     }
   }
   .jill {
-    background-color: #993300;
-    // shade 660000
-    box-shadow: 5px 5px 5px 0px rgba(102, 0, 0, .75);
+    background-color: $jill_orange;
+    box-shadow: 5px 5px 5px 0px $jill_orange_off;
     .image {
       background-image: url('../../static/cast-jill.png');
       background-repeat: no-repeat;

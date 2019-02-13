@@ -1,3 +1,4 @@
+@import './palette.scss';
 @import './header.scss';
 @import './carousel.scss';
 @import './cast-page.scss';
@@ -5,6 +6,7 @@
 @import './sidebar.scss';
 @import './post-grid.scss';
 @import './footer.scss';
+@import './world-page.scss';
 
 html {
   box-sizing: border-box;
@@ -17,7 +19,7 @@ html {
 
 body {
     background-image: url('../../static/background.png');
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Lato', sans-serif;
     max-width: 1080px;
     min-width: 1080px;
     width: 1080px;

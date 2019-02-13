@@ -1,0 +1,85 @@
+.world-page {
+  .map {
+    background-image: url('../../static/world_map.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 1080px;
+    height: 802px;
+    margin: 0 auto;
+  }
+  .locations {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    .location {
+      background-color: $off_white;
+      border: 2px solid $hardwood_text;
+      border-radius: 5px;
+      color: $hardwood_text;
+      width: 45%;
+      margin-bottom: .5em;
+      padding: 5px;
+      .image {
+        height: 135px;
+        width: 135px;
+        float: left;
+        margin-right: 10px;
+      }
+      h1 {
+        font-family: 'Roboto Slab', serif;
+        font-size: 1.5em;
+        font-weight: bold;
+      }
+      h1::before {
+        content: '\00B7';
+        padding-right: 10px;
+      }
+      h1::after {
+        content: '\00B7';
+        padding-left: 10px;
+      }
+    }
+  }
+  .loc-1 {
+    .image {
+      background-image: url('../../static/world_location01.png');
+    }
+  }
+  .loc-2 {
+    .image {
+      background-image: url('../../static/world_location02.png');
+    }
+  }
+  .loc-3 {
+    .image {
+      background-image: url('../../static/world_location03.png');
+    }
+  }
+  .loc-4 {
+    .image {
+      background-image: url('../../static/world_location04.png');
+    }
+  }
+  .loc-5 {
+    .image {
+      background-image: url('../../static/world_location05.png');
+    }
+  }
+  .loc-6 {
+    .image {
+      background-image: url('../../static/world_location06.png');
+    }
+  }
+  .loc-7 {
+    .image {
+      background-image: url('../../static/world_location07.png');
+    }
+  }
+  .loc-8 {
+    .image {
+      background-image: url('../../static/world_location08.png');
+    }
+  }
+}

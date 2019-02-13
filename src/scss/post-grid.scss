@@ -22,7 +22,7 @@ main.site-main {
     align-content: center;
     align-items: center;
     article {
-      color: #89390d;
+      color: $kemono_brown;
       width: 33%;
       padding: 10px;
       margin-bottom: 10px;
@@ -31,7 +31,7 @@ main.site-main {
         padding: 0;
       }
       a {
-        color: #89390d;
+        color: $kemono_brown;
         display: block;
         font-size: 10pt;
         margin: 0 auto;

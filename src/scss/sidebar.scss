@@ -1,11 +1,11 @@
 .sidebar {
   .widget_custom-twitter-feeds-widget {
    background-color: hsl(21, 83%, 29%);
-   color: #ffffff;
+   color: $off_white;
    margin-top: 5px;
    padding: 10px;
    a {
-    color: #ffffff;
+    color: $off_white;
     text-decoration: none;
    } 
    .ctf-tweet-meta {

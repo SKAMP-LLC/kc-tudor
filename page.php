@@ -19,6 +19,8 @@ get_header(); ?>
       while ( have_posts() ) : the_post();
         if(is_page('Characters'))
           get_template_part( 'template-parts/content', 'page-cast' );
+        else if(is_page('World'))
+          get_template_part( 'template-parts/content', 'page-world' );
         else
           get_template_part( 'template-parts/content', 'page' );
       endwhile;

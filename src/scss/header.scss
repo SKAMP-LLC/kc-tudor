@@ -3,7 +3,7 @@ header.site-header {
   font-family: 'Roboto Slab', serif;
 
   .brown-header-rule {
-    background-color: #89390d;
+    background-color: $kemono_brown;
     height: 20px;
     margin: 10px 0;
     width: 100%;
@@ -34,7 +34,7 @@ header.site-header {
   }
 
   #site-navigation {
-    background-color: #89390d;
+    background-color: $kemono_brown;
     text-transform: uppercase;
 
     li {
@@ -42,7 +42,7 @@ header.site-header {
       line-height: 75px;
       padding-right: 5px;
       a {
-        text-shadow: 1px 1px #222222;
+        text-shadow: 1px 1px $shadow_black;
       }
       a::after {
         content: '\00B7';

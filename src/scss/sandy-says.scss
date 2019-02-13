@@ -1,5 +1,5 @@
 .sandy-says {
-  background-color: #89390d;
+  background-color: $kemono_brown;
   border-radius: 5px;
   height: 225px;
   position: relative;
@@ -14,7 +14,7 @@
     width: 227px;
   }
   .speech_bubble {
-    background-color: #ffffff;
+    background-color: $off_white;
     border-radius: 5px;
     height: 215px;
     margin-left: 250px;
@@ -25,15 +25,15 @@
     .arrow {
       border-style: solid;
       position: absolute;
-      border-color: #ffffff transparent transparent transparent;
+      border-color: $off_white transparent transparent transparent;
       border-width: 12px 12px 12px 12px;
       left: -12px;
       top: 130px;
     }
     .rating, .title {
-      background-color: #cd7e53;
+      background-color: $label_peach;
       border-radius: 5px;
-      color: #ffffff;
+      color: off_white;
       font-size: 1.5em;
       margin: 5px;
       padding: 10px;
