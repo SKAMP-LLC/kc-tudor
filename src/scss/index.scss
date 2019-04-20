@@ -1,11 +1,12 @@
 @import './palette.scss';
-@import './header.scss';
+
 @import './carousel.scss';
 @import './cast-page.scss';
+@import './footer.scss';
+@import './header.scss';
+@import './post-grid.scss';
 @import './sandy-says.scss';
 @import './sidebar.scss';
-@import './post-grid.scss';
-@import './footer.scss';
 @import './world-page.scss';
 
 html {
@@ -20,11 +21,11 @@ html {
 body {
     background-image: url('../../static/background.png');
     font-family: 'Lato', sans-serif;
+    margin: 0 auto;
     max-width: 1080px;
     min-width: 1080px;
-    width: 1080px;
     padding: 0 24px;
-    margin: 0 auto
+    width: 1080px;
 }
 
 .two-column {
