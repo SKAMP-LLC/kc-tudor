@@ -1,9 +1,10 @@
 footer.site-footer {
   background-color: $kemono_brown;
+  border-radius: $default-border-radius;
   color: $off_white;
-  font-size: 1.2em;
-  margin-bottom: 10px;
-  padding: 5px;
+  font-size: 16pt;
+  margin: $default-margin 0;
+  padding: $default-padding;
   text-align: center;
   text-shadow: 1px 1px $shadow_black;
 }

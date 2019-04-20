@@ -4,6 +4,7 @@
   height: 225px;
   position: relative;
   width: 100%;
+
   .sandy {
     background-image: url('../../static/sandy_synopsis_2.gif');
     background-repeat: no-repeat;
@@ -13,6 +14,7 @@
     position: absolute;
     width: 227px;
   }
+
   .speech_bubble {
     background-color: $off_white;
     border-radius: 5px;
@@ -22,6 +24,7 @@
     padding: 40px 7px 0;
     position: relative;
     top: 5px;
+
     .arrow {
       border-color: $off_white transparent transparent transparent;
       border-style: solid;
@@ -30,19 +33,23 @@
       position: absolute;
       top: 130px;
     }
-    .rating, .title {
-      background-color: $label_peach;
+
+    .rating, .title { 
       border-radius: 5px;
-      color: off_white;
-      font-size: 1.5em;
-      margin: 5px;
+      font-size: 20pt;
+      margin-top: $default-margin / 2;
       padding: 10px;
       position: absolute;
       top: 0;
     }
+
     .rating {
+      background-color: $kemono_brown;
+      color: $off_white;
+      margin-right: $default-margin / 2;
       right: 0;
     }
+    
     .title {
       left: 0;
     }

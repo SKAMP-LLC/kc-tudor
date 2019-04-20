@@ -1,31 +1,47 @@
 header.site-header {
-  
   font-family: 'Roboto Slab', serif;
 
   .brown-header-rule {
     background-color: $kemono_brown;
+    border-radius: $default-border-radius;
     height: 20px;
-    margin: 10px 0;
+    margin-top: $default-margin;
     width: 100%;
+  }
+
+  .header-image {
+    margin-top: $default-margin;
+
+    a {
+      @include image-link;
+      height: 200px;
+    }
+
+    img {
+      width: 100%;
+    }
   }
 
   .site-header-menu {
     align-content: center;
     display: flex;
     justify-content: space-around;
+    margin-top: $default-margin;
 
     nav {
-      overflow: hidden;
-      padding: 0 10px;
+      padding: 0 $default-padding;
+
       ul {
         height: 78px;
         list-style: none;
         margin: 0;
         padding: 0;
+
         li {
           display: inline-block;
+
           a {
-            color: white;
+            color: $off-white;
             text-decoration: none;
           }
         }
@@ -35,20 +51,24 @@ header.site-header {
 
   #site-navigation {
     background-color: $kemono_brown;
+    border-radius: $default-border-radius;
     text-transform: uppercase;
 
     li {
       font-size: 20pt;
-      line-height: 75px;
-      padding-right: 5px;
+      line-height: 78px;
+      padding-right: $default-padding / 2;
+
       a {
         text-shadow: 1px 1px $shadow_black;
       }
+
       a::after {
         content: '\00B7';
         padding-left: 10px;
       }
     }
+
     li:last-child {
       a::after {
         content: none;
@@ -60,45 +80,42 @@ header.site-header {
   #social-navigation {
     li {
       padding-left: 5px;
+
       a {
-        background-repeat: no-repeat;
-        color: transparent;
-        display: block;
+        @include image-link;
         height: 75px;
         width: 75px;
       }
     }
+
     li:nth-child(1n) {
       a {
         background-image: url('../../static/social_twitter.png');
       }
     }
+
     li:nth-child(2n) {
       a {
         background-image: url('../../static/social_tumblr.png');
       }
     }
+
     li:nth-child(3n) {
       a {
         background-image: url('../../static/social_instagram.png');
       }
     }
+
     li:nth-child(4n) {
       a {
         background-image: url('../../static/social_youtube.png');
       }
     }
+
     li:nth-child(5n) {
       a {
         background-image: url('../../static/social_patreon.png');
       }
-    }
-  }
-
-  .header-image {
-    img {
-      margin-bottom: 5px;
-      width: 100%;
     }
   }
 }

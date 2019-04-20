@@ -1,23 +1,40 @@
 .sidebar {
+
   .widget_custom-twitter-feeds-widget {
-   background-color: hsl(21, 83%, 29%);
+   background-color: $kemono-brown;
+   border-radius: $default-border-radius;
    color: $off_white;
-   margin-top: 5px;
-   padding: 10px;
+   margin-top: $default-margin;
+   padding: $default-padding;
+
    a {
     color: $off_white;
     text-decoration: none;
    } 
+
    .ctf-tweet-meta {
      margin: 0 !important;
      padding: 0 !important;
    }
+
+   .ctf-tweet-date, .ctf-screename-sep {
+     display: none !important;
+   }
+
+   .ctf-tweet-actions {
+     margin: 0 !important;
+   }
+
    .ctf-tweet-content {
-     padding: 5px 0 !important;
+    margin: 0 !important;
+     padding: $default-padding 0 !important;
    }
   }
+
   .custom-html-widget {
-    margin-top: 5px;
+    border-radius: $default-border-radius;
+    margin-top: $default-margin;
+
     img {
       width: 100%;
     }
