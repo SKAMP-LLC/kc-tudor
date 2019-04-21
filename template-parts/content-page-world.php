@@ -14,43 +14,43 @@
     <div class="locations">
       <div class="location loc-1">
         <div class="image"></div>
-        <h1>Train Station</h1>
-        <p>Fable's single line station and only real access to the outside world.</p>
+        <h1>Fable Station</h1>
+        <p>Home to the Escapade and the only way in or out of town. Those who walk the track are never seen again!</p>
       </div>
       <div class="location loc-2">
         <div class="image"></div>
-        <h1>Lone Tree Island</h1>
-        <p>The only place on the lake you can reach.</p>
+        <h1>Kemono Cafe</h1>
+        <p>You are here! And it's a good thing, too. Sandy really needs the customers.</p>
       </div>
       <div class="location loc-3">
         <div class="image"></div>
-        <h1>Kemono Cafe</h1>
-        <p>Stop by! Sandy really needs the customers.</p>
+        <h1>Jill's Mill</h1>
+        <p>Jill lives just at the border of the impenetrable Illusion Forest. Be careful if you smell pie... She can be territorial.</p>
       </div>
       <div class="location loc-4">
         <div class="image"></div>
-        <h1>Ono Ranch</h1>
-        <p>Home of the Moo Moos</p>
+        <h1>Dreamer's Dock </h1>
+        <p>One of the lonliest places in town. No ships come or go... But at least it is Kona's favorite fishing spot.</p>
       </div>
       <div class="location loc-5">
         <div class="image"></div>
-        <h1>Illussion Logging</h1>
-        <p>Keep the Forest of Illussion from overgrowing everything.</p>
+        <h1>Bookend Isle</h1>
+        <p>Named as Fable's easternmost point, swimming out to bookend and back is one of the oldest Fable tradtions.</p>
       </div>
       <div class="location loc-6">
         <div class="image"></div>
-        <h1>Mysterious Cottage</h1>
-        <p>Deep in the forest is a mysterious cottage. Few have ever come across it.</p>
+        <h1>Pageturner Ranch</h1>
+        <p>Renamed as a pun by Maxine when competitors arose. "Don't buy it if it's not a REAL Pageturner!" She'd say. </p>
       </div>
       <div class="location loc-7">
         <div class="image"></div>
-        <h1>Downkirk Docks</h1>
-        <p>Includes boathouse and a short dock. Only small rowboats ever use it.</p>
+        <h1>Mysterious Manor</h1>
+        <p>An abandoned house of unknown origin and the center of many a spooky story in Fable. Not even the forest tries to reclaim it...</p>
       </div>
       <div class="location loc-8">
         <div class="image"></div>
-        <h1>Mines of Moria</h1>
-        <p>Say friend and enter.</p>
+        <h1>"The Mines"</h1>
+        <p>Miners in Fable know not to go too deep. There's a good chance they'll wake up something they never want to see again.</p>
       </div>
     </div>
   </div>
