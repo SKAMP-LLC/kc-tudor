@@ -1,0 +1,23 @@
+.post-template-default {
+
+  .content-area {
+    background-color: $off-white;
+    border-radius: $default-border-radius;
+    padding: $default-padding;
+    margin-top: $default-margin;
+
+    a {
+      text-decoration: none;
+    }
+
+    .entry-title {
+      font-family: 'Roboto Slab', serif;
+      font-size: 3em;
+      text-align: center;
+    }
+  }
+
+  #comments, .post-navigation, .sidebar {
+    display: none;
+  }
+}

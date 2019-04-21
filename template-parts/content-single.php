@@ -15,8 +15,6 @@
 
 	<?php tudor_excerpt(); ?>
 
-	<?php tudor_post_thumbnail(); ?>
-
 	<div class="entry-content">
 		<?php
 			the_content();
@@ -35,19 +33,4 @@
 			}
 		?>
 	</div><!-- .entry-content -->
-
-	<footer class="entry-footer">
-		<?php tudor_entry_meta(); ?>
-		<?php
-			edit_post_link(
-				sprintf(
-					/* translators: %s: Name of current post */
-					__( 'Edit<span class="screen-reader-text"> "%s"</span>', 'tudor' ),
-					get_the_title()
-				),
-				'<span class="edit-link">',
-				'</span>'
-			);
-		?>
-	</footer><!-- .entry-footer -->
 </article><!-- #post-## -->
