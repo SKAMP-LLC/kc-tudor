@@ -21,6 +21,8 @@ get_header(); ?>
           get_template_part( 'template-parts/content', 'page-cast' );
         else if(is_page('World'))
           get_template_part( 'template-parts/content', 'page-world' );
+        else if(is_page('About'))
+          get_template_part( 'template-parts/content', 'page-about' );
         else
           get_template_part( 'template-parts/content', 'page' );
       endwhile;
