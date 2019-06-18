@@ -3,14 +3,19 @@
   position: relative;
 
   .comic_slot {
-    height: 335px;
-    width: 242px;
+    filter: grayscale(100);
+    height: 267px;
+    width: 193px;
+    -webkit-transition: filter .3s ease-out;
+    -moz-transition: filter .3s ease-out;
+    -o-transition: filter .3s ease-out;
+    transition: filter .3s ease-out;
 
     a {
       @include image-link;
       border-radius: $default-border-radius;
-      height: 335px;
-      width: 242px;
+      height: 267px;
+      width: 193px;
     }
   }
 
@@ -38,15 +43,19 @@
     }
   }
 
+  .color {
+    filter: grayscale(0) !important;
+  }
+
   .control {
     bottom: 0;
     cursor: pointer;
-    height: 270px;
+    height: 259px;
     margin-bottom: auto;
     margin-top: auto;
     position: absolute;
     top: 0;
-    width: 30px;
+    width: 27px;
   }
 
   .previous_slot {

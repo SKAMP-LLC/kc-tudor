@@ -1,28 +1,40 @@
 import Siema from 'siema';
 
-function sammy_says(index) {
+function highlightSlot(index) {
+  if (index < 0) { index = index + 4 }
+  else if (index > 3) { index = index % 4 }
+  
+  document.querySelectorAll(`.comic_slot`).forEach((slot) => slot.classList.remove('color'));
+  document.querySelectorAll(`.slot_${index}`).forEach((slot) => slot.classList.add('color'));
+}
+
+function sammySays(index) {
   if (index < 0) { index = index + 4 }
   else if (index > 3) { index = index % 4 }
   
   const slot = document.querySelector(`.slot_${index}`);
   const title = document.querySelector('.title');
   const rating = document.querySelector('.rating');
-  const dscription = document.querySelector('.description');
+  const description = document.querySelector('.description');
 
   title.textContent = slot.getAttribute('data-title');
   rating.textContent = slot.getAttribute('data-rating');
-  dscription.textContent = slot.getAttribute('data-description');
+  description.textContent = slot.getAttribute('data-description');
 }
 
 document.addEventListener("DOMContentLoaded", () => {
   const comicSlots = new Siema({
-    perPage: 4,
+    perPage: 5,
     loop: true,
     onInit: function () {
-      sammy_says(this.currentSlide)
+      let middleSlide = this.currentSlide + 2;
+      sammySays(middleSlide);
+      highlightSlot(middleSlide);
     },
     onChange: function() {
-      sammy_says(this.currentSlide)
+      let middleSlide = this.currentSlide + 2;
+      sammySays(middleSlide);
+      highlightSlot(middleSlide);
     }
   });
   document.querySelector('.previous_slot').addEventListener('click', () => comicSlots.prev());
