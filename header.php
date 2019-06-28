@@ -14,6 +14,9 @@
   <html <?php language_attributes(); ?> class="no-js">
 
   <head>
+    <title>Kemono.cafe - A Webcomic Community</title>
+    <meta name="description" content="Kemono.cafe is a webcomic community with a unique webcomic of its own. The members of the community can contribute characters to a world-between-worlds setting, visiting the actual Kemono Cafe in the mystical land of Fable.">
+    <meta name="keywords" content="webcomic, webcomics, anime, furry, kemono, art, furry art">
     <meta charset="<?php bloginfo( 'charset' ); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="profile" href="http://gmpg.org/xfn/11">
