@@ -13,7 +13,7 @@
   <div class="siema">
     <div class="comic_slot slot_0" data-title="iMew" data-rating="Rated PG-13"
       data-description="Ever think your phone's controlling your life? Sammy sure feels that way! After purchasing a mysterious knock-off phone, she's discovered the apps control a little more than you or I would expect! Now she has to get her life back before the battery runs out!">
-      <a href="">Comic Slot</a>
+      <a href="https://imew.kemono.cafe">Comic Slot</a>
     </div>
     <div class="comic_slot slot_1" data-title="Paprika" data-rating="Rated PG-13"
       data-description="Paprika is a celebration of anime's golden age through the eyes of some very special fans. Tina and her friends have some very strong imaginations, ones so strong they transport the girls to a whole new world when they let it run away with them.">
@@ -29,7 +29,7 @@
     </div>
     <div class="comic_slot slot_0" data-title="iMew" data-rating="Rated PG-13"
       data-description="Ever think your phone's controlling your life? Sammy sure feels that way! After purchasing a mysterious knock-off phone, she's discovered the apps control a little more than you or I would expect! Now she has to get her life back before the battery runs out!">
-      <a href="">Comic Slot</a>
+      <a href="https://imew.kemono.cafe">Comic Slot</a>
     </div>
     <div class="comic_slot slot_1" data-title="Paprika" data-rating="Rated PG-13"
       data-description="Paprika is a celebration of anime's golden age through the eyes of some very special fans. Tina and her friends have some very strong imaginations, ones so strong they transport the girls to a whole new world when they let it run away with them.">
@@ -45,7 +45,7 @@
     </div>
     <div class="comic_slot slot_0" data-title="iMew" data-rating="Rated PG-13"
       data-description="Ever think your phone's controlling your life? Sammy sure feels that way! After purchasing a mysterious knock-off phone, she's discovered the apps control a little more than you or I would expect! Now she has to get her life back before the battery runs out!">
-      <a href="">Comic Slot</a>
+      <a href="https://imew.kemono.cafe">Comic Slot</a>
     </div>
     <div class="comic_slot slot_1" data-title="Paprika" data-rating="Rated PG-13"
       data-description="Paprika is a celebration of anime's golden age through the eyes of some very special fans. Tina and her friends have some very strong imaginations, ones so strong they transport the girls to a whole new world when they let it run away with them.">
