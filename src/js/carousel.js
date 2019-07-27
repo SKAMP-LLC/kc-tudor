@@ -1,16 +1,20 @@
 import Siema from 'siema';
 
 function highlightSlot(index) {
-  if (index < 0) { index = index + 4 }
-  else if (index > 3) { index = index % 4 }
+  const number_of_comics = 5;
+
+  if (index < 0) { index = index + number_of_comics }
+  else if (index > 3) { index = index % number_of_comics }
   
   document.querySelectorAll(`.comic_slot`).forEach((slot) => slot.classList.remove('color'));
   document.querySelectorAll(`.slot_${index}`).forEach((slot) => slot.classList.add('color'));
 }
 
 function sammySays(index) {
-  if (index < 0) { index = index + 4 }
-  else if (index > 3) { index = index % 4 }
+  const number_of_comics = 5;
+  
+  if (index < 0) { index = index + number_of_comics }
+  else if (index > 3) { index = index % number_of_comics }
   
   const slot = document.querySelector(`.slot_${index}`);
   const title = document.querySelector('.title');
