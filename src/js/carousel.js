@@ -1,7 +1,7 @@
 import Siema from 'siema';
 
 function highlightSlot(index) {
-  const number_of_comics = 5;
+  const number_of_comics = 6;
 
   if (index < 0) { index = index + number_of_comics }
   else if (index > 3) { index = index % number_of_comics }
@@ -11,7 +11,7 @@ function highlightSlot(index) {
 }
 
 function sammySays(index) {
-  const number_of_comics = 5;
+  const number_of_comics = 6;
   
   if (index < 0) { index = index + number_of_comics }
   else if (index > 3) { index = index % number_of_comics }
