@@ -21,7 +21,7 @@
     </div>
     <div class="comic_slot slot_2" data-title="Caribbean Blue" data-rating="Rated PG-13"
       data-description="Tina and Yuki travel to the island of Caribbean Blue in search of a cure for their friend's strange feline curse, only to discover the island has many more secrets than they bargained for. Will they save the island after accidentally unearthing one of its greatest mysteries? Read and find out!">
-      <a href=""></a>
+      <a href="https://cb.kemono.cafe"></a>
     </div>
     <div class="comic_slot slot_3" data-title="PMP" data-rating="Rated E"
       data-description="Nekonny's 4koma is good for laughs. Think of it like comics from the newspaper with adorable child characters and a more modern sense of humor.">
@@ -45,7 +45,7 @@
     </div>
     <div class="comic_slot slot_2" data-title="Caribbean Blue" data-rating="Rated PG-13"
       data-description="Tina and Yuki travel to the island of Caribbean Blue in search of a cure for their friend's strange feline curse, only to discover the island has many more secrets than they bargained for. Will they save the island after accidentally unearthing one of its greatest mysteries? Read and find out!">
-      <a href=""></a>
+      <a href="https://cb.kemono.cafe"></a>
     </div>
     <div class="comic_slot slot_3" data-title="PMP" data-rating="Rated E"
       data-description="Nekonny's 4koma is good for laughs. Think of it like comics from the newspaper with adorable child characters and a more modern sense of humor.">
@@ -69,7 +69,7 @@
     </div>
     <div class="comic_slot slot_2" data-title="Caribbean Blue" data-rating="Rated PG-13"
       data-description="Tina and Yuki travel to the island of Caribbean Blue in search of a cure for their friend's strange feline curse, only to discover the island has many more secrets than they bargained for. Will they save the island after accidentally unearthing one of its greatest mysteries? Read and find out!">
-      <a href=""></a>
+      <a href="https://cb.kemono.cafe"></a>
     </div>
     <div class="comic_slot slot_3" data-title="PMP" data-rating="Rated E"
       data-description="Nekonny's 4koma is good for laughs. Think of it like comics from the newspaper with adorable child characters and a more modern sense of humor.">
