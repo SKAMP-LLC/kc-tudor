@@ -32,7 +32,7 @@
       <a href="https://rascals.kemono.cafe"></a>
     </div>
     <div class="comic_slot slot_5" data-title="The Eye" data-rating="Rated PG-13"
-      data-description="The Eye's Description">
+      data-description="Historian Ronald Rudentof has spent his entire life trying to escape his father's shadow. But while attempting to solve the last mystery his father left behind, Ron's life was changed forever. Now permanently bonded to an ancient demigod named Ramalach that has taken residence inside his forehead, Ron finds himself trapped between forces determined to either destroy Ramalach, or use him for their own sinister purposes.">
       <a href="https://theeye.kemono.cafe"></a>
     </div>
     <div class="comic_slot slot_0" data-title="iMew" data-rating="Rated PG-13"
@@ -56,7 +56,7 @@
       <a href="https://rascals.kemono.cafe"></a>
     </div>
     <div class="comic_slot slot_5" data-title="The Eye" data-rating="Rated PG-13"
-      data-description="The Eye's Description">
+      data-description="Historian Ronald Rudentof has spent his entire life trying to escape his father's shadow. But while attempting to solve the last mystery his father left behind, Ron's life was changed forever. Now permanently bonded to an ancient demigod named Ramalach that has taken residence inside his forehead, Ron finds himself trapped between forces determined to either destroy Ramalach, or use him for their own sinister purposes.">
       <a href="https://theeye.kemono.cafe"></a>
     </div>
     <div class="comic_slot slot_0" data-title="iMew" data-rating="Rated PG-13"
@@ -80,7 +80,7 @@
       <a href="https://rascals.kemono.cafe"></a>
     </div>
     <div class="comic_slot slot_5" data-title="The Eye" data-rating="Rated PG-13"
-      data-description="The Eye's Description">
+      data-description="Historian Ronald Rudentof has spent his entire life trying to escape his father's shadow. But while attempting to solve the last mystery his father left behind, Ron's life was changed forever. Now permanently bonded to an ancient demigod named Ramalach that has taken residence inside his forehead, Ron finds himself trapped between forces determined to either destroy Ramalach, or use him for their own sinister purposes.">
       <a href="https://theeye.kemono.cafe"></a>
     </div>
   </div>
