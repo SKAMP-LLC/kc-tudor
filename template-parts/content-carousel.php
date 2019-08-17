@@ -25,7 +25,7 @@
     </div>
     <div class="comic_slot slot_3" data-title="PMP" data-rating="Rated E"
       data-description="Nekonny's 4koma is good for laughs. Think of it like comics from the newspaper with adorable child characters and a more modern sense of humor.">
-      <a href="https://pmp.nekonny.com/"></a>
+      <a href="https://pmp.kemono.cafe/"></a>
     </div>
     <div class="comic_slot slot_4" data-title="Rascals" data-rating="Rated PG-13"
       data-description="Follow the crazy antics of a group of friends from different backgrounds as they grow and experience the ups and downs of days dealing with Love triangles, misunderstood situations, annoying jobs and nosy parents. Will all of them find a happy ending in this crazy thing we call Life? Let's join them and find out!">
@@ -53,7 +53,7 @@
     </div>
     <div class="comic_slot slot_3" data-title="PMP" data-rating="Rated E"
       data-description="Nekonny's 4koma is good for laughs. Think of it like comics from the newspaper with adorable child characters and a more modern sense of humor.">
-      <a href="https://pmp.nekonny.com/"></a>
+      <a href="https://pmp.kemono.cafe/"></a>
     </div>
     <div class="comic_slot slot_4" data-title="Rascals" data-rating="Rated PG-13"
       data-description="Follow the crazy antics of a group of friends from different backgrounds as they grow and experience the ups and downs of days dealing with Love triangles, misunderstood situations, annoying jobs and nosy parents. Will all of them find a happy ending in this crazy thing we call Life? Let's join them and find out!">
@@ -81,7 +81,7 @@
     </div>
     <div class="comic_slot slot_3" data-title="PMP" data-rating="Rated E"
       data-description="Nekonny's 4koma is good for laughs. Think of it like comics from the newspaper with adorable child characters and a more modern sense of humor.">
-      <a href="https://pmp.nekonny.com/"></a>
+      <a href="https://pmp.kemono.cafe/"></a>
     </div>
     <div class="comic_slot slot_4" data-title="Rascals" data-rating="Rated PG-13"
       data-description="Follow the crazy antics of a group of friends from different backgrounds as they grow and experience the ups and downs of days dealing with Love triangles, misunderstood situations, annoying jobs and nosy parents. Will all of them find a happy ending in this crazy thing we call Life? Let's join them and find out!">
