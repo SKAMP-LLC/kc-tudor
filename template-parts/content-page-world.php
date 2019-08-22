@@ -30,12 +30,12 @@
       <div class="location loc-4">
         <div class="image"></div>
         <h1>Dreamer's Dock </h1>
-        <p>One of the lonliest places in town. No ships come or go... But at least it is Kona's favorite fishing spot.</p>
+        <p>One of the loneliest places in town. No ships come or go... But at least it is Kona's favorite fishing spot.</p>
       </div>
       <div class="location loc-5">
         <div class="image"></div>
         <h1>Bookend Isle</h1>
-        <p>Named as Fable's easternmost point, swimming out to bookend and back is one of the oldest Fable tradtions.</p>
+        <p>Named as Fable's easternmost point, swimming out to bookend and back is one of the oldest Fable traditions.</p>
       </div>
       <div class="location loc-6">
         <div class="image"></div>

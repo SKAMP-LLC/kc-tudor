@@ -23,8 +23,8 @@
       data-description="Tina and Yuki travel to the island of Caribbean Blue in search of a cure for their friend's strange feline curse, only to discover the island has many more secrets than they bargained for. Will they save the island after accidentally unearthing one of its greatest mysteries? Read and find out!">
       <a href="https://cb.kemono.cafe"></a>
     </div>
-    <div class="comic_slot slot_3" data-title="PMP" data-rating="Rated E"
-      data-description="Nekonny's 4koma is good for laughs. Think of it like comics from the newspaper with adorable child characters and a more modern sense of humor.">
+    <div class="comic_slot slot_3" data-title="Practice makes Perfect" data-rating="Rated E"
+      data-description="A four panel gag comic with a cast of adorable characters! Jess Drea and Addy are just kids trying to make sense of the world in their own unique way, using imagination as their guide!">
       <a href="https://pmp.kemono.cafe/"></a>
     </div>
     <div class="comic_slot slot_4" data-title="Rascals" data-rating="Rated PG-13"
@@ -36,7 +36,7 @@
       <a href="https://theeye.kemono.cafe"></a>
     </div>
     <div class="comic_slot slot_6" data-title="Las Lindas" data-rating="Rated PG-13"
-      data-description="Las Lindas description.">
+      data-description="Las Lindas is a Slice of Life story that revolves around Mora Linda, who inherits her family's farmland after the death of her mother Diana. At first attempting to manage the farm on her own, she quickly realizes that she will need help, and goes out to recruit some more workers. Things are complicated when an old rival shows up and tries to run Mora out of business.">
       <a href="https://laslindas.kemono.cafe"></a>
     </div>
     <div class="comic_slot slot_0" data-title="iMew" data-rating="Rated PG-13"
@@ -51,8 +51,8 @@
       data-description="Tina and Yuki travel to the island of Caribbean Blue in search of a cure for their friend's strange feline curse, only to discover the island has many more secrets than they bargained for. Will they save the island after accidentally unearthing one of its greatest mysteries? Read and find out!">
       <a href="https://cb.kemono.cafe"></a>
     </div>
-    <div class="comic_slot slot_3" data-title="PMP" data-rating="Rated E"
-      data-description="Nekonny's 4koma is good for laughs. Think of it like comics from the newspaper with adorable child characters and a more modern sense of humor.">
+    <div class="comic_slot slot_3" data-title="Practice makes Perfect" data-rating="Rated E"
+      data-description="A four panel gag comic with a cast of adorable characters! Jess Drea and Addy are just kids trying to make sense of the world in their own unique way, using imagination as their guide!">
       <a href="https://pmp.kemono.cafe/"></a>
     </div>
     <div class="comic_slot slot_4" data-title="Rascals" data-rating="Rated PG-13"
@@ -64,7 +64,7 @@
       <a href="https://theeye.kemono.cafe"></a>
     </div>
     <div class="comic_slot slot_6" data-title="Las Lindas" data-rating="Rated PG-13"
-      data-description="Las Lindas description.">
+      data-description="Las Lindas is a Slice of Life story that revolves around Mora Linda, who inherits her family's farmland after the death of her mother Diana. At first attempting to manage the farm on her own, she quickly realizes that she will need help, and goes out to recruit some more workers. Things are complicated when an old rival shows up and tries to run Mora out of business.">
       <a href="https://laslindas.kemono.cafe"></a>
     </div>
     <div class="comic_slot slot_0" data-title="iMew" data-rating="Rated PG-13"
@@ -79,8 +79,8 @@
       data-description="Tina and Yuki travel to the island of Caribbean Blue in search of a cure for their friend's strange feline curse, only to discover the island has many more secrets than they bargained for. Will they save the island after accidentally unearthing one of its greatest mysteries? Read and find out!">
       <a href="https://cb.kemono.cafe"></a>
     </div>
-    <div class="comic_slot slot_3" data-title="PMP" data-rating="Rated E"
-      data-description="Nekonny's 4koma is good for laughs. Think of it like comics from the newspaper with adorable child characters and a more modern sense of humor.">
+    <div class="comic_slot slot_3" data-title="Practice makes Perfect" data-rating="Rated E"
+      data-description="A four panel gag comic with a cast of adorable characters! Jess Drea and Addy are just kids trying to make sense of the world in their own unique way, using imagination as their guide!">
       <a href="https://pmp.kemono.cafe/"></a>
     </div>
     <div class="comic_slot slot_4" data-title="Rascals" data-rating="Rated PG-13"
@@ -92,7 +92,7 @@
       <a href="https://theeye.kemono.cafe"></a>
     </div>
     <div class="comic_slot slot_6" data-title="Las Lindas" data-rating="Rated PG-13"
-      data-description="Las Lindas description.">
+      data-description="Las Lindas is a Slice of Life story that revolves around Mora Linda, who inherits her family's farmland after the death of her mother Diana. At first attempting to manage the farm on her own, she quickly realizes that she will need help, and goes out to recruit some more workers. Things are complicated when an old rival shows up and tries to run Mora out of business.">
       <a href="https://laslindas.kemono.cafe"></a>
     </div>
   </div>
