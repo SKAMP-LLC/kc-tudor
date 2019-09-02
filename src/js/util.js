@@ -19,3 +19,13 @@ export function removeClass(el, className) {
     el.className=el.className.replace(reg, ' ')
   }
 }
+
+export function refreshImage(el) {
+  jQuery(el).css({backgroundImage: ""});
+  let oldSrc = jQuery(el).css("background-image").slice(5, -2);
+  let img = document.createElement('img');
+  img.src = oldSrc + "?p" + new Date().getTime();
+  jQuery(img).load(function(){
+    jQuery(el).css({backgroundImage: "url("+img.src+")"});
+  });
+}

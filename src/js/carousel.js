@@ -1,5 +1,5 @@
 import Siema from 'siema';
-import { addClass, removeClass } from './util.js';
+import { addClass, refreshImage, removeClass } from './util.js';
 
 function highlightSlot(index, number_of_comics) {
 
@@ -24,13 +24,14 @@ function sammySays(index, number_of_comics) {
     removeClass(sandy, `sandy_${i}`);
   }
   addClass(sandy, `sandy_${index}`);
+  refreshImage(sandy);
   title.textContent = slot.getAttribute('data-title');
   rating.textContent = slot.getAttribute('data-rating');
   description.textContent = slot.getAttribute('data-description');
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-  const number_of_comics = 8;
+  const number_of_comics = 9;
   const comicSlots = new Siema({
     perPage: 5,
     loop: true,
