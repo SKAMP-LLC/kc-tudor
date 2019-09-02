@@ -1,12 +1,11 @@
 .sandy-says {
   background-color: $kemono_brown;
   border-radius: 5px;
-  height: 225px;
+  height: 235px;
   position: relative;
   width: 100%;
 
   .sandy {
-    background-image: url('../../static/carousel/sandy_synopsis_2.gif');
     background-repeat: no-repeat;
     bottom: 0;
     height: 231px;
@@ -15,10 +14,42 @@
     width: 227px;
   }
 
+  .sandy_0 {
+    background-image: url('../../static/carousel/sandy_says_01.gif');
+  }
+
+  .sandy_1 {
+    background-image: url('../../static/carousel/sandy_says_02.gif');
+  }
+
+  .sandy_2 {
+    background-image: url('../../static/carousel/sandy_says_03.gif');
+  }
+
+  .sandy_3 {
+    background-image: url('../../static/carousel/sandy_says_04.gif');
+  }
+
+  .sandy_4 {
+    background-image: url('../../static/carousel/sandy_says_05.gif');
+  }
+
+  .sandy_5 {
+    background-image: url('../../static/carousel/sandy_says_06.gif');
+  }
+
+  .sandy_6 {
+    background-image: url('../../static/carousel/sandy_says_07.gif');
+  }
+
+  .sandy_7 {
+    background-image: url('../../static/carousel/sandy_says_08.gif');
+  }
+
   .speech_bubble {
     background-color: $off_white;
     border-radius: 5px;
-    height: 215px;
+    height: 225px;
     font-size: 16pt;
     left: -5px;
     margin-left: 250px;

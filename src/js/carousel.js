@@ -1,4 +1,5 @@
 import Siema from 'siema';
+import { addClass, removeClass } from './util.js';
 
 function highlightSlot(index, number_of_comics) {
 
@@ -15,10 +16,14 @@ function sammySays(index, number_of_comics) {
   else if (index > 3) { index = index % number_of_comics }
   
   const slot = document.querySelector(`.slot_${index}`);
+  const sandy = document.querySelector(`.sandy`);
   const title = document.querySelector('.title');
   const rating = document.querySelector('.rating');
   const description = document.querySelector('.description');
-
+  for(let i = 0; i < number_of_comics; i++) {
+    removeClass(sandy, `sandy_${i}`);
+  }
+  addClass(sandy, `sandy_${index}`);
   title.textContent = slot.getAttribute('data-title');
   rating.textContent = slot.getAttribute('data-rating');
   description.textContent = slot.getAttribute('data-description');
