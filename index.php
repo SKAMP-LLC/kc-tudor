@@ -52,10 +52,6 @@ get_header(); ?>
           endif;
           ?>
       </div><!-- .article-container -->
-
-      <div class="divider divider-more-news"></div>
-      <div class="ad-banner"></div>
-
     </main><!-- .site-main -->
   </div><!-- .content-area -->
 </section><!-- .two-column -->
