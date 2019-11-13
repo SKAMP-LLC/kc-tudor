@@ -14,6 +14,13 @@
   <html <?php language_attributes(); ?> class="no-js">
 
   <head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-152386556-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-152386556-1');
+    </script>
     <title>Kemono.cafe - A Webcomic Community</title>
     <meta name="description" content="Kemono.cafe is a webcomic community with a unique webcomic of its own. The members of the community can contribute characters to a world-between-worlds setting, visiting the actual Kemono Cafe in the mystical land of Fable.">
     <meta name="keywords" content="webcomic, webcomics, anime, furry, kemono, art, furry art">
@@ -24,13 +31,6 @@
     <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
     <?php endif; ?>
     <?php wp_head(); ?>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <script>
-      (adsbygoogle = window.adsbygoogle || []).push({
-        google_ad_client: "ca-pub-9448426483899385",
-        enable_page_level_ads: true
-      });
-    </script>
   </head>
 
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700" rel="stylesheet"> 
