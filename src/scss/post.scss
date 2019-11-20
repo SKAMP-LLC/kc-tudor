@@ -20,4 +20,64 @@
   #comments, .post-navigation, .sidebar {
     display: none;
   }
+
+  .story {
+    position: relative;
+    .emote {
+      height: 300px;
+      width: 313px;
+      clear: both;
+    }
+    .emote.left {
+      -moz-transform: scaleX(-1);
+      -o-transform: scaleX(-1);
+      -webkit-transform: scaleX(-1);
+      transform: scaleX(-1);
+      filter: FlipH;
+      -ms-filter: "FlipH";
+      float: left;
+    }
+    .emote.right {
+      float: right;
+    }
+    .dialog {
+      display: block;
+      background-color: $sandy_peach;
+      color: $off_white;
+      width: 68%;
+      padding: 1em;
+      margin-top: -150px;
+      border-radius: 20px;
+      clear: both;
+      font-size: 1.5em;
+      position: relative;
+    }
+    .dialog.left {
+      background-color: $sandy_peach;
+      float: left;
+      &::after {
+        content: "";
+        border-color: $sandy_peach transparent transparent transparent;
+        border-style: solid;
+        border-width: 12px 12px 12px 12px;
+        right: -10px;
+        position: absolute;
+        top: 30px;
+      }
+    }
+    .dialog.right {
+      background-color: $kemono_brown;
+      float: right;
+      &::after {
+        content: "";
+        border-color: $kemono_brown transparent transparent transparent;
+        border-style: solid;
+        border-width: 12px 12px 12px 12px;
+        left: -10px;
+        position: absolute;
+        top: 30px;
+      }
+    }
+    overflow: auto;
+  }
 }

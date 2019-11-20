@@ -16,7 +16,7 @@ module.exports = {
         use: {
           loader: 'babel-loader',
           options: {
-            presets: ['env']
+            presets: ['@babel/preset-env']
           }
         }
       },
@@ -32,7 +32,7 @@ module.exports = {
         test: /\.(png|jpg|gif)$/,
         use: [
           {
-            loader: 'file-loader',
+            loader: 'url-loader',
             options: {}
           }
         ]
@@ -44,4 +44,10 @@ module.exports = {
       filename: "[name].css",
     })
   ],
+  resolve: {
+    alias: {
+      vue: 'vue/dist/vue.js',
+      '@': path.resolve(__dirname, './static'),
+    },
+  }
 };
