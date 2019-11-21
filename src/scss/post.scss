@@ -22,62 +22,78 @@
   }
 
   .story {
-    position: relative;
-    .emote {
-      height: 300px;
-      width: 313px;
-      clear: both;
-    }
-    .emote.left {
-      -moz-transform: scaleX(-1);
-      -o-transform: scaleX(-1);
-      -webkit-transform: scaleX(-1);
-      transform: scaleX(-1);
-      filter: FlipH;
-      -ms-filter: "FlipH";
-      float: left;
-    }
-    .emote.right {
-      float: right;
-    }
-    .dialog {
-      display: block;
-      background-color: $sandy_peach;
-      color: $off_white;
-      width: 68%;
-      padding: 1em;
-      margin-top: -150px;
-      border-radius: 20px;
-      clear: both;
-      font-size: 1.5em;
-      position: relative;
-    }
-    .dialog.left {
-      background-color: $sandy_peach;
-      float: left;
-      &::after {
-        content: "";
-        border-color: $sandy_peach transparent transparent transparent;
-        border-style: solid;
-        border-width: 12px 12px 12px 12px;
-        right: -10px;
-        position: absolute;
-        top: 30px;
+    padding: 1em;
+    .block {
+      align-items: center;
+      display: flex;
+
+      // Left blocks
+      &:nth-child(2n - 1) {
+        justify-content: left;
+      }
+
+      // Right blocks
+      &:nth-child(2n) {
+        justify-content: right;
+      }
+
+      .emote {
+        height: 150px;
+        width: 157px;
+      }
+
+      // Left emotes
+      &:nth-child(2n - 1) .emote {
+        -moz-transform: scaleX(-1);
+        -ms-filter: "FlipH";
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        filter: FlipH;
+        margin-right: 3em;
+        transform: scaleX(-1);
+      }
+
+      // Right emotes
+      &:nth-child(2n) .emote {
+        margin-left: 3em;
+      }
+
+      .dialog {
+        border-radius: 20px;
+        color: $off_white;
+        font-size: 1.25em;
+        margin-top: 2em;
+        max-width: 68%;
+        padding: 1em;
+        position: relative;
+
+        // Balloon Arrow
+        &::after {
+          border-style: solid;
+          border-width: 12px 12px 12px 12px;
+          content: "";
+          position: absolute;
+          top: 30px;
+        }
+      }
+
+      // Left dialog
+      .dialog:nth-child(2n - 1) {
+        background-color: $sandy_peach;
+        &::after {
+          border-color: $sandy_peach transparent transparent transparent;
+          right: -10px;
+        }
+      }
+
+      // Right dialog
+      .dialog:nth-child(2n) {
+        background-color:$kemono_brown;
+        &::after {
+          border-color: $kemono_brown transparent transparent transparent;
+          left: -10px;
+        }
       }
     }
-    .dialog.right {
-      background-color: $kemono_brown;
-      float: right;
-      &::after {
-        content: "";
-        border-color: $kemono_brown transparent transparent transparent;
-        border-style: solid;
-        border-width: 12px 12px 12px 12px;
-        left: -10px;
-        position: absolute;
-        top: 30px;
-      }
-    }
-    overflow: auto;
   }
 }

@@ -2,14 +2,14 @@ import mergeImages from 'merge-images';
 
 export const assets = {
   sandy: {
+    hair: {
+      base: require('@/emotes/sandy/sandy_hair_base.png'),
+    },
     ears: {
       droop: require('@/emotes/sandy/sandy_ears_droop.png'),
       normal: require('@/emotes/sandy/sandy_ears_normal.png'),
       perked: require('@/emotes/sandy/sandy_ears_perked.png'),
       sad: require('@/emotes/sandy/sandy_ears_sad.png'),
-    },
-    hair: {
-      base: require('@/emotes/sandy/sandy_hair_base.png'),
     },
     head: {
       base: require('@/emotes/sandy/sandy_head_base.png'),
@@ -46,17 +46,17 @@ export const assets = {
 };
 
 let mergedAssets = {
-  'sandy_normal': makeEmoji('sandy_normal', 'sandy', 'normal', 'base', 'base', 'normal', 'normal', 'smile'),
-  'sandy_happy': makeEmoji('sandy_happy', 'sandy', 'normal', 'base', 'base', 'normal', 'normal', 'smileopen'),
-  'sandy_surprised': makeEmoji('sandy_surprised', 'sandy', 'perked', 'base', 'base', 'surprised', 'normal', 'yell'),
-  'sandy_oof': makeEmoji('sandy_oof', 'sandy', 'droop', 'base', 'base', 'x', 'sad', 'pout'),
-  'sandy_whoa': makeEmoji('sandy_whoa', 'sandy', 'perked', 'base', 'base', 'uu', 'serious', 'smileopen'),
+  'sandy_normal': makeEmoji('sandy_normal', 'sandy', 'base', 'normal', 'base', 'normal', 'normal', 'smile'),
+  'sandy_happy': makeEmoji('sandy_happy', 'sandy', 'base', 'normal', 'base', 'normal', 'normal', 'smileopen'),
+  'sandy_surprised': makeEmoji('sandy_surprised', 'sandy', 'base', 'perked', 'base', 'surprised', 'normal', 'yell'),
+  'sandy_oof': makeEmoji('sandy_oof', 'sandy', 'base', 'droop', 'base', 'x', 'sad', 'pout'),
+  'sandy_whoa': makeEmoji('sandy_whoa', 'sandy', 'base', 'perked', 'base', 'uu', 'serious', 'smileopen'),
 };
 
-function makeEmoji(key, character, ears, hair, head, eyes, eyebrows, mouth) {
+function makeEmoji(key, character, hair, ears, head, eyes, eyebrows, mouth) {
   mergeImages([
-    assets[character].ears[ears],
     assets[character].hair[hair],
+    assets[character].ears[ears],
     assets[character].head[head],
     assets[character].eyes[eyes],
     assets[character].eyebrow[eyebrows],
