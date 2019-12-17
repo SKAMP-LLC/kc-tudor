@@ -52,7 +52,7 @@ get_header(); ?>
           endif;
           ?>
       </div><!-- .article-container -->
-      <script type="text/javascript" src="https://www.comicad.net/r/6Bcj0095JF/"></script>
+      <script type="text/javascript" src="https://www.comicad.net/r/i97cj7JFDd/"></script>
     </main><!-- .site-main -->
   </div><!-- .content-area -->
 </section><!-- .two-column -->
