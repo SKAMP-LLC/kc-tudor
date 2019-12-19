@@ -3,11 +3,20 @@
   .content-area {
     background-color: $off-white;
     border-radius: $default-border-radius;
-    padding: $default-padding;
+    padding: $default-padding*2 $default-padding * 5;
     margin-top: $default-margin;
 
     a {
       text-decoration: none;
+    }
+
+    p {
+      letter-spacing: .05em;
+      line-height: 1.25em;
+    }
+
+    h1 {
+      margin-top: 0;
     }
 
     .entry-title {
@@ -60,15 +69,17 @@
 
       .dialog {
         border-radius: 20px;
-        color: $off_white;
+        color: $off_black;
+        background-color: $steve_paste;
         font-size: 1.25em;
         margin-top: 2em;
-        max-width: 68%;
+        max-width: 55%;
         padding: 1em;
         position: relative;
 
         // Balloon Arrow
         &::after {
+          border-color: $steve_paste transparent transparent transparent;
           border-style: solid;
           border-width: 12px 12px 12px 12px;
           content: "";
@@ -79,19 +90,60 @@
 
       // Left dialog
       .dialog:nth-child(2n - 1) {
-        background-color: $sandy_peach;
         &::after {
-          border-color: $sandy_peach transparent transparent transparent;
           right: -10px;
         }
       }
 
       // Right dialog
       .dialog:nth-child(2n) {
-        background-color:$kemono_brown;
         &::after {
-          border-color: $kemono_brown transparent transparent transparent;
           left: -10px;
+        }
+      }
+
+      // Sandy dialog
+      .dialog.sandy {
+        background-color: $sandy_peach;
+        color: $off-white;
+        &::after {
+          border-color: $sandy_peach transparent transparent transparent;
+        }
+      }
+
+      // Kona dialog
+      .dialog.kona {
+        background-color: $kona_red;
+        color: $off-white;
+        &::after {
+          border-color: $kona_red transparent transparent transparent;
+        }
+      }
+
+      // Miko dialog
+      .dialog.miko {
+        background-color: $miko_blue;
+        color: $off-white;
+        &::after {
+          border-color: $miko_blue transparent transparent transparent;
+        }
+      }
+
+      // Maxine dialog
+      .dialog.maxine {
+        background-color: $maxine_green;
+        color: $off-white;
+        &::after {
+          border-color: $maxine_green transparent transparent transparent;
+        }
+      }
+
+      // Jill dialog
+      .dialog.jill {
+        background-color: $jill_orange;
+        color: $off-white;
+        &::after {
+          border-color: $jill_orange transparent transparent transparent;
         }
       }
     }

@@ -17,11 +17,18 @@ export const assets = {
 
 let mergedAssets = {
   'sandy_normal': makeEmoji('sandy_normal', 'sandy', 'normal', 'normal', 'normal', 'smile'),
-  'kona_happy': makeEmoji('kona_happy', 'kona', 'perked', 'normal', 'glee', 'widesmile'),
-  'maxine_greedy': makeEmoji('maxine_greedy', 'maxine', 'flop', 'angry', 'gleam', 'oh'),
-  'miko_whoa': makeEmoji('miko_whoa', 'miko', 'perked', 'surprised', 'happy', 'smileopen'),
+  'sandy_excited': makeEmoji('sandy_excited', 'sandy', 'perked', 'normal', 'glee', 'smileopen'),
+  'sandy_humble': makeEmoji('sandy_awkward', 'sandy', 'droop', 'puzzled', 'lookaway', 'smile'),
+  'sandy_pout': makeEmoji('sandy_pout', 'sandy', 'droop', 'puzzled', 'lookaway', 'pout'),
+  'sandy_complain': makeEmoji('sandy_complain', 'sandy', 'puzzled', 'serious', 'lookaway', 'yell'),
+  'sandy_upset': makeEmoji('sandy_upset', 'sandy', 'normal', 'sad', 'shocked', 'yell'),
+  'sandy_rage': makeEmoji('sandy_rage', 'sandy', 'normal', 'angry', 'angry', 'yell'),
+  'sandy_cry': makeEmoji('sandy_cry', 'sandy', 'droop', 'sad', 'uu', 'pout'),
   'jill_excited': makeEmoji('jill_excited', 'jill', 'droop', 'puzzled', 'lookaway', 'yell'),
-  'steve_pringles': makeEmoji('steve_pringles', 'steve', 'normal', 'pringles', 'normal', 'grin'),
+  'steve_manager_exhausted': makeEmoji('steve_manager_exhausted', 'steve', 'normal', 'broom', 'sleepy', 'serious'),
+  'steve_manager_firm': makeEmoji('steve_manager_firm', 'steve', 'normal', 'broom', 'angry', 'formal'),
+  'steve_manager_inquisitive': makeEmoji('steve_manager_inquisitive', 'steve', 'normal', 'broom', 'normal', 'serious'),
+  'steve_manager_speaking': makeEmoji('steve_manager_speaking', 'steve', 'normal', 'broom', 'normal', 'talk'),
 };
 
 function makeEmoji(key, character, head, eyebrow, eyes, mouth) {
