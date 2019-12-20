@@ -24,7 +24,6 @@ let mergedAssets = {
   'sandy_upset': makeEmoji('sandy_upset', 'sandy', 'normal', 'sad', 'shocked', 'yell'),
   'sandy_rage': makeEmoji('sandy_rage', 'sandy', 'normal', 'angry', 'angry', 'yell'),
   'sandy_cry': makeEmoji('sandy_cry', 'sandy', 'droop', 'sad', 'uu', 'pout'),
-  'jill_excited': makeEmoji('jill_excited', 'jill', 'droop', 'puzzled', 'lookaway', 'yell'),
   'steve_manager_exhausted': makeEmoji('steve_manager_exhausted', 'steve', 'normal', 'broom', 'sleepy', 'serious'),
   'steve_manager_firm': makeEmoji('steve_manager_firm', 'steve', 'normal', 'broom', 'angry', 'formal'),
   'steve_manager_inquisitive': makeEmoji('steve_manager_inquisitive', 'steve', 'normal', 'broom', 'normal', 'serious'),
