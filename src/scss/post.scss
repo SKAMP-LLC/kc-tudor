@@ -1,7 +1,7 @@
 .post-template-default {
 
   .content-area {
-    background-color: $off-white;
+    background-color: $off_white;
     border-radius: $default-border-radius;
     padding: $default-padding*2 $default-padding * 5;
     margin-top: $default-margin;
@@ -26,15 +26,20 @@
     }
   }
 
-  #comments, .post-navigation, .sidebar {
+  #comments,
+  .post-navigation,
+  .sidebar {
     display: none;
   }
 
   .story {
     padding: 1em;
+    width: 100%;
+
     .block {
       align-items: center;
       display: flex;
+      width: 100%;
 
       // Left blocks
       &:nth-child(2n - 1) {
@@ -46,9 +51,16 @@
         justify-content: right;
       }
 
+      // Emotes
       .emote {
         height: 150px;
         width: 157px;
+
+        .nameplate {
+          display: block;
+          margin-top: 150px;
+          text-align: center;
+        }
       }
 
       // Left emotes
@@ -60,6 +72,15 @@
         filter: FlipH;
         margin-right: 3em;
         transform: scaleX(-1);
+
+        .nameplate {
+          -moz-transform: scaleX(-1);
+          -ms-filter: "FlipH";
+          -o-transform: scaleX(-1);
+          -webkit-transform: scaleX(-1);
+          filter: FlipH;
+          transform: scaleX(-1);
+        }
       }
 
       // Right emotes
@@ -67,6 +88,7 @@
         margin-left: 3em;
       }
 
+      // Dialog bubbles
       .dialog {
         border-radius: 20px;
         color: $off_black;
@@ -77,7 +99,7 @@
         padding: 1em;
         position: relative;
 
-        // Balloon Arrow
+        // Balloon arrow
         &::after {
           border-color: $steve_paste transparent transparent transparent;
           border-style: solid;
@@ -88,63 +110,108 @@
         }
       }
 
-      // Left dialog
+      // Left dialog bubble
       .dialog:nth-child(2n - 1) {
         &::after {
           right: -10px;
         }
       }
 
-      // Right dialog
+      // Right dialog bubble
       .dialog:nth-child(2n) {
         &::after {
           left: -10px;
         }
       }
+    }
 
-      // Sandy dialog
-      .dialog.sandy {
+    // Sandy dialog
+    .block.sandy {
+      .dialog {
         background-color: $sandy_peach;
-        color: $off-white;
+        color: $off_white;
+
         &::after {
           border-color: $sandy_peach transparent transparent transparent;
         }
       }
 
-      // Kona dialog
-      .dialog.kona {
-        background-color: $kona_red;
-        color: $off-white;
-        &::after {
-          border-color: $kona_red transparent transparent transparent;
+      .emote {
+        .nameplate {
+          color: $sandy_peach;
         }
       }
+    }
+  }
 
-      // Miko dialog
-      .dialog.miko {
-        background-color: $miko_blue;
-        color: $off-white;
-        &::after {
-          border-color: $miko_blue transparent transparent transparent;
-        }
+  // Kona dialog
+  .block.kona {
+    .dialog {
+      background-color: $kona_red;
+      color: $off_white;
+
+      &::after {
+        border-color: $kona_red transparent transparent transparent;
       }
+    }
 
-      // Maxine dialog
-      .dialog.maxine {
-        background-color: $maxine_green;
-        color: $off-white;
-        &::after {
-          border-color: $maxine_green transparent transparent transparent;
-        }
+    .emote {
+      .nameplate {
+        color: $kona_red;
       }
+    }
+  }
 
-      // Jill dialog
-      .dialog.jill {
-        background-color: $jill_orange;
-        color: $off-white;
-        &::after {
-          border-color: $jill_orange transparent transparent transparent;
-        }
+  // Miko dialog
+  .block.miko {
+    .dialog {
+      background-color: $miko_blue;
+      color: $off_white;
+
+      &::after {
+        border-color: $miko_blue transparent transparent transparent;
+      }
+    }
+
+    .emote {
+      .nameplate {
+        color: $miko_blue;
+      }
+    }
+  }
+
+  // Maxine dialog
+  .block.maxine {
+    .dialog {
+      background-color: $maxine_green;
+      color: $off_white;
+
+      &::after {
+        border-color: $maxine_green transparent transparent transparent;
+      }
+    }
+
+    .emote {
+      .nameplate {
+        color: $maxine_green;
+      }
+    }
+  }
+
+  // Jill dialog
+  .block.jill {
+    .dialog {
+      background-color: $jill_orange;
+      color: $off_white;
+
+      &::after {
+        border-color: $jill_orange transparent transparent transparent;
+      }
+    }
+
+    .emote {
+      .nameplate {
+        color: $jill_orange;
       }
     }
   }

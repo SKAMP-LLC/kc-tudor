@@ -39,6 +39,7 @@ document.addEventListener("DOMContentLoaded", () => {
     makeEmoji('sandy_pout', 'sandy', 'droop', 'puzzled', 'lookaway', 'pout'),
     makeEmoji('sandy_complain', 'sandy', 'puzzled', 'serious', 'lookaway', 'yell'),
     makeEmoji('sandy_upset', 'sandy', 'normal', 'sad', 'shocked', 'yell'),
+    makeEmoji('sandy_plead', 'sandy', 'normal', 'sad', 'normal', 'yell'),
     makeEmoji('sandy_rage', 'sandy', 'normal', 'angry', 'angry', 'yell'),
     makeEmoji('sandy_cry', 'sandy', 'droop', 'sad', 'uu', 'pout'),
     makeEmoji('steve_manager_exhausted', 'steve', 'normal', 'broom', 'sleepy', 'serious'),
@@ -48,7 +49,10 @@ document.addEventListener("DOMContentLoaded", () => {
   ]).then((emotes) => {
     emotes.forEach((emote) => {
       document.querySelectorAll('.' + emote['key']).forEach((elem) => {
+        // Set the background of the emote to the merged png asset.
         elem.style.backgroundImage = "url(" + emote['image'] + ")";
+        // Set the nameplate of the emoji to the data attribute.
+
       });
     });
   });
