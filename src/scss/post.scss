@@ -43,12 +43,12 @@
 
       // Left blocks
       &:nth-child(2n - 1) {
-        justify-content: left;
+        justify-content: flex-start;
       }
 
       // Right blocks
       &:nth-child(2n) {
-        justify-content: right;
+        justify-content: flex-end;
       }
 
       // Emotes
