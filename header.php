@@ -21,9 +21,9 @@
       gtag('js', new Date());
       gtag('config', 'UA-152386556-1');
     </script>
-    <title>Kemono.cafe - A Webcomic Community</title>
-    <meta name="description" content="Kemono.cafe is a webcomic community with a unique webcomic of its own. The members of the community can contribute characters to a world-between-worlds setting, visiting the actual Kemono Cafe in the mystical land of Fable.">
-    <meta name="keywords" content="webcomic, webcomics, anime, furry, kemono, art, furry art">
+    <title>Kemono Cafe | A Furry Webcomic Community</title>
+    <meta name="description" content="Kemono Cafe is a furry webcomic community with a unique webcomic of its own. The members of the community can contribute characters to a world-between-worlds setting, visiting the actual Kemono Cafe in the mystical land of Fable.">
+    <meta name="keywords" content="webcomic list, webcomic, webcomics, art, anime, digital, digital art, kemono, kemono cafe, furry, furry art, furry comic, furry comic community, furry comics, furry webcomic, furry webcomic community, furry webcomics, manga, action, comedy, humor, drama, slice of life, chalo, chalodillo, mastergodai, Kelvin Challenger, Avencri, Nekonny, freelancemanga, Cervelet, laslindas, las lindas, knighthood, addictive science, tina of the south, imew, i mew, paprika, caribbean blue, practice makes perfect, rascals, rascals webcomic,  the eye, the eye of ramalach">
     <meta charset="<?php bloginfo( 'charset' ); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/x-icon" href="/favicon.ico?" />

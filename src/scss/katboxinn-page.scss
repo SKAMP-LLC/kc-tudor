@@ -1,0 +1,50 @@
+.katbox-inn-page {
+  position: relative;
+  .inn_sign {
+    background-image: url('../../static/katbox_inn_logo.png');
+    background-repeat: no-repeat;
+    height: 173px;
+    margin: 0 auto;
+    width: 181px;
+    position: absolute;
+    top: -70px;
+    left: calc(50% - 90px);
+  }
+  .box {
+    background-color: $sandy_peach;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 0px $sandy_peach_off;
+    color: $off_white;
+    height: 1400px;
+    margin: 100px auto 0;
+    padding-top: 7.5em;
+    position: relative;
+    text-align: center;
+    width: 90%;
+
+    &:before {
+      border-radius: 20px;
+      border: 20px solid $off_white;
+      content: '';
+      height: 1360px;
+      left: 0;
+      margin: 20px;
+      pointer-events: none;
+      position: absolute;
+      top: 0px;
+      width: calc(100% - 40px);
+    }
+
+    h2 {
+      font-family: 'Roboto Slab', serif;
+      font-size: 1.5em;
+    }
+
+    a {
+      color: $off_white;
+      display: block;
+      font-size: 1.05em;
+      text-decoration: none;
+    }
+  }
+}
