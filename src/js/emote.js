@@ -42,10 +42,16 @@ document.addEventListener("DOMContentLoaded", () => {
     makeEmoji('sandy_plead', 'sandy', 'normal', 'sad', 'normal', 'yell'),
     makeEmoji('sandy_rage', 'sandy', 'normal', 'angry', 'angry', 'yell'),
     makeEmoji('sandy_cry', 'sandy', 'droop', 'sad', 'uu', 'pout'),
+    makeEmoji('sandy_worried', 'sandy', 'droop', 'sad', 'uu', 'formal'),
+    makeEmoji('sandy_confused', 'sandy', 'puzzled', 'puzzled', 'lookaway', 'serious'),
     makeEmoji('steve_manager_exhausted', 'steve', 'normal', 'broom', 'sleepy', 'serious'),
     makeEmoji('steve_manager_firm', 'steve', 'normal', 'broom', 'angry', 'formal'),
     makeEmoji('steve_manager_inquisitive', 'steve', 'normal', 'broom', 'normal', 'serious'),
     makeEmoji('steve_manager_speaking', 'steve', 'normal', 'broom', 'normal', 'talk'),
+    makeEmoji('steve_attendant_suggest', 'steve', 'normal', 'cap', 'sleepy', 'talk'),
+    makeEmoji('steve_attendant_concerned', 'steve', 'normal', 'cap', 'sleepy', 'formal'),
+    makeEmoji('steve_attendant_confused', 'steve', 'normal', 'cap', 'closed', 'formal'),
+    makeEmoji('steve_attendant_frustrated', 'steve', 'normal', 'cap', 'closed', 'upset'),
   ]).then((emotes) => {
     emotes.forEach((emote) => {
       document.querySelectorAll('.' + emote['key']).forEach((elem) => {
