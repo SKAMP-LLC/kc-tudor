@@ -26,6 +26,7 @@
     <meta name="keywords" content="webcomic list, webcomic, webcomics, art, anime, digital, digital art, kemono, kemono cafe, furry, furry art, furry comic, furry comic community, furry comics, furry webcomic, furry webcomic community, furry webcomics, manga, action, comedy, humor, drama, slice of life, chalo, chalodillo, mastergodai, Kelvin Challenger, Avencri, Nekonny, freelancemanga, Cervelet, laslindas, las lindas, knighthood, addictive science, tina of the south, imew, i mew, paprika, caribbean blue, practice makes perfect, rascals, rascals webcomic,  the eye, the eye of ramalach">
     <meta charset="<?php bloginfo( 'charset' ); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="p:domain_verify" content="a98b66571218a24e706bc7e200e08b55"/>
     <link rel="icon" type="image/x-icon" href="/favicon.ico?" />
     <link rel="profile" href="http://gmpg.org/xfn/11">
     <?php if ( is_singular() && pings_open( get_queried_object() ) ) : ?>
@@ -34,7 +35,7 @@
     <?php wp_head(); ?>
   </head>
 
-  <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Merriweather:400,700" rel="stylesheet"> 
 
   <body <?php body_class(); ?>>
     <div id="page" class="site">
