@@ -33,6 +33,15 @@ function makeEmoji(key, character, head, eyebrow, eyes, mouth) {
 
 document.addEventListener("DOMContentLoaded", () => {
   Promise.all([
+    makeEmoji('kona_confident', 'kona', 'normal', 'normal', 'normal', 'widesmile'),
+    makeEmoji('kona_soars', 'kona', 'normal', 'normal', 'glee', 'smileopen'),
+    makeEmoji('kona_happy', 'kona', 'perked', 'surprised', 'glee', 'smileopen'),
+    makeEmoji('kona_frustrated', 'kona', 'flop', 'angry', 'normal', 'serious'),
+    makeEmoji('kona_sincere', 'kona', 'normal', 'normal', 'glee', 'smile'),
+    makeEmoji('kona_thinking', 'kona', 'perked', 'puzzled', 'uu', 'formal'),
+    makeEmoji('kona_explain', 'kona', 'normal', 'surprised', 'normal', 'formal'),
+    makeEmoji('kona_playful', 'kona', 'flop', 'normal', 'happy', 'widesmile'),
+    makeEmoji('kona_scream', 'kona', 'perked', 'angry', 'glee', 'serious'),
     makeEmoji('sandy_normal', 'sandy', 'normal', 'normal', 'normal', 'smile'),
     makeEmoji('sandy_excited', 'sandy', 'perked', 'normal', 'glee', 'smileopen'),
     makeEmoji('sandy_awkward', 'sandy', 'droop', 'puzzled', 'lookaway', 'smile'),
