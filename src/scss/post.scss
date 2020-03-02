@@ -37,35 +37,10 @@
     padding: 1em;
     width: 100%;
 
-    .block {
-      align-items: center;
-      display: flex;
-      width: 100%;
+    .left {
+      justify-content: flex-start;
 
-      // Left blocks
-      &:nth-child(2n - 1) {
-        justify-content: flex-start;
-      }
-
-      // Right blocks
-      &:nth-child(2n) {
-        justify-content: flex-end;
-      }
-
-      // Emotes
       .emote {
-        height: 150px;
-        width: 157px;
-
-        .nameplate {
-          display: block;
-          margin-top: 150px;
-          text-align: center;
-        }
-      }
-
-      // Left emotes
-      &:nth-child(2n - 1) .emote {
         -moz-transform: scaleX(-1);
         -ms-filter: "FlipH";
         -o-transform: scaleX(-1);
@@ -84,9 +59,43 @@
         }
       }
 
-      // Right emotes
-      &:nth-child(2n) .emote {
+      .dialog {
+        &::after {
+          left: -10px;
+        }
+      }
+    }
+
+    .right {
+      justify-content: flex-end;
+
+      .emote {
         margin-left: 3em;
+      }
+
+      .dialog {
+        &::after {
+          right: -10px;
+        }
+      }
+    }
+
+    .block {
+      align-items: center;
+      display: flex;
+      margin-bottom: 1em;
+      width: 100%;
+
+      // Emotes
+      .emote {
+        height: 150px;
+        width: 157px;
+
+        .nameplate {
+          display: block;
+          margin-top: 150px;
+          text-align: center;
+        }
       }
 
       // Dialog bubbles
@@ -108,20 +117,6 @@
           content: "";
           position: absolute;
           top: 30px;
-        }
-      }
-
-      // Left dialog bubble
-      .dialog:nth-child(2n - 1) {
-        &::after {
-          right: -10px;
-        }
-      }
-
-      // Right dialog bubble
-      .dialog:nth-child(2n) {
-        &::after {
-          left: -10px;
         }
       }
     }
