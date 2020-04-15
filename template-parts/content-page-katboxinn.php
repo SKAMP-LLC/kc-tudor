@@ -12,15 +12,12 @@
   <div class="katbox-inn-page">
     <div class="box">
       <div class="inn_sign"></div>
-      
-      <h2> &middot; Studio Khimera &middot; </h2>
-      <a href="https://studiokhimera.com/">Webcomic Portal - https://studiokhimera.com</a>
 
       <h2> &middot; Nixie the Art Seal &middot; </h2>
       <a href="https://www.webtoons.com/en/challenge/debunkers/list?title_no=148475">Debunkers - https://www.webtoons.com/en/challenge/debunkers/list?title_no=148475</a>
 
       <h2> &middot; RazorFox &middot; </h2>
-      <a href="https://thedraconiachronicles.studiokhimera.com/">The Draconia Chronicles - https://thedraconiachronicles.studiokhimera.com/</a>
+      <a href="https://www.draconiachronicles.com/">The Draconia Chronicles - https://www.draconiachronicles.com/</a>
 
       <h2> &middot; Sage &middot; </h2>
       <a href="https://www.yoshsaga.com/">Yosh! Saga - https://www.yoshsaga.com</a>
