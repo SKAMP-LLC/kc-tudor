@@ -14,18 +14,23 @@
 
 html {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
 }
 
 *, *:before, *:after {
   box-sizing: inherit;
 }
 
-body {
+html, body {
   background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/background.png');
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+#page {
   font-family: 'Lato', sans-serif;
-  max-width: $project-max-width;
-  min-width: $project-min-width;
   margin: 0 auto;
+  max-width: $project-max-width;
+  padding: $default-padding;
 }
