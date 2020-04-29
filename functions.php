@@ -99,7 +99,13 @@ function tudor_setup() {
 		'comment-list',
 		'gallery',
 		'caption',
-	) );
+  ) );
+  
+  // https://stackoverflow.com/questions/25491619/how-to-delete-margin-top-32px-important-from-twenty-twelve
+  function remove_admin_login_header() {
+    remove_action('wp_head', '_admin_bar_bump_cb');
+  }
+  add_action('get_header', 'remove_admin_login_header');
 
 	/*
 	 * Enable support for Post Formats.
