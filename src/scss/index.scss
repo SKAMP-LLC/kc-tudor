@@ -14,8 +14,9 @@
 
 html {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+  max-width: $project-max-width;
+  min-width: $project-min-width;
+  margin: 0 auto;
 }
 
 *, *:before, *:after {
@@ -25,22 +26,4 @@ html {
 body {
     background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/background.png');
     font-family: 'Lato', sans-serif;
-    margin: 0 auto;
-    max-width: 1080px;
-    min-width: 1080px;
-    padding: 0 24px;
-    width: 1080px;
-}
-
-.two-column {
-  display: flex;
-  justify-content: space-between;
-
-  .sidebar {
-    width: 20%;
-  }
-  
-  .content-area {
-    width: 80%;
-  }
 }

@@ -23,6 +23,29 @@ $default-border-radius: 5px;
 $default-margin: 10px;
 $default-padding: 10px;
 
+$project-max-width: 1280px;
+$project-min-width: 400px;
+
+@mixin bp($point) {
+  $breakpoint-sm: "(max-width: 568px)";
+  $breakpoint-md: "(max-width: 768px)";
+  $breakpoint-lg: "(max-width: 1024px)";
+  $breakpoint-xl: "(max-width: 1280px)";
+
+  @if $point == mobile {
+    @media #{$breakpoint-sm} { @content; }
+  }
+  @else if $point == phablet {
+    @media #{$breakpoint-md} { @content; }
+  }
+  @else if $point == tablet {
+    @media #{$breakpoint-lg} { @content; }
+  }
+  @else if $point == desktop {
+    @media #{$breakpoint-xl} { @content; }
+  }
+}
+
 // Mixins
 @mixin image-link() {
   background-repeat: no-repeat;

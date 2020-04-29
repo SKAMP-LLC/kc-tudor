@@ -5,6 +5,14 @@
   position: relative;
   width: 100%;
 
+  @include bp("mobile") {
+    display: none;
+  }
+
+  @include bp("phablet") {
+    display: none;
+  }
+
   .sandy {
     background-repeat: no-repeat;
     bottom: 0;
