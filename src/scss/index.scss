@@ -14,9 +14,8 @@
 
 html {
   box-sizing: border-box;
-  max-width: $project-max-width;
-  min-width: $project-min-width;
-  margin: 0 auto;
+  margin: 0;
+  padding: 0;
 }
 
 *, *:before, *:after {
@@ -24,6 +23,9 @@ html {
 }
 
 body {
-    background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/background.png');
-    font-family: 'Lato', sans-serif;
+  background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/background.png');
+  font-family: 'Lato', sans-serif;
+  max-width: $project-max-width;
+  min-width: $project-min-width;
+  margin: 0 auto;
 }
