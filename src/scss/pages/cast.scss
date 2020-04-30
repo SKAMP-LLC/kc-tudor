@@ -1,36 +1,41 @@
 .cast-page {
 
   .box {
-    border-radius: 20px;
+    border-radius: $default_border_radius * 2;
     color: $off_white;
-    height: 500px;
-    margin: 100px auto 0;
+    height: 200px;
+    margin: $default_margin * 4 auto 0;
     position: relative;
     width: 90%;
 
-    div {
-      display: inline-block;
-    }
-
-    h1 {
-      font-family: 'Roboto Slab', serif;
-      font-size: 3em;
-      text-align: center;
-    }
-
     .image {
-      height: 640px;
+      @include image-link;
+      height: 256px;
       position: absolute;
-      top: -60px;
-      width: 380px;
+      top: -30px;
+      width: 152px;
     }
 
     .stats {
-      line-height: 1.5em;
       position: absolute;
       text-align: left;
       top: 40px;
-      width: 450px;
+      width: 256px;
+
+      h1 {
+        font-family: 'Roboto Slab', serif;
+        font-size: 1.5em;
+        text-align: center;
+      }
+
+      h2 {
+        font-size: 1em;
+        text-align: center;
+      }
+
+      p {
+        display: none;
+      }
     }
 
     .stats.left {
@@ -38,7 +43,7 @@
     }
 
     .stats.right {
-      left: 45%;
+      right: 45px;
     }
 
     .image.left {
@@ -49,19 +54,19 @@
       right: 0px;
     }
 
-    &:last-child {
-      margin-bottom: 100px;
-    }
-
     &:before {
-      border-radius: 20px;
+      border-radius: $default_border_radius * 2;
       border: 20px solid $off_white;
       content: '';
-      height: 460px;
+      height: 160px;
       margin: 20px;
       position: absolute;
       top: 0px;
       width: calc(100% - 40px);
+    }
+
+    &:last-child {
+      margin-bottom: $default_margin * 4;
     }
   }
 
@@ -107,8 +112,57 @@
     .image {
       background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/cast-jill.png');
       background-repeat: no-repeat;
-      left: -110px !important; //Adjustment for large tail.
+      left: -150px !important; //Adjustment for large tail.
       width: 524px; //Adjustment for large tail.
     }
+  }
+
+  @include respond-to("md") {
+    .box {
+      height: 500px;
+
+      &:before {
+        height: 460px;
+        width: calc(100% - 40px);
+      }
+  
+      .image {
+        height: 640px;
+        position: absolute;
+        top: -60px;
+        width: 380px;
+      }
+
+      .stats {
+        height: 640px;
+        width: 380px;
+      }
+    }
+  }
+
+  @include respond-to("lg") {
+    .box {
+      height: 500px;
+
+      &:before {
+        height: 460px;
+        width: calc(100% - 40px);
+      }
+
+      .image {
+        height: 640px;
+        position: absolute;
+        top: -60px;
+        width: 380px;
+      }
+
+      .stats {
+        height: 640px;
+        width: 380px;
+      }
+    }
+  }
+
+  @include respond-to("xl") {
   }
 }
