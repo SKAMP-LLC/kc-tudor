@@ -20,6 +20,10 @@ get_header(); ?>
     get_template_part( 'template-parts/content', 'carousel' );
 ?>
 
+<?php
+    get_template_part( 'template-parts/content', 'comic-list' );
+?>
+
 <section class="content">
   <?php get_sidebar(); ?>
   <div id="primary">

@@ -23,30 +23,30 @@ $default-border-radius: 5px;
 $default-margin: 10px;
 $default-padding: 10px;
 $project-max-width: 1280px;
+$breakpoints: (
+  'md':  ( min-width:  767px ),
+  'lg': ( min-width:  992px ),
+  'xl':  ( min-width: 1200px )
+) !default;
 
-@mixin bp($point) {
-  $breakpoint-sm: "(max-width: 568px)";
-  $breakpoint-md: "(max-width: 768px)";
-  $breakpoint-lg: "(max-width: 1024px)";
-  $breakpoint-xl: "(max-width: 1280px)";
-
-  @if $point == mobile {
-    @media #{$breakpoint-sm} { @content; }
+// Mixins
+// https://css-tricks.com/snippets/sass/mixin-manage-breakpoints/
+@mixin respond-to($breakpoint) {
+  @if map-has-key($breakpoints, $breakpoint) {
+    @media #{inspect(map-get($breakpoints, $breakpoint))} {
+      @content;
+    }
   }
-  @else if $point == phablet {
-    @media #{$breakpoint-md} { @content; }
-  }
-  @else if $point == tablet {
-    @media #{$breakpoint-lg} { @content; }
-  }
-  @else if $point == desktop {
-    @media #{$breakpoint-xl} { @content; }
+  @else {
+    @warn "Unfortunately, no value could be retrieved from `#{$breakpoint}`. "
+        + "Available breakpoints are: #{map-keys($breakpoints)}.";
   }
 }
 
-// Mixins
 @mixin image-link() {
   background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
   color: transparent;
   display: block;
 }

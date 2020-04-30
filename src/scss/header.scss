@@ -68,8 +68,6 @@ header.site-header {
   
         a {
           @include image-link;
-          background-position: center;
-          background-size: contain;
           height: 60px;
           width: 60px;
 
@@ -111,15 +109,12 @@ header.site-header {
     }
   }
 
-  @include bp("mobile") {
+  @include respond-to("md") {
   }
 
-  @include bp("phablet") {
+  @include respond-to("lg") {
   }
 
-  @include bp("tablet") {
-  }
-
-  @include bp("desktop") {
+  @include respond-to("xl") {
   }
 }

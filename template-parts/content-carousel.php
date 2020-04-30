@@ -1,6 +1,6 @@
 <?php
 /**
- * The template for the front page carousel.
+ * The template for the front page carousel. Desktop only.
  *
  * @package WordPress
  * @subpackage Tudor

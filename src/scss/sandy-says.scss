@@ -1,17 +1,10 @@
 .sandy-says {
   background-color: $kemono_brown;
   border-radius: 5px;
+  display: none;
   height: 235px;
   position: relative;
   width: 100%;
-
-  @include bp("mobile") {
-    display: none;
-  }
-
-  @include bp("phablet") {
-    display: none;
-  }
 
   .sandy {
     background-repeat: no-repeat;
@@ -109,5 +102,15 @@
     .title {
       left: 0;
     }
+  }
+
+  @include respond-to("md") {
+    display: block;
+  }
+
+  @include respond-to("lg") {
+  }
+
+  @include respond-to("xl") {
   }
 }
