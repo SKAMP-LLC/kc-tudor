@@ -1,17 +1,19 @@
 @import './palette.scss';
 
-@import './about-page.scss';
 @import './carousel.scss';
-@import './cast-page.scss';
+@import './content.scss';
 @import './comic-list.scss';
-@import './katboxinn-page.scss';
 @import './footer.scss';
 @import './header.scss';
 @import './post.scss';
 @import './post-grid.scss';
 @import './sandy-says.scss';
 @import './sidebar.scss';
-@import './world-page.scss';
+
+@import './pages/about.scss';
+@import './pages/cast.scss';
+@import './pages/katboxinn.scss';
+@import './pages/world.scss';
 
 html {
   box-sizing: border-box;

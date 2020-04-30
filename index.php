@@ -28,7 +28,7 @@ get_header(); ?>
   <?php get_sidebar(); ?>
   <div id="primary">
     <main id="main" class="site-main" role="main">
-      <div class="divider divider-news"></div>
+      <div class="divider"></div>
 
       <?php if ( have_posts() ) : ?>
 

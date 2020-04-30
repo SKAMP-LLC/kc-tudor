@@ -1,4 +1,14 @@
 .sidebar {
+  width: 45%;
+
+  @include respond-to("md") {
+  }
+
+  @include respond-to("lg") {
+  }
+
+  @include respond-to("xl") {
+  }
 
   .widget_custom-twitter-feeds-widget {
    background-color: $kemono-brown;
