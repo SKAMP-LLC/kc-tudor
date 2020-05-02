@@ -29,6 +29,7 @@
       }
 
       h2 {
+        display: none;
         font-size: 1em;
         text-align: center;
       }
@@ -39,11 +40,11 @@
     }
 
     .stats.left {
-      left: 80px;
+      left: -30px;
     }
 
     .stats.right {
-      right: 45px;
+      right: -30px;
     }
 
     .image.left {
@@ -75,7 +76,6 @@
     box-shadow: 5px 5px 5px 0px $sandy_peach_off;
     .image {
       background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/cast-sandy.png');
-      background-repeat: no-repeat;
     }
   }
 
@@ -84,7 +84,6 @@
     box-shadow: 5px 5px 5px 0px $kona_red_off;
     .image {
       background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/cast-kona.png');
-      background-repeat: no-repeat;
     }
   }
 
@@ -93,7 +92,6 @@
     box-shadow: 5px 5px 5px 0px $miko_blue_off;
     .image {
       background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/cast-miko.png');
-      background-repeat: no-repeat;
     }
   }
 
@@ -102,7 +100,6 @@
     box-shadow: 5px 5px 5px 0px $maxine_green_off;
     .image {
       background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/cast-maxine.png');
-      background-repeat: no-repeat;
     }
   }
   
@@ -111,31 +108,62 @@
     box-shadow: 5px 5px 5px 0px $jill_orange_off;
     .image {
       background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/cast-jill.png');
-      background-repeat: no-repeat;
-      left: -150px !important; //Adjustment for large tail.
-      width: 524px; //Adjustment for large tail.
+      left: -15px; // Adjustment for large tail.
+      width: 210px; // Adjustment for large tail.
     }
   }
 
   @include respond-to("md") {
     .box {
-      height: 500px;
+      height: 350px;
 
       &:before {
-        height: 460px;
+        height: 310px;
         width: calc(100% - 40px);
       }
   
       .image {
-        height: 640px;
+        height: 320px;
         position: absolute;
-        top: -60px;
-        width: 380px;
+        top: -10px;
+        width: 190px;
+      }
+
+      .image.left {
+        left: 20px;
+      }
+  
+      .image.right {
+        right: 0px;
+      }
+
+      &.jill {
+        .image {
+          left: -25px !important; // Adjustment for large tail.
+          width: 262px !important; // Adjustment for large tail.
+        }
       }
 
       .stats {
         height: 640px;
         width: 380px;
+        h2 {
+          display: block;
+          font-size: .5em;
+        }
+
+        p {
+          display: block;
+          font-size: .8em;
+        }
+      }
+
+      .stats.left {
+        left: 60px;
+      }
+  
+      .stats.right {
+        right: 60px;
       }
     }
   }
@@ -151,14 +179,51 @@
 
       .image {
         height: 640px;
-        position: absolute;
         top: -60px;
         width: 380px;
+      }
+
+      .image.left {
+        left: 20px;
+      }
+  
+      .image.right {
+        right: 0px;
+      }
+
+      &.jill {
+        .image {
+          left: -100px !important; // Adjustment for large tail.
+          width: 524px !important; // Adjustment for large tail.
+        }
       }
 
       .stats {
         height: 640px;
         width: 380px;
+
+        h1 {
+          display: block;
+          font-size: 2em;
+        }
+
+        h2 {
+          display: block;
+          font-size: 1.25em;
+        }
+  
+        p {
+          display: block;
+          font-size: 1em;
+        }
+      }
+
+      .stats.left {
+        left: 100px;
+      }
+  
+      .stats.right {
+        right: 100px;
       }
     }
   }
