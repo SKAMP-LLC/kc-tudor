@@ -58,24 +58,26 @@ main.site-main {
     .article-container {
       flex-direction: row;
       flex-wrap: wrap;
-    }
 
-    article {
-      img {
-        height: 116px !important;
-        width: 208px !important;
+      article {
+        img {
+          height: 116px !important;
+          width: 208px !important;
+        }
+        padding: 0 $default-padding $default-padding 0;
       }
-      padding: 0 $default-padding $default-padding 0;
     }
   }
 
   @include respond-to("lg") {
-    article {
-      img {
-        height: 145px !important;
-        width: 260px !important;
+    .article-container {
+      article {
+        img {
+          height: 145px !important;
+          width: 260px !important;
+        }
+        padding: 0 $default-padding * 2 $default-padding 0;
       }
-      padding: 0 $default-padding * 2 $default-padding 0;
     }
   }
 
