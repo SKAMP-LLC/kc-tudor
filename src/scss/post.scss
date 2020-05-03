@@ -211,10 +211,8 @@
   }
 
   @include respond-to("md") {
-    padding: $default-padding * 2 $default-padding * 5;
-
     .story {
-      padding: $default-padding;
+      padding: $default-padding * 2 $default-padding * 5 !important;
     }
   }
 
