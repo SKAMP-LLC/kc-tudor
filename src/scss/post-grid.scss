@@ -55,6 +55,12 @@ main.site-main {
   }
 
   @include respond-to("md") {
+    .divider {
+      display: block !important;
+      height: 27px;
+      width: 818px;
+      margin-bottom: $default-margin;
+    }
     .article-container {
       flex-direction: row;
       flex-wrap: wrap;

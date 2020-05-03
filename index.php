@@ -30,6 +30,7 @@ get_header(); ?>
     <main id="main" class="site-main" role="main">
       <div class="divider"></div>
 
+
       <?php if ( have_posts() ) : ?>
 
       <?php if ( is_home() && ! is_front_page() ) : ?>
