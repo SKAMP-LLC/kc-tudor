@@ -171,6 +171,7 @@
   @include respond-to("lg") {
     .box {
       height: 500px;
+      margin: $default_margin * 8 auto 0;
 
       &:before {
         height: 460px;
