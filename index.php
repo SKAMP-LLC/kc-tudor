@@ -57,9 +57,15 @@ get_header(); ?>
           endif;
           ?>
       </div><!-- .article-container -->
-      <script type="text/javascript" src="https://www.comicad.net/r/6Bcj0095JF/"></script>
+      <div class="bottom-content-desktop">
+        <script type="text/javascript" src="https://www.comicad.net/r/6Bcj0095JF/"></script>
+      </div>
     </main><!-- .site-main -->
   </div><!-- .content-area -->
 </section>
+
+<div class="bottom-content-mobile">
+  <script type="text/javascript" src="https://www.comicad.net/r/a2C5651bHA/"></script>
+</div>
 
 <?php get_footer(); ?>
