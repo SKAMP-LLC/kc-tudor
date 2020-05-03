@@ -113,9 +113,10 @@ header.site-header {
         font-size: 1.5em !important;
       }
     }
+
     #social-navigation {
       li {
-        padding: 0 1em;
+        padding: 0 1em !important;
         a {
           height: 75px !important;
           width: 75px !important;
@@ -126,32 +127,31 @@ header.site-header {
 
   @include respond-to("lg") {
     .site-header-menu {
-      display: flex;
-      align-items: center;
-      justify-content: space-around;
+      display: flex !important;
+      align-items: center !important;
+      justify-content: space-around !important;
     }
+
     #site-navigation {
-      width: 55%;
-      height: 75px;
+      width: 55% !important;
+      height: 75px !important;
       li {
-        font-size: 1.50em !important;
+        font-size: 1.6em !important;
         line-height: 75px !important;
       }
     }
+
     #social-navigation {
-      width: 45%;
-      height: 75px;
+      width: 45% !important;
+      height: 75px !important;
       margin-top: 0 !important;
       li {
-        padding: 0 $default-padding / 2 0 0;
+        padding: 0 !important;
         a {
           height: 75px !important;
           width: 75px !important;
         }
       }
     }
-  }
-
-  @include respond-to("xl") {
   }
 }
