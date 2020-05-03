@@ -1,6 +1,6 @@
 section.content {
   align-content: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
   display: flex;
   margin-top: $default-margin;
 
@@ -10,6 +10,8 @@ section.content {
 
   #secondary {
     width: 45%;
+    min-width: 210px !important;
+    max-width: 240px !important;
   }
 
   @include respond-to("md") {
