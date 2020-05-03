@@ -211,8 +211,10 @@
       padding: $default-padding * 5;
     }
 
-    .emote {
-      margin-right: 3em;
+    .left {
+      .emote {
+        margin-right: 3em;
+      }
     }
 
     .right {
