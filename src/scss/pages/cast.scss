@@ -1,0 +1,233 @@
+.cast-page {
+
+  .box {
+    border-radius: $default_border_radius * 2;
+    color: $off_white;
+    height: 200px;
+    margin: $default_margin * 4 auto 0;
+    position: relative;
+    width: 90%;
+
+    .image {
+      @include image-link;
+      height: 256px;
+      position: absolute;
+      top: -30px;
+      width: 152px;
+    }
+
+    .stats {
+      position: absolute;
+      text-align: left;
+      top: 40px;
+      width: 256px;
+
+      h1 {
+        font-family: 'Roboto Slab', serif;
+        font-size: 1.5em;
+        text-align: center;
+      }
+
+      h2 {
+        display: none;
+        font-size: 1em;
+        text-align: center;
+      }
+
+      p {
+        display: none;
+      }
+    }
+
+    .stats.left {
+      left: -30px;
+    }
+
+    .stats.right {
+      right: -30px;
+    }
+
+    .image.left {
+      left: 20px;
+    }
+
+    .image.right {
+      right: 0px;
+    }
+
+    &:before {
+      border-radius: $default_border_radius * 2;
+      border: 20px solid $off_white;
+      content: '';
+      height: 160px;
+      margin: 20px;
+      position: absolute;
+      top: 0px;
+      width: calc(100% - 40px);
+    }
+
+    &:last-child {
+      margin-bottom: $default_margin * 4;
+    }
+  }
+
+  .sandy {
+    background-color: $sandy_peach;
+    box-shadow: 5px 5px 5px 0px $sandy_peach_off;
+    .image {
+      background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/cast-sandy.png');
+    }
+  }
+
+  .kona {
+    background-color: $kona_red;
+    box-shadow: 5px 5px 5px 0px $kona_red_off;
+    .image {
+      background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/cast-kona.png');
+    }
+  }
+
+  .miko {
+    background-color: $miko_blue;
+    box-shadow: 5px 5px 5px 0px $miko_blue_off;
+    .image {
+      background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/cast-miko.png');
+    }
+  }
+
+  .maxine {
+    background-color: $maxine_green;
+    box-shadow: 5px 5px 5px 0px $maxine_green_off;
+    .image {
+      background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/cast-maxine.png');
+    }
+  }
+  
+  .jill {
+    background-color: $jill_orange;
+    box-shadow: 5px 5px 5px 0px $jill_orange_off;
+    .image {
+      background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/cast-jill.png');
+      left: -15px; // Adjustment for large tail.
+      width: 210px; // Adjustment for large tail.
+    }
+  }
+
+  @include respond-to("md") {
+    .box {
+      height: 350px;
+
+      &:before {
+        height: 310px;
+        width: calc(100% - 40px);
+      }
+  
+      .image {
+        height: 320px;
+        position: absolute;
+        top: -10px;
+        width: 190px;
+      }
+
+      .image.left {
+        left: 20px;
+      }
+  
+      .image.right {
+        right: 0px;
+      }
+
+      &.jill {
+        .image {
+          left: -25px !important; // Adjustment for large tail.
+          width: 262px !important; // Adjustment for large tail.
+        }
+      }
+
+      .stats {
+        height: 640px;
+        width: 380px;
+        h2 {
+          display: block;
+          font-size: .5em;
+        }
+
+        p {
+          display: block;
+          font-size: .8em;
+        }
+      }
+
+      .stats.left {
+        left: 60px;
+      }
+  
+      .stats.right {
+        right: 60px;
+      }
+    }
+  }
+
+  @include respond-to("lg") {
+    .box {
+      height: 500px;
+
+      &:before {
+        height: 460px;
+        width: calc(100% - 40px);
+      }
+
+      .image {
+        height: 640px;
+        top: -60px;
+        width: 380px;
+      }
+
+      .image.left {
+        left: 20px;
+      }
+  
+      .image.right {
+        right: 0px;
+      }
+
+      &.jill {
+        .image {
+          left: -100px !important; // Adjustment for large tail.
+          width: 524px !important; // Adjustment for large tail.
+        }
+      }
+
+      .stats {
+        height: 640px;
+        width: 380px;
+
+        h1 {
+          display: block;
+          font-size: 2em;
+        }
+
+        h2 {
+          display: block;
+          font-size: 1.25em;
+        }
+  
+        p {
+          display: block;
+          font-size: 1em;
+        }
+      }
+
+      .stats.left {
+        left: 100px;
+      }
+  
+      .stats.right {
+        right: 100px;
+      }
+    }
+  }
+
+  @include respond-to("xl") {
+  }
+}

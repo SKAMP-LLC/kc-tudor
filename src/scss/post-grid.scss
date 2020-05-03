@@ -1,29 +1,24 @@
-main.site-main { 
-
-  nav.navigation.pagination {
-    display: none;
-  }
-
+main.site-main {
   .divider {
-    height: 27px;
-    margin: $default-margin $default-margin 0;
-    width: 818px;
-  }
-
-  .divider-news {
+    display: none;
     background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/divider_news.png');
   }
 
   .article-container {
-    align-content: center;
-    align-items: center;
+    text-align: center;
+    justify-content: center;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
 
     article {
       color: $kemono_brown;
-      padding: $default-padding;
-      width: 33%;
+      padding-bottom: $default-padding;
+
+      img {
+        height: 87px;
+        width: 156px;
+      }
 
       h2 {
         margin: 0;
@@ -53,5 +48,37 @@ main.site-main {
         padding: 0 $default-padding;
       }
     }
+  }
+
+  nav.navigation.pagination {
+    display: none;
+  }
+
+  @include respond-to("md") {
+    .article-container {
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+
+    article {
+      img {
+        height: 116px !important;
+        width: 208px !important;
+      }
+      padding: 0 $default-padding $default-padding 0;
+    }
+  }
+
+  @include respond-to("lg") {
+    article {
+      img {
+        height: 145px !important;
+        width: 260px !important;
+      }
+      padding: 0 $default-padding * 2 $default-padding 0;
+    }
+  }
+
+  @include respond-to("xl") {
   }
 }

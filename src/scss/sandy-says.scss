@@ -1,7 +1,9 @@
 .sandy-says {
   background-color: $kemono_brown;
   border-radius: 5px;
+  display: none;
   height: 235px;
+  margin-top: $default-margin;
   position: relative;
   width: 100%;
 
@@ -66,7 +68,6 @@
     background-color: $off_white;
     border-radius: 5px;
     height: 225px;
-    font-size: 16pt;
     left: -5px;
     margin-left: 250px;
     padding: 45px $default-padding 0;
@@ -84,7 +85,6 @@
 
     .rating, .title { 
       border-radius: 5px;
-      font-size: 20pt;
       margin-top: $default-margin / 2;
       padding: 10px;
       position: absolute;
@@ -101,5 +101,30 @@
     .title {
       left: 0;
     }
+  }
+
+  @include respond-to("md") {
+    display: block;
+
+    .speech_bubble {
+      font-size: 1em;
+    }
+
+    .rating, .title {
+      font-size: 1.25em;
+    }
+  }
+
+  @include respond-to("lg") {
+    .speech_bubble {
+      font-size: 1.25em;
+    }
+
+    .rating, .title {
+      font-size: 1.3em;
+    }
+  }
+
+  @include respond-to("xl") {
   }
 }

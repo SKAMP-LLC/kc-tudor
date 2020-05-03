@@ -20,11 +20,15 @@ get_header(); ?>
     get_template_part( 'template-parts/content', 'carousel' );
 ?>
 
-<section class="two-column">
+<?php
+    get_template_part( 'template-parts/content', 'comic-list' );
+?>
+
+<section class="content">
   <?php get_sidebar(); ?>
-  <div id="primary" class="content-area">
+  <div id="primary">
     <main id="main" class="site-main" role="main">
-      <div class="divider divider-news"></div>
+      <div class="divider"></div>
 
       <?php if ( have_posts() ) : ?>
 
@@ -55,6 +59,6 @@ get_header(); ?>
       <script type="text/javascript" src="https://www.comicad.net/r/6Bcj0095JF/"></script>
     </main><!-- .site-main -->
   </div><!-- .content-area -->
-</section><!-- .two-column -->
+</section>
 
 <?php get_footer(); ?>

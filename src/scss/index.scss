@@ -1,46 +1,40 @@
 @import './palette.scss';
 
-@import './about-page.scss';
 @import './carousel.scss';
-@import './cast-page.scss';
-@import './katboxinn-page.scss';
+@import './content.scss';
+@import './comic-list.scss';
 @import './footer.scss';
 @import './header.scss';
 @import './post.scss';
 @import './post-grid.scss';
 @import './sandy-says.scss';
 @import './sidebar.scss';
-@import './world-page.scss';
+
+@import './pages/about.scss';
+@import './pages/cast.scss';
+@import './pages/katboxinn.scss';
+@import './pages/world.scss';
 
 html {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
 }
 
 *, *:before, *:after {
   box-sizing: inherit;
 }
 
-body {
-    background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/background.png');
-    font-family: 'Lato', sans-serif;
-    margin: 0 auto;
-    max-width: 1080px;
-    min-width: 1080px;
-    padding: 0 24px;
-    width: 1080px;
+html, body {
+  background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/background.png');
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
 }
 
-.two-column {
-  display: flex;
-  justify-content: space-between;
-
-  .sidebar {
-    width: 20%;
-  }
-  
-  .content-area {
-    width: 80%;
-  }
+#page {
+  font-family: 'Lato', sans-serif;
+  margin: 0 auto;
+  min-width: $project-min-width;
+  max-width: $project-max-width;
+  padding: $default-padding;
 }

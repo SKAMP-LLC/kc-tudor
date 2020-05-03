@@ -1,0 +1,25 @@
+.about-page {
+  margin-top: $default_margin;
+  
+  .video {
+    background-color: $kemono_brown;
+    border-radius: $default_border_radius;
+    margin: 0 auto;
+    iframe {
+      width: 100%;
+    }
+  }
+
+  @include respond-to("md") {
+    .video {
+      max-width: 800px;
+      padding: $default_padding * 2;
+    }
+  }
+
+  @include respond-to("lg") {
+  }
+
+  @include respond-to("xl") {
+  }
+}

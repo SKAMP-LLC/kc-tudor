@@ -1,10 +1,8 @@
 .sidebar {
-
   .widget_custom-twitter-feeds-widget {
    background-color: $kemono-brown;
    border-radius: $default-border-radius;
    color: $off_white;
-   margin-top: $default-margin;
    padding: $default-padding;
 
    a {
@@ -38,5 +36,14 @@
     img {
       width: 100%;
     }
+  }
+
+  @include respond-to("md") {
+  }
+
+  @include respond-to("lg") {
+  }
+
+  @include respond-to("xl") {
   }
 }
