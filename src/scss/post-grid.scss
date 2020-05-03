@@ -5,17 +5,19 @@ main.site-main {
   }
 
   .article-container {
+    text-align: center;
+    justify-content: center;
     display: flex;
     flex-direction: column;
     width: 100%;
 
     article {
       color: $kemono_brown;
-      padding: 0 $default-padding $default-padding;
+      padding-bottom: $default-padding;
 
       img {
-        height: 102px;
-        width: 182px;
+        height: 87px;
+        width: 156px;
       }
 
       h2 {
@@ -60,18 +62,20 @@ main.site-main {
 
     article {
       img {
-        height: 116px;
-        width: 208px;
+        height: 116px !important;
+        width: 208px !important;
       }
+      padding: 0 $default-padding $default-padding 0;
     }
   }
 
   @include respond-to("lg") {
     article {
       img {
-        height: 145px;
-        width: 260px;
+        height: 145px !important;
+        width: 260px !important;
       }
+      padding: 0 $default-padding * 2 $default-padding 0;
     }
   }
 

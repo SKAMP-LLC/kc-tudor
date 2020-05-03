@@ -1,6 +1,37 @@
 section.content {
   align-content: center;
+  justify-content: space-evenly;
   display: flex;
-  justify-content: space-around;
   margin-top: $default-margin;
+
+  #primary {
+    width: 45%;
+  }
+
+  #secondary {
+    width: 45%;
+  }
+
+  @include respond-to("md") {
+    #primary {
+      width: 65% !important;
+    }
+  
+    #secondary {
+      width: 35% !important;
+    }
+  }
+
+  @include respond-to("lg") {
+    #primary {
+      width: 75% !important;
+    }
+  
+    #secondary {
+      width: 25% !important;
+    }
+  }
+
+  @include respond-to("xl") {
+  }
 }

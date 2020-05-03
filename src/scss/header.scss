@@ -64,8 +64,6 @@ header.site-header {
     #social-navigation {
       margin-top: $default-margin;
       li {
-        padding-left: 5px;
-  
         a {
           @include image-link;
           height: 60px;
@@ -110,9 +108,48 @@ header.site-header {
   }
 
   @include respond-to("md") {
+    #site-navigation {
+      li {
+        font-size: 1.5em !important;
+      }
+    }
+    #social-navigation {
+      li {
+        padding: 0 1em;
+        a {
+          height: 75px !important;
+          width: 75px !important;
+        }
+      }
+    }
   }
 
   @include respond-to("lg") {
+    .site-header-menu {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+    }
+    #site-navigation {
+      width: 55%;
+      height: 75px;
+      li {
+        font-size: 1.50em !important;
+        line-height: 75px !important;
+      }
+    }
+    #social-navigation {
+      width: 45%;
+      height: 75px;
+      margin-top: 0 !important;
+      li {
+        padding: 0 $default-padding / 2 0 0;
+        a {
+          height: 75px !important;
+          width: 75px !important;
+        }
+      }
+    }
   }
 
   @include respond-to("xl") {

@@ -4,7 +4,6 @@
     background-color: $reader_white;
     border-radius: $default-border-radius;
     font-family: 'Merriweather', sans-serif;
-    padding: $default-padding*2 $default-padding * 5;
     margin-top: $default-margin;
 
     a {
@@ -34,7 +33,6 @@
   }
 
   .story {
-    padding: 1em;
     width: 100%;
 
     .left {
@@ -210,5 +208,19 @@
         color: $jill_orange;
       }
     }
+  }
+
+  @include respond-to("md") {
+    padding: $default-padding * 2 $default-padding * 5;
+
+    .story {
+      padding: $default-padding;
+    }
+  }
+
+  @include respond-to("lg") {
+  }
+
+  @include respond-to("xl") {
   }
 }
