@@ -12,7 +12,7 @@ deploy:
     - ssh-add <(echo -e "$DEPLOYMENT_SSH_PRIVATE_KEY")
     - ssh -o "StrictHostKeyChecking=no" $PRODUCTION_USER@$PRODUCTION_URL
   script:
-    - ssh $PRODUCTION_USER@$PRODUCTION_URL "rm -rf /home/$PRODUCTION_USER/tudor/*"
+    - ssh -p $PRODUCTION_PORT $PRODUCTION_USER@$PRODUCTION_URL "rm -rf /home/$PRODUCTION_USER/tudor/*"
     - scp -r ./theme/* $PRODUCTION_USER@$PRODUCTION_URL:/home/$PRODUCTION_USER/tudor
   only:
     - master
