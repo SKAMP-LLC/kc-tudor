@@ -10,9 +10,9 @@ deploy:
     - apt-get update -qq && apt-get upgrade -y -qq
     - eval $(ssh-agent -s)
     - ssh-add <(echo -e "$DEPLOYMENT_SSH_PRIVATE_KEY")
-    - ssh -o "StrictHostKeyChecking=no" $PRODUCTION_USER@$PRODUCTION_URL
+    - ssh -p $PRODUCTION_PORT -o "StrictHostKeyChecking=no" $PRODUCTION_USER@$PRODUCTION_URL
   script:
     - ssh -p $PRODUCTION_PORT $PRODUCTION_USER@$PRODUCTION_URL "rm -rf /home/$PRODUCTION_USER/tudor/*"
-    - scp -r ./theme/* $PRODUCTION_USER@$PRODUCTION_URL:/home/$PRODUCTION_USER/tudor
+    - scp -p $PRODUCTION_PORT -r ./theme/* $PRODUCTION_USER@$PRODUCTION_URL:/home/$PRODUCTION_USER/tudor
   only:
     - master
