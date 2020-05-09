@@ -13,6 +13,6 @@ deploy:
     - ssh -p $PRODUCTION_PORT -o "StrictHostKeyChecking=no" $PRODUCTION_USER@$PRODUCTION_URL
   script:
     - ssh -p $PRODUCTION_PORT $PRODUCTION_USER@$PRODUCTION_URL "rm -rf /home/$PRODUCTION_USER/tudor/*"
-    - scp -p $PRODUCTION_PORT -r ./theme/* $PRODUCTION_USER@$PRODUCTION_URL:/home/$PRODUCTION_USER/tudor
+    - scp -P $PRODUCTION_PORT -r ./theme/* $PRODUCTION_USER@$PRODUCTION_URL:/home/$PRODUCTION_USER/tudor
   only:
     - master
