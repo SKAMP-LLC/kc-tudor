@@ -15,9 +15,9 @@ deploy:
     - ssh -p $PRODUCTION_PORT $PRODUCTION_USER@$PRODUCTION_URL "rm -rf /home/$PRODUCTION_USER/tudor/*"
     - scp -P $PRODUCTION_PORT -r ./* $PRODUCTION_USER@$PRODUCTION_URL:/home/$PRODUCTION_USER/tudor
     - ssh -p $PRODUCTION_PORT $PRODUCTION_USER@$PRODUCTION_URL "cd /home/$PRODUCTION_USER/tudor && npm i && npm run build"
-    - ssh -p $PRODUCTION_PORT $PRODUCTION_USER@$PRODUCTION_URL "sudo rm -rf /var/www/html/wp-content/themes/deployment-test/*"
-    - ssh -p $PRODUCTION_PORT $PRODUCTION_USER@$PRODUCTION_URL "sudo mv /home/$PRODUCTION_USER/tudor/* /var/www/html/wp-content/themes/deployment-test/"
-    - ssh -p $PRODUCTION_PORT $PRODUCTION_USER@$PRODUCTION_URL "sudo find /var/www/html/wp-content/themes/deployment-test/ -type d -exec chmod 755 {} \;"
-    - ssh -p $PRODUCTION_PORT $PRODUCTION_USER@$PRODUCTION_URL "sudo find /var/www/html/wp-content/themes/deployment-test/ -type f -exec chmod 644 {} \;"
+    - ssh -p $PRODUCTION_PORT $PRODUCTION_USER@$PRODUCTION_URL "sudo rm -rf /var/www/html/wp-content/themes/tudor-theme/*"
+    - ssh -p $PRODUCTION_PORT $PRODUCTION_USER@$PRODUCTION_URL "sudo mv /home/$PRODUCTION_USER/tudor/* /var/www/html/wp-content/themes/tudor-theme/"
+    - ssh -p $PRODUCTION_PORT $PRODUCTION_USER@$PRODUCTION_URL "sudo find /var/www/html/wp-content/themes/tudor-theme/ -type d -exec chmod 755 {} \;"
+    - ssh -p $PRODUCTION_PORT $PRODUCTION_USER@$PRODUCTION_URL "sudo find /var/www/html/wp-content/themes/tudor-theme/ -type f -exec chmod 644 {} \;"
   only:
     - master
