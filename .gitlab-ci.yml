@@ -15,6 +15,7 @@ deploy:
   script:
     - ssh -p $PRODUCTION_PORT $PRODUCTION_USER@$PRODUCTION_URL "rm -rf /home/$PRODUCTION_USER/tudor/*"
     - scp -P $PRODUCTION_PORT -r ./* $PRODUCTION_USER@$PRODUCTION_URL:/home/$PRODUCTION_USER/tudor
+    - ssh -p $PRODUCTION_PORT $PRODUCTION_USER@$PRODUCTION_URL "sudo rm -rf /var/www/html/wp-content/themes/deployment-test/*"
     - ssh -p $PRODUCTION_PORT $PRODUCTION_USER@$PRODUCTION_URL "sudo mv /home/$PRODUCTION_USER/tudor/* /var/www/html/wp-content/themes/deployment-test/"
     - ssh -p $PRODUCTION_PORT $PRODUCTION_USER@$PRODUCTION_URL "sudo find /var/www/html/wp-content/themes/deployment-test/ -type d -exec chmod 755 {} \;"
     - ssh -p $PRODUCTION_PORT $PRODUCTION_USER@$PRODUCTION_URL "sudo find /var/www/html/wp-content/themes/deployment-test/ -type f -exec chmod 644 {} \;"
