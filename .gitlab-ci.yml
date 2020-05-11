@@ -11,6 +11,7 @@ deploy:
     - eval $(ssh-agent -s)
     - ssh-add <(echo -e "$DEPLOYMENT_SSH_PRIVATE_KEY")
     - ssh -p $PRODUCTION_PORT -o "StrictHostKeyChecking=no" $PRODUCTION_USER@$PRODUCTION_URL
+    - npm ci
   script:
     - ssh -p $PRODUCTION_PORT $PRODUCTION_USER@$PRODUCTION_URL "rm -rf /home/$PRODUCTION_USER/tudor/*"
     - scp -P $PRODUCTION_PORT -r ./* $PRODUCTION_USER@$PRODUCTION_URL:/home/$PRODUCTION_USER/tudor
