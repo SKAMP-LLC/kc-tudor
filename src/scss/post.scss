@@ -1,9 +1,8 @@
 .post-template-default {
-
   .content-area {
     background-color: $reader_white;
     border-radius: $default-border-radius;
-    font-family: 'Merriweather', sans-serif;
+    font-family: "Merriweather", sans-serif;
     margin-top: $default-margin;
 
     a {
@@ -11,7 +10,7 @@
     }
 
     p {
-      letter-spacing: .05em;
+      letter-spacing: 0.05em;
       line-height: 1.25em;
     }
 
@@ -20,7 +19,7 @@
     }
 
     .entry-title {
-      font-family: 'Roboto Slab', serif;
+      font-family: "Roboto Slab", serif;
       font-size: 3em;
       text-align: center;
     }

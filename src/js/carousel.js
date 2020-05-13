@@ -1,33 +1,41 @@
-import Siema from 'siema';
-import { addClass, refreshImage, removeClass } from './util.js';
+import Siema from "siema";
+import { addClass, refreshImage, removeClass } from "./util.js";
 
 function highlightSlot(index, number_of_comics) {
+  if (index < 0) {
+    index = index + number_of_comics;
+  } else if (index > 3) {
+    index = index % number_of_comics;
+  }
 
-  if (index < 0) { index = index + number_of_comics }
-  else if (index > 3) { index = index % number_of_comics }
-  
-  document.querySelectorAll(`.comic_slot`).forEach((slot) => slot.classList.remove('color'));
-  document.querySelectorAll(`.slot_${index}`).forEach((slot) => slot.classList.add('color'));
+  document
+    .querySelectorAll(`.comic_slot`)
+    .forEach((slot) => slot.classList.remove("color"));
+  document
+    .querySelectorAll(`.slot_${index}`)
+    .forEach((slot) => slot.classList.add("color"));
 }
 
 function sammySays(index, number_of_comics) {
-  
-  if (index < 0) { index = index + number_of_comics }
-  else if (index > 3) { index = index % number_of_comics }
-  
+  if (index < 0) {
+    index = index + number_of_comics;
+  } else if (index > 3) {
+    index = index % number_of_comics;
+  }
+
   const slot = document.querySelector(`.slot_${index}`);
   const sandy = document.querySelector(`.sandy`);
-  const title = document.querySelector('.title');
-  const rating = document.querySelector('.rating');
-  const description = document.querySelector('.description');
-  for(let i = 0; i < number_of_comics; i++) {
+  const title = document.querySelector(".title");
+  const rating = document.querySelector(".rating");
+  const description = document.querySelector(".description");
+  for (let i = 0; i < number_of_comics; i++) {
     removeClass(sandy, `sandy_${i}`);
   }
   addClass(sandy, `sandy_${index}`);
   refreshImage(sandy);
-  title.textContent = slot.getAttribute('data-title');
-  rating.textContent = slot.getAttribute('data-rating');
-  description.textContent = slot.getAttribute('data-description');
+  title.textContent = slot.getAttribute("data-title");
+  rating.textContent = slot.getAttribute("data-rating");
+  description.textContent = slot.getAttribute("data-description");
 }
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -41,12 +49,16 @@ document.addEventListener("DOMContentLoaded", () => {
       sammySays(middleSlide, number_of_comics);
       highlightSlot(middleSlide, number_of_comics);
     },
-    onChange: function() {
+    onChange: function () {
       let middleSlide = this.currentSlide + 2;
       sammySays(middleSlide, number_of_comics);
       highlightSlot(middleSlide, number_of_comics);
-    }
+    },
   });
-  document.querySelector('.previous_slot').addEventListener('click', () => comicSlots.prev());
-  document.querySelector('.next_slot').addEventListener('click', () => comicSlots.next());
+  document
+    .querySelector(".previous_slot")
+    .addEventListener("click", () => comicSlots.prev());
+  document
+    .querySelector(".next_slot")
+    .addEventListener("click", () => comicSlots.next());
 });

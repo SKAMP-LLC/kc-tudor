@@ -22,7 +22,7 @@ section.content {
     #primary {
       width: 65% !important;
     }
-  
+
     #secondary {
       width: 35% !important;
     }
@@ -32,20 +32,19 @@ section.content {
     #primary {
       width: 75% !important;
     }
-  
+
     #secondary {
       width: 25% !important;
     }
   }
 }
 
-
 @include respond-to("md") {
   .bottom-content-mobile {
     display: none !important;
     text-align: center;
   }
-  
+
   .bottom-content-desktop {
     display: block !important;
   }

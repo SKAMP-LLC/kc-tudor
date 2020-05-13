@@ -2,7 +2,7 @@
   position: relative;
 
   .inn_sign {
-    background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/katbox_inn_logo.png');
+    background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/katbox_inn_logo.png");
     background-repeat: no-repeat;
     height: 173px;
     margin: 0 auto;
@@ -26,7 +26,7 @@
     &:before {
       border-radius: 20px;
       border: 20px solid $off_white;
-      content: '';
+      content: "";
       height: calc(100% - 40px);
       left: 0;
       margin: 20px;
@@ -37,14 +37,14 @@
     }
 
     h2 {
-      font-family: 'Roboto Slab', serif;
+      font-family: "Roboto Slab", serif;
       font-size: 1em;
     }
 
     a {
       color: $off_white;
       display: block;
-      font-size: .8em;
+      font-size: 0.8em;
       width: 200px;
       margin: 0 auto;
       text-decoration: none;
