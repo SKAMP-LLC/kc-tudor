@@ -1,32 +1,33 @@
 .sidebar {
   .widget_custom-twitter-feeds-widget {
-   background-color: $kemono-brown;
-   border-radius: $default-border-radius;
-   color: $off_white;
-   padding: $default-padding;
-
-   a {
+    background-color: $kemono-brown;
+    border-radius: $default-border-radius;
     color: $off_white;
-    text-decoration: none;
-   } 
+    padding: $default-padding;
 
-   .ctf-tweet-meta {
-     margin: 0 !important;
-     padding: 0 !important;
-   }
+    a {
+      color: $off_white;
+      text-decoration: none;
+    }
 
-   .ctf-tweet-date, .ctf-screename-sep {
-     display: none !important;
-   }
+    .ctf-tweet-meta {
+      margin: 0 !important;
+      padding: 0 !important;
+    }
 
-   .ctf-tweet-actions {
-     margin: 0 !important;
-   }
+    .ctf-tweet-date,
+    .ctf-screename-sep {
+      display: none !important;
+    }
 
-   .ctf-tweet-content {
-    margin: 0 !important;
-     padding: $default-padding 0 !important;
-   }
+    .ctf-tweet-actions {
+      margin: 0 !important;
+    }
+
+    .ctf-tweet-content {
+      margin: 0 !important;
+      padding: $default-padding 0 !important;
+    }
   }
 
   .custom-html-widget {

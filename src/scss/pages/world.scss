@@ -1,8 +1,7 @@
 .world-page {
-
   .map {
     @include image-link;
-    background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/world_map.png');
+    background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/world_map.png");
     margin: 0 auto;
     height: 253px;
     width: 341px;
@@ -20,6 +19,7 @@
       border: 2px solid $hardwood_text;
       color: $hardwood_text;
       margin-top: $default-margin;
+      width: 100%;
 
       .image {
         float: left;
@@ -29,7 +29,7 @@
       }
 
       h1 {
-        font-family: 'Roboto Slab', serif;
+        font-family: "Roboto Slab", serif;
         font-size: 1em;
         font-weight: bold;
         margin-right: $default-margin;
@@ -37,17 +37,17 @@
       }
 
       h1::before {
-        content: '\00B7';
+        content: "\00B7";
         padding-right: 10px;
       }
 
       h1::after {
-        content: '\00B7';
+        content: "\00B7";
         padding-left: 10px;
       }
 
       p {
-        font-size: .80em;
+        font-size: 0.8em;
         margin-right: $default-margin;
       }
     }
@@ -55,49 +55,49 @@
 
   .loc-1 {
     .image {
-      background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/world_location01.png');
+      background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/world_location01.png");
     }
   }
 
   .loc-2 {
     .image {
-      background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/world_location02.png');
+      background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/world_location02.png");
     }
   }
 
   .loc-3 {
     .image {
-      background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/world_location03.png');
+      background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/world_location03.png");
     }
   }
 
   .loc-4 {
     .image {
-      background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/world_location04.png');
+      background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/world_location04.png");
     }
   }
 
   .loc-5 {
     .image {
-      background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/world_location05.png');
+      background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/world_location05.png");
     }
   }
 
   .loc-6 {
     .image {
-      background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/world_location06.png');
+      background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/world_location06.png");
     }
   }
 
   .loc-7 {
     .image {
-      background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/world_location07.png');
+      background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/world_location07.png");
     }
   }
 
   .loc-8 {
     .image {
-      background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/world_location08.png');
+      background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/world_location08.png");
     }
   }
 
@@ -111,7 +111,7 @@
       flex-direction: row !important;
       flex-wrap: wrap !important;
       justify-content: space-evenly !important;
-    }  
+    }
 
     .location {
       width: 45% !important;
@@ -128,7 +128,7 @@
       font-size: 1.5em !important;
     }
 
-    p { 
+    p {
       font-size: 1em !important;
     }
   }

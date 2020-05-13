@@ -1,5 +1,4 @@
 .cast-page {
-
   .box {
     border-radius: $default_border_radius * 2;
     color: $off_white;
@@ -23,7 +22,7 @@
       width: 256px;
 
       h1 {
-        font-family: 'Roboto Slab', serif;
+        font-family: "Roboto Slab", serif;
         font-size: 1.5em;
         text-align: center;
       }
@@ -58,7 +57,7 @@
     &:before {
       border-radius: $default_border_radius * 2;
       border: 20px solid $off_white;
-      content: '';
+      content: "";
       height: 160px;
       margin: 20px;
       position: absolute;
@@ -75,7 +74,7 @@
     background-color: $sandy_peach;
     box-shadow: 5px 5px 5px 0px $sandy_peach_off;
     .image {
-      background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/cast-sandy.png');
+      background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/cast-sandy.png");
     }
   }
 
@@ -83,7 +82,7 @@
     background-color: $kona_red;
     box-shadow: 5px 5px 5px 0px $kona_red_off;
     .image {
-      background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/cast-kona.png');
+      background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/cast-kona.png");
     }
   }
 
@@ -91,7 +90,7 @@
     background-color: $miko_blue;
     box-shadow: 5px 5px 5px 0px $miko_blue_off;
     .image {
-      background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/cast-miko.png');
+      background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/cast-miko.png");
     }
   }
 
@@ -99,15 +98,15 @@
     background-color: $maxine_green;
     box-shadow: 5px 5px 5px 0px $maxine_green_off;
     .image {
-      background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/cast-maxine.png');
+      background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/cast-maxine.png");
     }
   }
-  
+
   .jill {
     background-color: $jill_orange;
     box-shadow: 5px 5px 5px 0px $jill_orange_off;
     .image {
-      background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/cast-jill.png');
+      background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/cast-jill.png");
       left: -15px; // Adjustment for large tail.
       width: 210px; // Adjustment for large tail.
     }
@@ -121,7 +120,7 @@
         height: 310px;
         width: calc(100% - 40px);
       }
-  
+
       .image {
         height: 320px;
         position: absolute;
@@ -132,7 +131,7 @@
       .image.left {
         left: 20px;
       }
-  
+
       .image.right {
         right: 0px;
       }
@@ -149,19 +148,19 @@
         width: 380px;
         h2 {
           display: block;
-          font-size: .5em;
+          font-size: 0.5em;
         }
 
         p {
           display: block;
-          font-size: .8em;
+          font-size: 0.8em;
         }
       }
 
       .stats.left {
         left: 60px;
       }
-  
+
       .stats.right {
         right: 60px;
       }
@@ -187,7 +186,7 @@
       .image.left {
         left: 20px;
       }
-  
+
       .image.right {
         right: 0px;
       }
@@ -212,7 +211,7 @@
           display: block;
           font-size: 1.25em;
         }
-  
+
         p {
           display: block;
           font-size: 1em;
@@ -222,7 +221,7 @@
       .stats.left {
         left: 100px;
       }
-  
+
       .stats.right {
         right: 100px;
       }

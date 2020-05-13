@@ -1,5 +1,5 @@
 header.site-header {
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
 
   .brown-header-rule {
     background-color: $kemono_brown;
@@ -37,22 +37,22 @@ header.site-header {
       background-color: $kemono_brown;
       border-radius: $default-border-radius;
       text-transform: uppercase;
-  
+
       li {
         font-size: 1em;
         line-height: 2em;
         padding-right: $default-padding / 2;
-  
+
         a {
           text-shadow: 1px 1px $shadow_black;
         }
-  
+
         a::after {
-          content: '\00B7';
+          content: "\00B7";
           padding-left: 10px;
         }
       }
-  
+
       li:last-child {
         a::after {
           content: none;
@@ -74,34 +74,34 @@ header.site-header {
           }
         }
       }
-  
+
       li:nth-child(1n) {
         a {
-          background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/social_twitter.png');
+          background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/social_twitter.png");
         }
       }
-  
+
       li:nth-child(2n) {
         a {
-          background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/social_tumblr.png');
+          background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/social_tumblr.png");
         }
       }
-  
+
       li:nth-child(3n) {
         a {
-          background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/social_instagram.png');
+          background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/social_instagram.png");
         }
       }
-  
+
       li:nth-child(4n) {
         a {
-          background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/social_youtube.png');
+          background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/social_youtube.png");
         }
       }
-  
+
       li:nth-child(5n) {
         a {
-          background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/social_patreon.png');
+          background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/social_patreon.png");
         }
       }
     }

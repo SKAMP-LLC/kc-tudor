@@ -1,3 +1,3 @@
-import './scss/index.scss';
-import './js/carousel.js';
-import './js/emote.js';
+import "./scss/index.scss";
+import "./js/carousel.js";
+import "./js/emote.js";
