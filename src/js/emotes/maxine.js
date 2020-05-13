@@ -13,7 +13,7 @@ const maxine = {
   },
   eyes: {
     angry: require("@/emotes/maxine/maxine_eyes_angry.png"),
-    gleam: require("@/emotes/maxine/maxine_eyes_glee.png"),
+    gleam: require("@/emotes/maxine/maxine_eyes_gleam.png"),
     glee: require("@/emotes/maxine/maxine_eyes_glee.png"),
     happy: require("@/emotes/maxine/maxine_eyes_happy.png"),
     lookaway: require("@/emotes/maxine/maxine_eyes_lookaway.png"),
@@ -25,7 +25,7 @@ const maxine = {
   mouth: {
     grin: require("@/emotes/maxine/maxine_mouth_grin.png"),
     oh: require("@/emotes/maxine/maxine_mouth_oh.png"),
-    put: require("@/emotes/maxine/maxine_mouth_put.png"),
+    pout: require("@/emotes/maxine/maxine_mouth_put.png"),
     serious: require("@/emotes/maxine/maxine_mouth_serious.png"),
     smile: require("@/emotes/maxine/maxine_mouth_smile.png"),
     smileopen: require("@/emotes/maxine/maxine_mouth_smileopen.png"),

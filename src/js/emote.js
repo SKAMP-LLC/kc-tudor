@@ -72,6 +72,31 @@ document.addEventListener("DOMContentLoaded", () => {
       "happy",
       "smileopen"
     ),
+    makeEmoji("maxine_normal", "maxine", "normal", "normal", "normal", "smile"),
+    makeEmoji(
+      "maxine_playful",
+      "maxine",
+      "normal",
+      "normal",
+      "happy",
+      "smileopen"
+    ),
+    makeEmoji("maxine_smug", "maxine", "flop", "normal", "glee", "grin"),
+    makeEmoji("maxine_womp", "maxine", "flop", "sad", "sneak", "grin"),
+    makeEmoji("maxine_grumpy", "maxine", "droop", "angry", "angry", "pout"),
+    makeEmoji("maxine_lament", "maxine", "flop", "angry", "angry", "oh"),
+    makeEmoji(
+      "maxine_worried",
+      "maxine",
+      "normal",
+      "normal",
+      "lookaway",
+      "serious"
+    ),
+    makeEmoji("maxine_thinking", "maxine", "normal", "normal", "uu", "pout"),
+    makeEmoji("maxine_awe", "maxine", "perked", "normal", "glee", "oh"),
+    makeEmoji("maxine_order", "maxine", "normal", "normal", "normal", "oh"),
+    makeEmoji("maxine_chaching", "maxine", "normal", "normal", "gleam", "grin"),
     makeEmoji("miko_defeated", "miko", "flop", "sad", "uu", "pout"),
     makeEmoji("miko_sinister", "miko", "droop", "sad", "angry", "pout"),
     makeEmoji("miko_playful", "miko", "normal", "normal", "uu", "tongue"),
@@ -97,6 +122,7 @@ document.addEventListener("DOMContentLoaded", () => {
       "glee",
       "smileopen"
     ),
+    makeEmoji("sandy_afraid", "sandy", "droop", "serious", "x", "pout"),
     makeEmoji(
       "sandy_awkward",
       "sandy",
@@ -119,6 +145,14 @@ document.addEventListener("DOMContentLoaded", () => {
     makeEmoji("sandy_upset", "sandy", "normal", "sad", "shocked", "yell"),
     makeEmoji("sandy_plead", "sandy", "normal", "sad", "normal", "yell"),
     makeEmoji("sandy_rage", "sandy", "normal", "angry", "angry", "yell"),
+    makeEmoji(
+      "sandy_inquisitive",
+      "sandy",
+      "puzzled",
+      "puzzled",
+      "normal",
+      "formal"
+    ),
     makeEmoji("sandy_cry", "sandy", "droop", "sad", "uu", "pout"),
     makeEmoji(
       "sandy_curious",
