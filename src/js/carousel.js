@@ -8,12 +8,8 @@ function highlightSlot(index, number_of_comics) {
     index = index % number_of_comics;
   }
 
-  document
-    .querySelectorAll(`.comic_slot`)
-    .forEach((slot) => slot.classList.remove("color"));
-  document
-    .querySelectorAll(`.slot_${index}`)
-    .forEach((slot) => slot.classList.add("color"));
+  document.querySelectorAll(`.comic_slot`).forEach((slot) => slot.classList.remove("color"));
+  document.querySelectorAll(`.slot_${index}`).forEach((slot) => slot.classList.add("color"));
 }
 
 function sammySays(index, number_of_comics) {
@@ -55,10 +51,6 @@ document.addEventListener("DOMContentLoaded", () => {
       highlightSlot(middleSlide, number_of_comics);
     },
   });
-  document
-    .querySelector(".previous_slot")
-    .addEventListener("click", () => comicSlots.prev());
-  document
-    .querySelector(".next_slot")
-    .addEventListener("click", () => comicSlots.next());
+  document.querySelector(".previous_slot").addEventListener("click", () => comicSlots.prev());
+  document.querySelector(".next_slot").addEventListener("click", () => comicSlots.next());
 });
