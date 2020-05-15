@@ -22,21 +22,7 @@ module.exports = {
       },
       {
         test: /\.scss$/,
-        use: [
-          MiniCssExtractPlugin.loader,
-          "css-loader",
-          "postcss-loader",
-          "sass-loader",
-        ],
-      },
-      {
-        test: /\.(png|jpg|gif)$/,
-        use: [
-          {
-            loader: "url-loader",
-            options: {},
-          },
-        ],
+        use: [MiniCssExtractPlugin.loader, "css-loader", "postcss-loader", "sass-loader"],
       },
     ],
   },
@@ -46,9 +32,4 @@ module.exports = {
       chunkFilename: "[id].css",
     }),
   ],
-  resolve: {
-    alias: {
-      "@": path.resolve(__dirname, "./static"),
-    },
-  },
 };
