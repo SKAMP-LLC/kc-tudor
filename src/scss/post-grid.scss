@@ -1,12 +1,18 @@
 main.site-main {
   .divider {
-    display: none;
+    @include image-link;
     background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/divider_news.png");
+    margin-bottom: $default-margin;
+    height: 7px;
+    width: 200px;
   }
 
   .more-news {
-    display: none;
+    @include image-link;
     background-image: url("https://kemono.cafe/wp-content/uploads/2020/05/divider_more_news.png");
+    margin-top: $default-margin;
+    height: 7px;
+    width: 200px;
   }
 
   .article-container {
@@ -63,9 +69,8 @@ main.site-main {
     .divider,
     .more-news {
       display: block !important;
-      height: 27px;
-      width: 818px;
-      margin-bottom: $default-margin;
+      height: 17px;
+      width: 500px;
     }
     .article-container {
       flex-direction: row;
@@ -86,6 +91,12 @@ main.site-main {
   }
 
   @include respond-to("lg") {
+    .divider,
+    .more-news {
+      display: block !important;
+      height: 26px;
+      width: 780px;
+    }
     .article-container {
       article {
         img {
