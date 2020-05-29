@@ -10,7 +10,7 @@ main.site-main {
   .more-news {
     @include image-link;
     background-image: url("https://kemono.cafe/wp-content/uploads/2020/05/divider_more_news.png");
-    margin-top: $default-margin;
+    margin: $default-margin 0;
     height: 7px;
     width: 200px;
   }
