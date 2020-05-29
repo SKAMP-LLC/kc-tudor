@@ -30,7 +30,6 @@ get_header(); ?>
     <main id="main" class="site-main" role="main">
       <div class="divider"></div>
 
-
       <?php if ( have_posts() ) : ?>
 
       <?php if ( is_home() && ! is_front_page() ) : ?>
@@ -57,6 +56,7 @@ get_header(); ?>
           endif;
           ?>
       </div><!-- .article-container -->
+      <a href="http://kemono-cafe.local/post-archive/" class="more-news"></a>
       <div class="bottom-content-desktop">
         <script type="text/javascript" src="https://www.comicad.net/r/6Bcj0095JF/"></script>
       </div>

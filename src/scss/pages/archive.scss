@@ -1,20 +1,30 @@
-main.site-main {
-  .divider {
-    display: none;
-    background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/divider_news.png");
+.archive-page {
+  .sort-container {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
   }
 
-  .more-news {
-    display: none;
-    background-image: url("https://kemono.cafe/wp-content/uploads/2020/05/divider_more_news.png");
+  @include respond-to("md") {
+    .sort-container {
+      align-content: flex-start;
+      flex-direction: row;
+      justify-content: space-evenly;
+      section {
+        margin: $default-margin;
+      }
+    }
   }
+}
 
+.archive-template {
   .article-container {
     justify-content: center;
     display: flex;
     flex-direction: column;
-    width: 100%;
-
+    flex-wrap: wrap;
     article {
       color: $kemono_brown;
       padding-bottom: $default-padding;
@@ -53,40 +63,9 @@ main.site-main {
         padding: 0 $default-padding;
       }
     }
-  }
 
-  nav.navigation.pagination {
-    display: none;
-  }
-
-  @include respond-to("md") {
-    .divider,
-    .more-news {
-      display: block !important;
-      height: 27px;
-      width: 818px;
-      margin-bottom: $default-margin;
-    }
-    .article-container {
+    @include respond-to("md") {
       flex-direction: row;
-      flex-wrap: wrap;
-
-      article {
-        img {
-          height: 116px !important;
-          width: 208px !important;
-        }
-        .entry-title,
-        .posted-on {
-          font-size: 0.9em;
-        }
-        padding: 0 $default-padding $default-padding 0;
-      }
-    }
-  }
-
-  @include respond-to("lg") {
-    .article-container {
       article {
         img {
           height: 131px !important;

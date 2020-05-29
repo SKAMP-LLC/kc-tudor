@@ -23,6 +23,8 @@ get_header(); ?>
           get_template_part( 'template-parts/content', 'page-world' );
         else if(is_page('About'))
           get_template_part( 'template-parts/content', 'page-about' );
+        else if(is_page('Post Archive'))
+          get_template_part( 'template-parts/content', 'page-archive' );
         else if(is_page('KatBox Inn'))
           get_template_part( 'template-parts/content', 'page-katboxinn' );
         else
