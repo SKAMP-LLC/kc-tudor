@@ -66,8 +66,9 @@ header.site-header {
       li {
         a {
           @include image-link;
-          height: 60px;
-          width: 60px;
+          height: 55px;
+          margin: 0 $default-margin / 2;
+          width: 55px;
 
           span {
             display: none;
@@ -83,7 +84,7 @@ header.site-header {
 
       li:nth-child(2n) {
         a {
-          background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/social_tumblr.png");
+          background-image: url("https://kemono.cafe/wp-content/uploads/2020/06/social_pintrest.png");
         }
       }
 
@@ -104,6 +105,11 @@ header.site-header {
           background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/social_patreon.png");
         }
       }
+      li:nth-child(6n) {
+        a {
+          background-image: url("https://kemono.cafe/wp-content/uploads/2020/06/social_mail.png");
+        }
+      }
     }
   }
 
@@ -118,8 +124,9 @@ header.site-header {
       li {
         padding: 0 1em !important;
         a {
-          height: 75px !important;
-          width: 75px !important;
+          height: 65px !important;
+          margin: 0 !important;
+          width: 65px !important;
         }
       }
     }
@@ -148,8 +155,8 @@ header.site-header {
       li {
         padding: 0 !important;
         a {
-          height: 75px !important;
-          width: 75px !important;
+          height: 65px !important;
+          width: 65px !important;
         }
       }
     }
