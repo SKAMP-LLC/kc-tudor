@@ -56,7 +56,12 @@ get_header(); ?>
           endif;
           ?>
       </div><!-- .article-container -->
-      <a href="http://kemono.cafe/post-archive/" class="more-news"></a>
+      <div class="archive-bar">
+        <a href="https://kemono.cafe/category/story/" class="more-story"></a>
+        <a class="middle-divider"></a>
+        <a href="https://kemono.cafe/category/news/" class="more-news"></a>
+      </div>
+      
       <div class="bottom-content-desktop">
         <script type="text/javascript" src="https://www.comicad.net/r/6Bcj0095JF/"></script>
       </div>

@@ -21,6 +21,7 @@
 
 .archive-template {
   .article-container {
+    text-align: center;
     justify-content: center;
     display: flex;
     flex-direction: column;
@@ -67,6 +68,7 @@
     @include respond-to("md") {
       flex-direction: row;
       article {
+        text-align: left;
         img {
           height: 131px !important;
           width: 234px !important;
