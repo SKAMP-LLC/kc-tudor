@@ -1,0 +1,176 @@
+// Don't display the placeholders.
+emote {
+  display: none;
+}
+
+.emote_wrapper {
+  align-items: center;
+  display: flex;
+  margin-bottom: 1em;
+  width: 100%;
+
+  .emote {
+    img {
+      height: 150px;
+      width: 157px;
+    }
+  
+    .nameplate {
+      display: block;
+      text-align: center;
+    }
+  }
+
+  .dialog {
+    background-color: $steve_paste;
+    border-radius: 20px;
+    color: $off_black;
+    font-size: 1.25em;
+    margin-top: 2em;
+    max-width: 55%;
+    padding: 1em;
+    position: relative;
+
+    // Balloon arrow
+    &::after {
+      border-color: $steve_paste transparent transparent transparent;
+      border-style: solid;
+      border-width: 12px 12px 12px 12px;
+      content: "";
+      position: absolute;
+      top: 30px;
+    }
+  }
+}
+
+.emote_wrapper.left {
+  justify-content: flex-start;
+
+  .emote {
+    img {
+      -moz-transform: scaleX(-1);
+      -ms-filter: "FlipH";
+      -o-transform: scaleX(-1);
+      -webkit-transform: scaleX(-1);
+      filter: FlipH;
+      transform: scaleX(-1);
+    }
+  }
+
+  .dialog {
+    &::after {
+      left: -10px;
+    }
+  }
+}
+
+.emote_wrapper.right {
+  justify-content: flex-end;
+
+  .dialog {
+    &::after {
+      right: -10px;
+    }
+  }
+}
+
+// Sandy dialog
+.sandy {
+  .dialog {
+    background-color: $sandy_peach;
+    color: $off_white;
+
+    &::after {
+      border-color: $sandy_peach transparent transparent transparent;
+    }
+  }
+
+  .nameplate {
+    color: $sandy_peach;
+  }
+}
+
+// Kona dialog
+.kona {
+  .dialog {
+    background-color: $kona_red;
+    color: $off_white;
+
+    &::after {
+      border-color: $kona_red transparent transparent transparent;
+    }
+  }
+
+  .nameplate {
+    color: $kona_red;
+  }
+}
+
+// Miko dialog
+.miko {
+  .dialog {
+    background-color: $miko_blue;
+    color: $off_white;
+
+    &::after {
+      border-color: $miko_blue transparent transparent transparent;
+    }
+  }
+
+  .nameplate {
+    color: $miko_blue;
+  }
+}
+
+// Maxine dialog
+.maxine {
+  .dialog {
+    background-color: $maxine_green;
+    color: $off_white;
+
+    &::after {
+      border-color: $maxine_green transparent transparent transparent;
+    }
+  }
+
+  .nameplate {
+    color: $maxine_green;
+  }
+}
+
+// Jill dialog
+.jill {
+  .dialog {
+    background-color: $jill_orange;
+    color: $off_white;
+
+    &::after {
+      border-color: $jill_orange transparent transparent transparent;
+    }
+  }
+
+  .nameplate {
+    color: $jill_orange;
+  }
+}
+
+@include respond-to("md") {
+  .emote_wrapper.left {
+    padding-left: 3em;
+
+    .emote {
+      margin-right: 1em;
+    }
+  }
+
+  .emote_wrapper.right {
+    padding-right: 3em;
+
+    .emote {
+      margin-left: 1em;
+    }
+  }
+}
+
+@include respond-to("lg") {
+}

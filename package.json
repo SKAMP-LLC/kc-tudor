@@ -38,6 +38,7 @@
     "webpack-cli": "^3.3.11"
   },
   "dependencies": {
+    "mustache": "^4.0.1",
     "siema": "^1.5.1"
   }
 }
