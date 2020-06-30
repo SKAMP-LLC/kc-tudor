@@ -1,5 +1,14 @@
 stages:
+  - lint
   - deploy
+
+lint:
+  image: node:14
+  stage: lint
+  before_script:
+  - npm install
+  script:
+  - time npm run lint
 
 deploy:
   image: node:14

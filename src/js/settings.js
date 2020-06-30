@@ -1,3 +1,3 @@
 export default {
-  apiURL: "https://emote.kemono.cafe/emote"
-}
+  apiURL: 'https://emote.kemono.cafe/emote'
+};
