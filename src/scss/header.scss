@@ -67,7 +67,6 @@ header.site-header {
         a {
           @include image-link;
           height: 55px;
-          margin: 0 $default-margin / 2;
           width: 55px;
 
           span {
