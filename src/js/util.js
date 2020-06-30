@@ -45,7 +45,7 @@ export function callAPI(char, emotion) {
     }
   })
   .then(readResponseAsBlob)
-  .then(createURL)
+  .then(createURL);
 }
 
 export function getTemplate(key) {
