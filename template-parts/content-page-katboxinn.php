@@ -51,6 +51,9 @@
 
       <h2> &middot; FOX.n.ROLL &middot; </h2>
       <a href="https://www.furaffinity.net/gallery/fox-pop/folder/688314/01-I-wont-go-in-Vietnam">Truck Off - https://www.furaffinity.net/gallery/fox-pop/folder/688314/01-I-wont-go-in-Vietnam</a>
+
+      <h2> &middot; NotImportant &middot; </h2>
+      <a href="https://replaycomic.com/"><img src="https://kemono.cafe/wp-content/uploads/2020/06/replay-banner.png" alt="Replay Comic"></a>
     </div>
   </div>
 </article>
