@@ -1,12 +1,12 @@
-import { callAPI, getTemplate } from "./util.js";
-import Mustache from "mustache";
+import { callAPI, getTemplate } from './util.js';
+import Mustache from 'mustache';
 const leftEmoticonTemplate = getTemplate('left');
 const rightEmoticonTemplate = getTemplate('right');
 
 const modifyDOM = (emote) => {
-  let { character, dialog, direction, element, emotion, name, objectURL } = emote;
+  const { character, dialog, direction, element, emotion, name, objectURL } = emote;
 
-  let view = {
+  const view = {
     character_name: name || character.charAt(0).toUpperCase() + character.toLowerCase().slice(1),
     character_name_class: character.toLowerCase(),
     character_dialog: dialog,
@@ -30,19 +30,19 @@ const getAttributes = (element) => {
     element: element,
     emotion: attributes.getNamedItem('emotion') ? attributes.getNamedItem('emotion').value : null,
     name: attributes.getNamedItem('name') ? attributes.getNamedItem('name').value : null,
-  }; 
-}
+  };
+};
 
-const getEmoteData = async(element) => {
-  let emoteData = getAttributes(element);
+const getEmoteData = async (element) => {
+  const emoteData = getAttributes(element);
   emoteData.objectURL = await callAPI(emoteData.character, emoteData.emotion);
   return emoteData;
-}
+};
 
-document.addEventListener("DOMContentLoaded", () => {
-  let elements = Array.from(document.getElementsByTagName("emote"));
+document.addEventListener('DOMContentLoaded', () => {
+  const elements = Array.from(document.getElementsByTagName('emote'));
   Promise.all(elements.map((element) => getEmoteData(element)))
-  .then((emoteData) => {
-    emoteData.map((emote) => modifyDOM(emote));
-  });
+    .then((emoteData) => {
+      emoteData.map((emote) => modifyDOM(emote));
+    });
 });
