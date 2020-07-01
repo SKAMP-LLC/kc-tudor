@@ -54,6 +54,7 @@
 
       <h2> &middot; NotImportant &middot; </h2>
       <a href="https://replaycomic.com/"><img src="https://kemono.cafe/wp-content/uploads/2020/06/replay-banner.png" alt="Replay Comic"></a>
+      <a href="https://replaycomic.com/">Replay Comic</a>
     </div>
   </div>
 </article>
