@@ -17,11 +17,12 @@
       <a href="https://replaycomic.com/"><img src="https://kemono.cafe/wp-content/uploads/2020/06/replay-banner.png" alt="Replay Comic"></a>
       <a href="https://replaycomic.com/">Replay Comic</a>
 
+      <h2> &middot; RazorFox &middot; </h2>
+      <a href="https://www.draconiachronicles.com/"><img src="https://kemono.cafe/wp-content/uploads/2020/07/dc-banner.jpg" alt="The Draconia Chronicles"></a>
+      <a href="https://www.draconiachronicles.com/">The Draconia Chronicles - https://www.draconiachronicles.com/</a>
+
       <h2> &middot; Nixie the Art Seal &middot; </h2>
       <a href="https://www.webtoons.com/en/challenge/debunkers/list?title_no=148475">Debunkers - https://www.webtoons.com/en/challenge/debunkers/list?title_no=148475</a>
-
-      <h2> &middot; RazorFox &middot; </h2>
-      <a href="https://www.draconiachronicles.com/">The Draconia Chronicles - https://www.draconiachronicles.com/</a>
 
       <h2> &middot; Sage &middot; </h2>
       <a href="https://www.yoshsaga.com/">Yosh! Saga - https://www.yoshsaga.com</a>
