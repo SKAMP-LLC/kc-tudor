@@ -37,11 +37,10 @@ export function callAPI (char, emotion) {
     return response.blob();
   }
 
-  return fetch(settings.apiURL, {
+  const url = new URL(`${settings.apiURL}`);
+  url.searchParams.append('key', `${char}_${emotion}`);
+  return fetch(url, {
     method: 'GET',
-    headers: {
-      key: `${char}_${emotion}`,
-    }
   })
     .then(readResponseAsBlob)
     .then(createURL);
