@@ -29,21 +29,11 @@ export function refreshImage (el) {
 }
 
 export function callAPI (char, emotion) {
-  function createURL (response) {
-    return URL.createObjectURL(response);
-  }
-
-  function readResponseAsBlob (response) {
-    return response.blob();
-  }
-
   const url = new URL(`${settings.apiURL}`);
   url.searchParams.append('key', `${char}_${emotion}`);
   return fetch(url, {
     method: 'GET',
-  })
-    .then(readResponseAsBlob)
-    .then(createURL);
+  });
 }
 
 export function getTemplate (key) {
@@ -51,7 +41,7 @@ export function getTemplate (key) {
     case 'left':
       return `<div class="emote_wrapper left {{{character_name_class}}}">
                 <div class="emote">
-                  <img id="{{{uuid}}}" src="{{{objectURL}}}" />
+                  <img id="{{{uuid}}}" src="{{{URL}}}" />
                   <span class="nameplate">{{{character_name}}}</span>
                 </div>
                 <div class="dialog">{{{character_dialog}}}</div>
@@ -60,7 +50,7 @@ export function getTemplate (key) {
       return `<div class="emote_wrapper right {{{character_name_class}}}">
                 <div class="dialog">{{{character_dialog}}}</div>
                 <div class="emote">
-                  <img id="{{{uuid}}}" src="{{{objectURL}}}" />
+                  <img id="{{{uuid}}}" src="{{{URL}}}" />
                   <span class="nameplate">{{{character_name}}}</span>
                 </div>
               </div>`;
