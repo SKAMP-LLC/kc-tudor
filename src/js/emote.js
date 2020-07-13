@@ -4,7 +4,7 @@ const leftEmoticonTemplate = getTemplate('left');
 const rightEmoticonTemplate = getTemplate('right');
 
 const modifyDOM = (emote) => {
-  const { character, dialog, direction, element, emotion, name, url } = emote;
+  const { character, dialog, side, element, emotion, name, url } = emote;
 
   const view = {
     character_name: name || character.charAt(0).toUpperCase() + character.toLowerCase().slice(1),
@@ -15,7 +15,7 @@ const modifyDOM = (emote) => {
   };
 
   const emoteMarkup = Mustache.render(
-    direction === 'left' ? leftEmoticonTemplate : rightEmoticonTemplate, view, 'utf8'
+    side === 'left' ? leftEmoticonTemplate : rightEmoticonTemplate, view, 'utf8'
   );
 
   element.outerHTML = emoteMarkup;
@@ -26,7 +26,7 @@ const getEmoteData = (element) => {
   const emoteData = {
     character: attributes.getNamedItem('character') ? attributes.getNamedItem('character').value : null,
     dialog: element.innerHTML,
-    direction: attributes.getNamedItem('direction') ? attributes.getNamedItem('direction').value : null,
+    side: attributes.getNamedItem('side') ? attributes.getNamedItem('side').value : null,
     element: element,
     emotion: attributes.getNamedItem('emotion') ? attributes.getNamedItem('emotion').value : null,
     name: attributes.getNamedItem('name') ? attributes.getNamedItem('name').value : null,
