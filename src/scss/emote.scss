@@ -27,7 +27,7 @@ emote {
     color: $off_black;
     font-size: 1.25em;
     margin-top: 2em;
-    max-width: 55%;
+    max-width: 485px;
     padding: 1em;
     position: relative;
 
@@ -47,6 +47,8 @@ emote {
   justify-content: flex-start;
 
   .emote {
+    padding-right: 1em;
+
     img {
       -moz-transform: scaleX(-1);
       -ms-filter: "FlipH";
@@ -66,6 +68,10 @@ emote {
 
 .emote_wrapper.right {
   justify-content: flex-end;
+
+  .emote {
+    padding-left: 1em;
+  }
 
   .dialog {
     &::after {
@@ -155,6 +161,10 @@ emote {
 }
 
 @include respond-to("md") {
+
+}
+
+@include respond-to("lg") {
   .emote_wrapper.left {
     padding-left: 3em;
 
@@ -170,7 +180,4 @@ emote {
       margin-left: 1em;
     }
   }
-}
-
-@include respond-to("lg") {
 }
