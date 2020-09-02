@@ -1,10 +1,20 @@
 main.site-main {
+  .barista {
+    @include image-link;
+    background-image: url("https://kemono.cafe/wp-content/uploads/2020/09/baristas.png");
+    display: none;
+    height: 129px;
+    margin: 0 auto $default-margin * 2;
+    width: 795px;
+  }
+
   .divider {
     @include image-link;
     background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/divider_bulletin.png");
+    display: none;
     margin: 0 auto $default-margin * 2;
-    height: 27px;
-    width: 818px;
+    height: 26px;
+    width: 795px;
   }
 
   .archive-bar {
@@ -84,10 +94,6 @@ main.site-main {
   }
 
   @include respond-to("md") {
-    .divider {
-      height: 17px;
-      width: 500px;
-    }
     .archive-bar {
       flex-direction: row !important;
     }
@@ -110,7 +116,11 @@ main.site-main {
   }
 
   @include respond-to("lg") {
+    .barista {
+     display: block; 
+    }
     .divider {
+      display: block; 
       height: 26px;
       width: 795px;
     }

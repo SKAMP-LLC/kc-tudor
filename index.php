@@ -28,6 +28,11 @@ get_header(); ?>
   <?php get_sidebar(); ?>
   <div id="primary">
     <main id="main" class="site-main" role="main">
+
+      <!-- Barista Patrons Board -->
+      <div class="barista"></div>
+
+      <!-- Bulletin Board Divider -->
       <div class="divider"></div>
 
       <?php if ( have_posts() ) : ?>
