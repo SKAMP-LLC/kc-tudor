@@ -30,7 +30,7 @@ get_header(); ?>
     <main id="main" class="site-main" role="main">
 
       <!-- Barista Patrons Board -->
-      <div class="barista"></div>
+      <a href="https://www.patreon.com/KemonoCafe"><div class="barista"></div></a>
 
       <!-- Bulletin Board Divider -->
       <div class="divider"></div>
