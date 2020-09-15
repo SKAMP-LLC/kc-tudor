@@ -12,6 +12,8 @@
     left: calc(50% - 90px);
   }
 
+
+
   .box {
     background-color: $sandy_peach;
     border-radius: 20px;
@@ -36,48 +38,58 @@
       width: calc(100% - 40px);
     }
 
-    h2 {
-      font-family: "Roboto Slab", serif;
-      font-size: 1em;
-    }
+    section {
+      vertical-align: top;
 
-    a {
-      color: $off_white;
-      display: block;
-      font-size: 0.8em;
-      width: 200px;
-      margin: 0 auto .5em;
-      text-decoration: none;
-    }
+      h2 {
+        font-family: "Roboto Slab", serif;
+        font-size: 1em;
+      }
 
-    img {
-      width: 100%;
+      a {
+        color: $off_white;
+        display: block;
+        font-size: 0.8em;
+        width: 200px;
+        margin: 0 auto .5em;
+        text-decoration: none;
+      }
+
+      img {
+        width: 100%;
+      }
     }
   }
 
   @include respond-to("md") {
-    h2 {
-      font-size: 1.5em !important;
-    }
+    section {
+      display: inline-block;
+      
+      h2 {
+        font-size: 1.5em !important;
+      }
 
-    a {
-      font-size: 1em !important;
-      width: 400px !important;
-    }
+      a {
+        font-size: 1em !important;
+        width: 400px !important;
+      }
 
-    img {
-      height: 200px !important;
-      width: 300px !important;
+      img {
+        height: 200px !important;
+        width: 300px !important;
+      }
     }
   }
 
   @include respond-to("lg") {
-    h2 {
-      font-size: 1.5em !important;
-    }
+    section {
+      h2 {
+        font-size: 1.5em !important;
+      }
 
-    a {
-      font-size: 1em !important;
+      a {
+        font-size: 1em !important;
+      }
     }
   }
 }
