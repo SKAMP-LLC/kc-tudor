@@ -12,8 +12,6 @@
     left: calc(50% - 90px);
   }
 
-
-
   .box {
     background-color: $sandy_peach;
     border-radius: 20px;
@@ -64,7 +62,7 @@
   @include respond-to("md") {
     section {
       display: inline-block;
-      
+
       h2 {
         font-size: 1.5em !important;
       }
