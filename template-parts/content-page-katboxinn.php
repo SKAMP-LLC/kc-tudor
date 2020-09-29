@@ -47,9 +47,6 @@
         <h2> &middot; Chu &middot; </h2>
         <a href="https://www.sdamned.com/"><img src="https://kemono.cafe/wp-content/uploads/2020/09/slightlydamned-banner.png" alt="Slightly Damned"></a>
         <a href="https://www.sdamned.com/">Slightly Damned</a>
-        
-        <a href="https://www.artificialincident.com"><img src="https://kemono.cafe/wp-content/uploads/2020/09/ai-banner.png" alt="Artificial Incident"></a>
-        <a href="https://www.artificialincident.com">Artificial Incident</a>
 
         <h2> &middot; Sage &middot; </h2>
         <a href="https://www.yoshsaga.com/"><img src="https://kemono.cafe/wp-content/uploads/2020/09/yosh-banner.png" alt="Yosh! Saga"></a>
