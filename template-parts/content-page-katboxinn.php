@@ -38,12 +38,19 @@
         <a href="http://www.peterandwhitney.com/">Peter & Whitney - http://www.peterandwhitney.com</a>
 
         <h2> &middot; Sterling (aka SilverBlaze) &middot; </h2>
-        <a href="https://tapas.io/episode/32366">Itsy Bitsy Adventures - https://tapas.io/episode/32366</a>
+        <a href="https://ringtailcafe.com/itsybitsy_webcomic/iba-ch1-00/ ">Itsy Bitsy Adventures - https://ringtailcafe.com/itsybitsy_webcomic/iba-ch1-00/</a>
 
         <h2> &middot; Bone &middot; </h2>
         <a href="https://www.furaffinity.net/view/7966557">False Start - https://www.furaffinity.net/view/7966557</a>
       </section>
       <section>
+        <h2> &middot; Chu &middot; </h2>
+        <a href="https://www.sdamned.com/"><img src="https://kemono.cafe/wp-content/uploads/2020/09/slightlydamned-banner.png" alt="Slightly Damned"></a>
+        <a href="https://www.sdamned.com/">Slightly Damned</a>
+        
+        <a href="https://www.artificialincident.com"><img src="https://kemono.cafe/wp-content/uploads/2020/09/ai-banner.png" alt="Artificial Incident"></a>
+        <a href="https://www.artificialincident.com">Artificial Incident</a>
+
         <h2> &middot; Sage &middot; </h2>
         <a href="https://www.yoshsaga.com/"><img src="https://kemono.cafe/wp-content/uploads/2020/09/yosh-banner.png" alt="Yosh! Saga"></a>
         <a href="https://www.yoshsaga.com/">Yosh! Saga</a>
@@ -69,11 +76,7 @@
 
         <h2> &middot; FOX.n.ROLL &middot; </h2>
         <a href="https://www.furaffinity.net/gallery/fox-pop/folder/688314/01-I-wont-go-in-Vietnam">Truck Off - https://www.furaffinity.net/gallery/fox-pop/folder/688314/01-I-wont-go-in-Vietnam</a>
-
-        <h2> &middot; Itsy Bitsy Adventures  &middot; </h2>
-        <a href="https://ringtailcafe.com/itsybitsy_webcomic/iba-ch1-00/">Itsy Bitsy Adventures - https://ringtailcafe.com/itsybitsy_webcomic/iba-ch1-00/</a>
       </section>
-
     </div>
   </div>
 </article>
