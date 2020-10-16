@@ -1,17 +1,15 @@
 section.content {
-  align-content: center;
-  justify-content: space-between;
   display: flex;
+  justify-content: space-between;
+  justify-content: center;
   margin-top: $default-margin;
 
   #primary {
-    width: 45%;
+    width: 55%;
   }
 
   #secondary {
     width: 45%;
-    min-width: 190px !important;
-    max-width: 240px !important;
   }
 
   .bottom-content-desktop {

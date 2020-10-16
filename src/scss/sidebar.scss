@@ -3,7 +3,6 @@
     background-color: $kemono-brown;
     border-radius: $default-border-radius;
     color: $off_white;
-    padding: $default-padding;
 
     a {
       color: $off_white;
@@ -44,6 +43,9 @@
   }
 
   @include respond-to("md") {
+    .widget_custom-twitter-feeds-widget {
+      padding: $default-padding;
+    }
   }
 
   @include respond-to("lg") {

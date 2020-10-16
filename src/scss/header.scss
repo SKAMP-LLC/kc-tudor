@@ -49,14 +49,14 @@ header.site-header {
 
         a::after {
           content: "\00B7";
-          padding-left: 10px;
+          padding-left: 5px;
         }
       }
 
       li:last-child {
         a::after {
           content: none;
-          padding-right: 10px;
+          padding-right: 5px;
         }
       }
     }
@@ -66,8 +66,8 @@ header.site-header {
       li {
         a {
           @include image-link;
-          height: 55px;
-          width: 55px;
+          height: 50px;
+          width: 50px;
 
           span {
             display: none;
