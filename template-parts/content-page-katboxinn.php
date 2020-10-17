@@ -62,9 +62,6 @@
         <a href="https://mousechievous.studiokhimera.com/"><img src="https://kemono.cafe/wp-content/uploads/2020/09/mousechievous-banner.png" alt="Mousechievous"></a>
         <a href="https://mousechievous.studiokhimera.com/">Mousechievous</a>
 
-        <h2> &middot; Sahtori &middot; </h2>
-        <a href="https://ethereal-realms.com/">https://ethereal-realms.com - Oasis (WIP)</a>
-
         <h2> &middot; Snowdon &middot; </h2>
         <a href="http://www.thesprawlcomic.com/">The Sprawl - http://www.thesprawlcomic.com</a>
 
