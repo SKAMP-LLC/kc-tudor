@@ -54,5 +54,9 @@
       <div class="thumbnail"></div>
       <span>Katbox Inn</span>
     </a>
+    <a href="https://knuckle-up.kemono.cafe" class="comic_list_item slot_12">
+      <div class="thumbnail"></div>
+      <span>Knuckle Up</span>
+    </a>
   </div>
 </section>

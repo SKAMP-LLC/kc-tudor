@@ -35,22 +35,24 @@ function sammySays (index, numberOfComics) {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-  const numberOfComics = 13;
-  const comicSlots = new Siema({
-    perPage: 5,
-    loop: true,
-    startIndex: Math.floor(Math.random() * numberOfComics),
-    onInit: function () {
-      const middleSlide = this.currentSlide + 2;
-      sammySays(middleSlide, numberOfComics);
-      highlightSlot(middleSlide, numberOfComics);
-    },
-    onChange: function () {
-      const middleSlide = this.currentSlide + 2;
-      sammySays(middleSlide, numberOfComics);
-      highlightSlot(middleSlide, numberOfComics);
-    },
-  });
-  document.querySelector('.previous_slot').addEventListener('click', () => comicSlots.prev());
-  document.querySelector('.next_slot').addEventListener('click', () => comicSlots.next());
+  if (document.body.contains(document.querySelector('.siema'))) {
+    const numberOfComics = 14;
+    const comicSlots = new Siema({
+      perPage: 5,
+      loop: true,
+      startIndex: Math.floor(Math.random() * numberOfComics),
+      onInit: function () {
+        const middleSlide = this.currentSlide + 2;
+        sammySays(middleSlide, numberOfComics);
+        highlightSlot(middleSlide, numberOfComics);
+      },
+      onChange: function () {
+        const middleSlide = this.currentSlide + 2;
+        sammySays(middleSlide, numberOfComics);
+        highlightSlot(middleSlide, numberOfComics);
+      },
+    });
+    document.querySelector('.previous_slot').addEventListener('click', () => comicSlots.prev());
+    document.querySelector('.next_slot').addEventListener('click', () => comicSlots.next());
+  }
 });
