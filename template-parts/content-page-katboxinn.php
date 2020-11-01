@@ -44,10 +44,6 @@
         <h2> &middot; Sterling (aka SilverBlaze) &middot; </h2>
         <a href="https://ringtailcafe.com/itsybitsy_webcomic/iba-ch1-00/"><img src="https://kemono.cafe/wp-content/uploads/2020/11/iba-banner.png" alt="Itsy Bitsy Adventures"></a>
         <a href="https://ringtailcafe.com/itsybitsy_webcomic/iba-ch1-00/">Itsy Bitsy Adventures</a>
-
-        <h2> &middot; Bone &middot; </h2>
-        <a href="https://www.furaffinity.net/view/7966557"><img src="https://kemono.cafe/wp-content/uploads/2020/11/falsestart-banner.jpg" alt="False Start"></a>
-        <a href="https://www.furaffinity.net/view/7966557">False Start</a>
       </section>
       <section>
         <h2> &middot; Chu &middot; </h2>
@@ -75,6 +71,10 @@
         <h2> &middot; FOX-POP &middot; </h2>
         <a href="https://www.furaffinity.net/gallery/fox-pop/folder/688314/01-I-wont-go-in-Vietnam"><img src="https://kemono.cafe/wp-content/uploads/2020/11/truckoff-banner.jpg" alt="Truck Off"></a>
         <a href="https://www.furaffinity.net/gallery/fox-pop/folder/688314/01-I-wont-go-in-Vietnam">Truck Off</a>
+
+        <h2> &middot; Bone &middot; </h2>
+        <a href="https://www.furaffinity.net/view/7966557"><img src="https://kemono.cafe/wp-content/uploads/2020/11/falsestart-banner.jpg" alt="False Start"></a>
+        <a href="https://www.furaffinity.net/view/7966557">False Start</a>
       </section>
     </div>
   </div>
