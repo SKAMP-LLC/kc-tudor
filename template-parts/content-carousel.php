@@ -64,8 +64,12 @@
       <a href="http://dbcomics.darkblueworkshop.com/bethellium/"></a>
     </div>
     <div class="comic_slot slot_13" data-title="Knuckle Up" data-rating="Mature"
-      data-description="After an incident involving an inexperienced space wizard, things got wierd for space bounty hunters Hawk and Rushana. Now, in order to revert the 	&ldquo;curse&rdquo;, they must embark on a quest spanning the galaxy... Hang in there Hawke, you're not as hot as you think you look!">
+      data-description="After an incident involving an inexperienced space wizard, things got weird for space bounty hunters Hawk and Rushana. Now, in order to revert the 	&ldquo;curse&rdquo;, they must embark on a quest spanning the galaxy... Hang in there Hawke, you're not as hot as you think you look!">
       <a href="https://knuckle-up.kemono.cafe"></a>
+    </div>
+    <div class="comic_slot slot_14" data-title="Kemono Cafe Stories" data-rating="Rated PG-13"
+      data-description="Did you know Kemono Cafe has a story of its own? I admit I'm a little biased, but I like it a lot! Catch up here!">
+      <a href="https://kemono.cafe/category/story/"></a>
     </div>
     <div class="comic_slot slot_0" data-title="iMew" data-rating="Rated PG-13"
       data-description="Ever think your phone's controlling your life? Sammy sure feels that way! After purchasing a mysterious knock-off phone, she's discovered the apps control a little more than you or I would expect! Now she has to get her life back before the battery runs out!">
@@ -120,8 +124,12 @@
       <a href="http://dbcomics.darkblueworkshop.com/bethellium/"></a>
     </div>
     <div class="comic_slot slot_13" data-title="Knuckle Up" data-rating="Mature"
-      data-description="After an incident involving an inexperienced space wizard, things got wierd for space bounty hunters Hawk and Rushana. Now, in order to revert the 	&ldquo;curse&rdquo;, they must embark on a quest spanning the galaxy... Hang in there Hawke, you're not as hot as you think you look!">
+      data-description="After an incident involving an inexperienced space wizard, things got weird for space bounty hunters Hawk and Rushana. Now, in order to revert the 	&ldquo;curse&rdquo;, they must embark on a quest spanning the galaxy... Hang in there Hawke, you're not as hot as you think you look!">
       <a href="https://knuckle-up.kemono.cafe"></a>
+    </div>
+    <div class="comic_slot slot_14" data-title="Kemono Cafe Stories" data-rating="Rated PG-13"
+      data-description="Did you know Kemono Cafe has a story of its own? I admit I'm a little biased, but I like it a lot! Catch up here!">
+      <a href="https://kemono.cafe/category/story/"></a>
     </div>
     <div class="comic_slot slot_0" data-title="iMew" data-rating="Rated PG-13"
       data-description="Ever think your phone's controlling your life? Sammy sure feels that way! After purchasing a mysterious knock-off phone, she's discovered the apps control a little more than you or I would expect! Now she has to get her life back before the battery runs out!">
@@ -176,8 +184,12 @@
       <a href="http://dbcomics.darkblueworkshop.com/bethellium/"></a>
     </div>
     <div class="comic_slot slot_13" data-title="Knuckle Up" data-rating="Mature"
-      data-description="After an incident involving an inexperienced space wizard, things got wierd for space bounty hunters Hawk and Rushana. Now, in order to revert the 	&ldquo;curse&rdquo;, they must embark on a quest spanning the galaxy... Hang in there Hawke, you're not as hot as you think you look!">
+      data-description="After an incident involving an inexperienced space wizard, things got weird for space bounty hunters Hawk and Rushana. Now, in order to revert the 	&ldquo;curse&rdquo;, they must embark on a quest spanning the galaxy... Hang in there Hawke, you're not as hot as you think you look!">
       <a href="https://knuckle-up.kemono.cafe"></a>
+    </div>
+    <div class="comic_slot slot_14" data-title="Kemono Cafe Stories" data-rating="Rated PG-13"
+      data-description="Did you know Kemono Cafe has a story of its own? I admit I'm a little biased, but I like it a lot! Catch up here!">
+      <a href="https://kemono.cafe/category/story/"></a>
     </div>
   </div>
   <div class="control next_slot"></div>
