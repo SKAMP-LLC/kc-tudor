@@ -102,6 +102,24 @@
     }
   }
 
+  .slot_12 {
+    div.thumbnail {
+      background-image: url("https://kemono.cafe/wp-content/uploads/2020/05/comic_bethellium.png");
+    }
+  }
+
+  .slot_13 {
+    div.thumbnail {
+      background-image: url("https://kemono.cafe/wp-content/uploads/2020/10/comic_knuckleup.png");
+    }
+  }
+
+  .slot_14 {
+    div.thumbnail {
+      background-image: url("https://kemono.cafe/wp-content/uploads/2020/11/comic_kemonocafe.jpg");
+    }
+  }
+
   @include respond-to("md") {
     display: none;
   }

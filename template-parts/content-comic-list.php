@@ -54,9 +54,17 @@
       <div class="thumbnail"></div>
       <span>Katbox Inn</span>
     </a>
-    <a href="https://knuckle-up.kemono.cafe" class="comic_list_item slot_12">
+    <a href="http://dbcomics.darkblueworkshop.com/bethellium/" class="comic_list_item slot_12">
+      <div class="thumbnail"></div>
+      <span>Bethellium</span>
+    </a>
+    <a href="https://knuckle-up.kemono.cafe" class="comic_list_item slot_13">
       <div class="thumbnail"></div>
       <span>Knuckle Up</span>
+    </a>
+    <a href="https://kemono.cafe/category/story/" class="comic_list_item slot_14">
+      <div class="thumbnail"></div>
+      <span>Kemono Cafe Stories</span>
     </a>
   </div>
 </section>
