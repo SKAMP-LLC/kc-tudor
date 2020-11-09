@@ -9,10 +9,12 @@ get_header(); ?>
   <?php if ( have_posts() ) : ?>
     <header class="page-header">
       <?php
-        the_archive_title( '<h1 class="page-title">', '</h1>' );
         the_archive_description( '<div class="taxonomy-description">', '</div>' );
       ?>
     </header><!-- .page-header -->
+
+    <a href="https://www.topwebcomics.com/vote/25775 "><img class="twc" src="https://kemono.cafe/wp-content/uploads/2020/11/kc-vote-banner.gif" alt=""></a>
+    <h1>Kemono Cafe</h1>
 
     <div class="article-container">
     <?php
