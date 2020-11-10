@@ -31,6 +31,18 @@
       margin: 0 !important;
       padding: $default-padding 0 !important;
     }
+
+    .ctf-reply, .ctf-retweet, .ctf-like {
+      color: $off_white !important;
+    }
+
+    #ctf-more {
+      display: none !important;
+    }
+
+    .ctf-context {
+      margin-left: 0 !important;
+    }
   }
 
   .custom-html-widget {
