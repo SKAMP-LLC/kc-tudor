@@ -107,6 +107,19 @@ function tudor_setup() {
   }
   add_action('get_header', 'remove_admin_login_header');
 
+  // Allow emote html in posts.
+  function allow_emotes_in_posts() {
+    global $allowedposttags;
+
+    $allowedposttags['emote'] = array(
+      'character' => array(),
+      'emotion' => array(),
+      'side' => array(),
+      'name' => array(),
+    );
+  }
+  add_action('init', 'allow_emotes_in_posts');
+
 	/*
 	 * Enable support for Post Formats.
 	 *
