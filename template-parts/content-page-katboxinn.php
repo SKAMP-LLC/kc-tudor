@@ -46,6 +46,10 @@
         <a href="https://ringtailcafe.com/itsybitsy_webcomic/iba-ch1-00/">Itsy Bitsy Adventures</a>
       </section>
       <section>
+        <h2> &middot; Jan &middot; </h2>
+        <a href="https://www.tigerknight.com/"><img src="https://kemono.cafe/wp-content/uploads/2020/11/Jans-Comics-Banner.png" alt="Jans Comics"></a>
+        <a href="https://www.tigerknight.com/">Jan's Comics</a>
+
         <h2> &middot; Chu &middot; </h2>
         <a href="https://www.sdamned.com/"><img src="https://kemono.cafe/wp-content/uploads/2020/09/slightlydamned-banner.png" alt="Slightly Damned"></a>
         <a href="https://www.sdamned.com/">Slightly Damned</a>
