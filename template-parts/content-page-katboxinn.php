@@ -14,6 +14,10 @@
       <div class="inn_sign"></div>
 
       <section>
+        <h2> &middot; Virmir &middot; </h2>
+        <a href="https://crimsonflagcomic.com/"><img src="https://kemono.cafe/wp-content/uploads/2020/12/cfbanner_300x200.png" alt="Crimson Flag"></a>
+        <a href="https://crimsonflagcomic.com/">Crimson Flag</a>
+
         <h2> &middot; Kenno Arkkan &middot; </h2>
         <a href="https://www.mylifewithfel.com/index"><img src="https://kemono.cafe/wp-content/uploads/2020/09/mlwf-banner.jpg" alt="My Life With Fel"></a>
         <a href="https://www.mylifewithfel.com/index">My Life With Fel</a>
