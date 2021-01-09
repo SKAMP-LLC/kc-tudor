@@ -15,7 +15,7 @@
 
       <section>
 
-        <h2> &middot; Evon Banner &middot; </h2>
+        <h2> &middot; Bri Shepard &middot; </h2>
         <a href="http://evoncomics.com/"><img src="https://kemono.cafe/wp-content/uploads/2021/01/Evon-Banner.jpg" alt="Evon Comics"></a>
         <a href="http://evoncomics.com/">Evon Comics</a>
 
