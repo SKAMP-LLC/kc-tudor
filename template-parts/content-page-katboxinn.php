@@ -14,6 +14,11 @@
       <div class="inn_sign"></div>
 
       <section>
+
+        <h2> &middot; Evon Banner &middot; </h2>
+        <a href="http://evoncomics.com/"><img src="https://kemono.cafe/wp-content/uploads/2021/01/Evon-Banner.jpg" alt="Evon Comics"></a>
+        <a href="http://evoncomics.com/">Evon Comics</a>
+
         <h2> &middot; Virmir &middot; </h2>
         <a href="https://crimsonflagcomic.com/"><img src="https://kemono.cafe/wp-content/uploads/2020/12/cfbanner_300x200.png" alt="Crimson Flag"></a>
         <a href="https://crimsonflagcomic.com/">Crimson Flag</a>
@@ -50,6 +55,11 @@
         <a href="https://ringtailcafe.com/itsybitsy_webcomic/iba-ch1-00/">Itsy Bitsy Adventures</a>
       </section>
       <section>
+
+        <h2> &middot; Wukrii &middot; </h2>
+        <a href="https://www.wukrii.com/"><img src="https://kemono.cafe/wp-content/uploads/2021/01/Wukrii-Banner.png" alt="Wukrii"></a>
+        <a href="https://www.wukrii.com/">Wukrii</a>
+
         <h2> &middot; Jan &middot; </h2>
         <a href="https://www.tigerknight.com/"><img src="https://kemono.cafe/wp-content/uploads/2020/11/Jans-Comics-Banner.png" alt="Jans Comics"></a>
         <a href="https://www.tigerknight.com/">Jan's Comics</a>
