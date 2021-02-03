@@ -1,47 +1,13 @@
 .sidebar {
-  .widget_custom-twitter-feeds-widget {
-    background-color: $kemono-brown;
-    border-radius: $default-border-radius;
-    color: $off_white;
+    .twitter-timeline {
+      .timeline-Widget {
+        background-color: $kemono_brown;
+        color: $off_white;
 
-    a {
-      color: $off_white;
-      text-decoration: none;
-    }
-
-    .ctf-tweet-meta {
-      margin: 0 !important;
-      padding: 0 !important;
-    }
-
-    .ctf-author-name {
-      width: 100% !important;
-    }
-
-    .ctf-tweet-date,
-    .ctf-screename-sep {
-      display: none !important;
-    }
-
-    .ctf-tweet-actions {
-      margin: 0 !important;
-    }
-
-    .ctf-tweet-content {
-      margin: 0 !important;
-      padding: $default-padding 0 !important;
-    }
-
-    .ctf-reply, .ctf-retweet, .ctf-like {
-      color: $off_white !important;
-    }
-
-    .ctf_more {
-      display: none !important;
-    }
-
-    .ctf-context {
-      margin-left: 0 !important;
+        a {
+          color: $sandy_peach;
+        }
+      } 
     }
   }
 
