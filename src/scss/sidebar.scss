@@ -1,19 +1,18 @@
 .sidebar {
-    .twitter-timeline {
-      .timeline-Widget {
-        background-color: $kemono_brown;
-        color: $off_white;
+  .twitter-timeline {
+    .timeline-Widget {
+      background-color: $kemono_brown;
+      color: $off_white;
 
-        a {
-          color: $sandy_peach;
-        }
-      } 
-    }
+      a {
+        color: $sandy_peach;
+      }
+    } 
   }
 
   .custom-html-widget {
     border-radius: $default-border-radius;
-    margin-top: $default-margin;
+    margin-bottom: $default-margin;
 
     img {
       width: 100%;
