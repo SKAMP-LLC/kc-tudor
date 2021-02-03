@@ -1,13 +1,12 @@
 .sidebar {
-  .twitter-timeline {
-    .timeline-Widget {
-      background-color: $kemono_brown;
-      color: $off_white;
 
-      a {
-        color: $sandy_peach;
-      }
-    } 
+  .timeline-Widget {
+    background-color: $kemono_brown !important;
+    color: $off_white !important;
+
+    a {
+      color: $sandy_peach !important;
+    }
   }
 
   .custom-html-widget {
