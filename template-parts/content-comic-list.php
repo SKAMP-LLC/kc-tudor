@@ -54,7 +54,7 @@
       <div class="thumbnail"></div>
       <span>Katbox Inn</span>
     </a>
-    <a href="http://dbcomics.darkblueworkshop.com/bethellium/" class="comic_list_item slot_12">
+    <a href="https://bethellium.darkbluecomics.com/" class="comic_list_item slot_12">
       <div class="thumbnail"></div>
       <span>Bethellium</span>
     </a>
