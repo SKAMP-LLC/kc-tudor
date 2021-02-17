@@ -35,6 +35,6 @@
 	</div><!-- .entry-content -->
   <hr />
   <div class="bottom-content">
-    <script type="text/javascript" src="https://www.comicad.net/r/25UaiAuEGF/"></script>
+    <script type="text/javascript" src="https://www.comicad.net/r/Tm4bD4vgca/"></script>
   </div>
 </article><!-- #post-## -->
