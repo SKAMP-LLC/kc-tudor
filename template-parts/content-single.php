@@ -33,4 +33,8 @@
 			}
 		?>
 	</div><!-- .entry-content -->
+  <hr />
+  <div class="bottom-content">
+    <script type="text/javascript" src="https://www.comicad.net/r/25UaiAuEGF/"></script>
+  </div>
 </article><!-- #post-## -->
