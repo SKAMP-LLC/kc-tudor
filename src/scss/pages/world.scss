@@ -1,8 +1,31 @@
 .world-page {
+
+  header {
+    background-color: $kemono_brown;
+    border-radius: $default-border-radius;
+    color: $off_white;
+    text-align: center;
+    font-size: 32px;
+    padding: $default-margin / 2;
+    margin-bottom: $default-margin;
+    margin: $default-margin 0;
+  }
+
+  .patrons {
+    .jobs {
+      background-color: $reader_white;
+      padding: $default-padding;
+      border-radius: $default-border-radius;
+    }
+    .patreon {
+      text-align: center
+    }
+  }
+
   .map {
     @include image-link;
     background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/world_map.png");
-    margin: 0 auto;
+    margin: 0 auto $default-margin;
     height: 253px;
     width: 341px;
   }

@@ -12,7 +12,7 @@
   </div><!-- .site-content -->
 
   <footer id="colophon" class="site-footer" role="contentinfo">
-    <span>Kemono Cafe &#169; 2020 SKAMP <br> All Rights Reserved</span>
+    <span>Kemono Cafe &#169; 2021 SKAMP <br> All Rights Reserved</span>
   </footer>
 </div><!-- .site -->
 

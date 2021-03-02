@@ -10,7 +10,35 @@
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
   <div class="world-page">
+    <header>
+      Fable
+    </header>
     <div class="map"></div>
+    <div class="patrons emote-wrapper">
+      <header>
+        Honorary Fable Residents
+      </header>
+      <div class="jobs">
+        <emote character="stratus" emotion="happy" side="left" name="Stratus Wind">
+          Singer
+        </emote>
+        <emote character="huzhao" emotion="smile" side="right" name="Huzhao">
+          Martial Arts Instructor & Medicine Woman
+        </emote>
+        <emote character="shaze" emotion="inquisitive" side="left" name="Shaze">
+          Still deciding...
+        </emote>
+
+        <hr />
+        <div class="patreon">
+          <span>Would you like to move to Fable?<span><br />
+          <span>Consider supporting us on <a href="https://www.patreon.com/KemonoCafe">Patreon!</a><span>
+        </div>
+      </div>
+    </div>
+    <header>
+      Locations
+    </header>
     <div class="locations">
       <div class="location loc-1">
         <div class="image"></div>
