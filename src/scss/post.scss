@@ -35,6 +35,20 @@
       font-size: 3em;
       text-align: center;
     }
+
+    .kc-navigation-bar {
+      align-items: center;
+      display: flex;
+      font-family: "microns";
+      font-size: 2em;
+      justify-content: space-evenly;;
+      a {
+        color: $jill_orange;
+        display: block;
+        text-align: center;
+        width: 100%;
+      }
+    }
   }
 
   #comments,
