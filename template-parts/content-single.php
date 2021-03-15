@@ -9,13 +9,19 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+  <div class="can-content">
+    <script type="text/javascript" src="https://www.comicad.net/r/L3x3kMtpYY/"></script>
+  </div>
+
+  <hr />
+
 	<header class="entry-header">
 		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 	</header><!-- .entry-header -->
 
 	<?php tudor_excerpt(); ?>
-
-	<div class="entry-content">
+	
+  <div class="entry-content">
 		<?php
 			the_content();
 
@@ -32,9 +38,11 @@
 				get_template_part( 'template-parts/biography' );
 			}
 		?>
-	</div><!-- .entry-content -->
+	</div>
+
   <hr />
-  <div class="bottom-content">
+
+  <div class="can-content">
     <script type="text/javascript" src="https://www.comicad.net/r/25UaiAuEGF/"></script>
   </div>
 </article><!-- #post-## -->
