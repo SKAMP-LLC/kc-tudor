@@ -27,6 +27,8 @@ get_header(); ?>
           get_template_part( 'template-parts/content', 'page-archive' );
         else if(is_page('KatBox Inn'))
           get_template_part( 'template-parts/content', 'page-katboxinn' );
+        else if(is_page('Artist Corner'))
+          get_template_part( 'template-parts/content', 'page-artistcorner' );
         else
           get_template_part( 'template-parts/content', 'page' );
       endwhile;
