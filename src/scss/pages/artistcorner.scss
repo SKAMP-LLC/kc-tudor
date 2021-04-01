@@ -72,7 +72,7 @@
 
       img {
         border-radius: 5px;
-        max-width: 200px;
+        max-width: 100%;
         margin-bottom: 1em;
       }
     }
@@ -92,7 +92,8 @@
     .art-gallery {
       flex-direction: row !important;
       img {
-        margin-bottom: 0 i !important;
+        margin-bottom: 0 !important;
+        max-width: 22% !important;
       }
     }
   }
