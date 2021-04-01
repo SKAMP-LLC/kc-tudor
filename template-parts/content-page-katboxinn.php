@@ -15,6 +15,14 @@
 
       <section>
 
+        <h2> &middot; Leilani &middot; </h2>
+        <a href="https://www.thedepthscomic.com/"><img src="https://kemono.cafe/wp-content/uploads/2021/04/The-Depths-Banner.png" alt="The Depths"></a>
+        <a href="https://www.thedepthscomic.com/">The Depths</a>
+
+        <h2> &middot; Roy Wolverine &middot; </h2>
+        <a href="https://tapas.io/series/IOtters/info"><img src="https://kemono.cafe/wp-content/uploads/2021/04/Insignificant-Otters.jpg" alt="Insignificant Otters"></a>
+        <a href="https://tapas.io/series/IOtters/info">Insignificant Otters</a>
+
         <h2> &middot; Bri Shepard &middot; </h2>
         <a href="http://evoncomics.com/"><img src="https://kemono.cafe/wp-content/uploads/2021/01/Evon-Banner.jpg" alt="Evon Comics"></a>
         <a href="http://evoncomics.com/">Evon Comics</a>
@@ -55,6 +63,10 @@
         <a href="https://ringtailcafe.com/itsybitsy_webcomic/iba-ch1-00/">Itsy Bitsy Adventures</a>
       </section>
       <section>
+
+        <h2> &middot; Scotty &middot; </h2>
+        <a href="http://www.rayfoxthecomic.com/"><img src="https://kemono.cafe/wp-content/uploads/2021/04/Ray-Fox-Comic-Banner.jpg" alt="Ray Fox the Webcomic"></a>
+        <a href="http://www.rayfoxthecomic.com/">Ray Fox the Webcomic</a>
 
         <h2> &middot; Wukrii &middot; </h2>
         <a href="https://www.wukrii.com/"><img src="https://kemono.cafe/wp-content/uploads/2021/01/Wukrii-Banner.png" alt="Wukrii"></a>
