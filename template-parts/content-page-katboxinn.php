@@ -32,8 +32,8 @@
         <a href="https://replaycomic.com/">Replay Comic</a>
 
         <h2> &middot; Nixie the Art Seal &middot; </h2>
-        <a href="http://kiwilemontea.com/debunkers/index.html"><img src="https://kemono.cafe/wp-content/uploads/2020/09/debunkers-banner.png" alt="Debunkers"></a>
-        <a href="http://kiwilemontea.com/debunkers/index.html">Debunkers</a>
+        <a href="http://kiwilemontea.com/"><img src="https://kemono.cafe/wp-content/uploads/2020/09/debunkers-banner.png" alt="Debunkers"></a>
+        <a href="http://kiwilemontea.com/">Debunkers</a>
 
         <h2> &middot; RazorFox &middot; </h2>
         <a href="https://www.draconiachronicles.com/"><img src="https://kemono.cafe/wp-content/uploads/2020/07/dc-banner.jpg" alt="The Draconia Chronicles"></a>
