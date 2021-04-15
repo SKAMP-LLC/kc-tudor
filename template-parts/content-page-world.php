@@ -25,8 +25,23 @@
         <emote character="huzhao" emotion="smile" side="right" name="Huzhao">
           Martial Arts Instructor & Medicine Woman
         </emote>
-        <emote character="shaze" emotion="inquisitive" side="left" name="Shaze">
-          Still deciding...
+        <emote character="shaze" emotion="silly" side="left" name="Shaze">
+          Barristo and Cookie Aficionado
+        </emote>
+        <emote character="terrific" emotion="smile" side="right" name="Terrific Twenty">
+          Musician
+        </emote>
+        <emote character="janelle" emotion="joy" side="left" name="Janelle">
+          Business manager
+        </emote>
+        <emote character="kin" emotion="smile" side="right" name="Kin">
+          Martial Artist: Fire Technique
+        </emote>
+        <emote character="bing" emotion="happy" side="left" name="Bing">
+          Martial Artist: Water Technique
+        </emote>
+        <emote character="eclipse" emotion="happy" side="right" name="Eclipse">
+          Miner
         </emote>
 
         <hr />
