@@ -46,10 +46,6 @@
         <h2> &middot; RazorFox &middot; </h2>
         <a href="https://www.draconiachronicles.com/"><img src="https://kemono.cafe/wp-content/uploads/2020/07/dc-banner.jpg" alt="The Draconia Chronicles"></a>
         <a href="https://www.draconiachronicles.com/">The Draconia Chronicles</a>
-      
-        <h2> &middot; Ambaaargh &middot; </h2>
-        <a href="http://www.missmab.com/"><img src="https://kemono.cafe/wp-content/uploads/2020/11/dmfa-banner.jpg" alt="Dan & Mab's Furry Adventures"></a>
-        <a href="http://www.missmab.com/">Dan & Mab's Furry Adventures</a>
 
         <h2> &middot; Jonathan & Whitney &middot; </h2>
         <a href="http://www.peterandcompany.com/"><img src="https://kemono.cafe/wp-content/uploads/2020/11/peterandcompany-banner.jpg" alt="Peter & Company"></a>
@@ -67,10 +63,6 @@
         <h2> &middot; Scotty &middot; </h2>
         <a href="http://www.rayfoxthecomic.com/"><img src="https://kemono.cafe/wp-content/uploads/2021/04/Ray-Fox-Comic-Banner.jpg" alt="Ray Fox the Webcomic"></a>
         <a href="http://www.rayfoxthecomic.com/">Ray Fox the Webcomic</a>
-
-        <h2> &middot; Wukrii &middot; </h2>
-        <a href="https://www.wukrii.com/"><img src="https://kemono.cafe/wp-content/uploads/2021/01/Wukrii-Banner.png" alt="Wukrii"></a>
-        <a href="https://www.wukrii.com/">Wukrii</a>
 
         <h2> &middot; Jan &middot; </h2>
         <a href="https://www.tigerknight.com/"><img src="https://kemono.cafe/wp-content/uploads/2020/11/Jans-Comics-Banner.png" alt="Jans Comics"></a>
@@ -94,10 +86,6 @@
         <a href="https://mousechievous.studiokhimera.com/"><img src="https://kemono.cafe/wp-content/uploads/2020/09/mousechievous-banner.png" alt="Mousechievous"></a>
         <a href="https://mousechievous.studiokhimera.com/">Mousechievous</a>
 
-        <h2> &middot; Snowdon &middot; </h2>
-        <a href="http://www.thesprawlcomic.com/"><img src="https://kemono.cafe/wp-content/uploads/2020/11/thesprawl-banner.jpg" alt="The Sprawl"></a>
-        <a href="http://www.thesprawlcomic.com/">The Sprawl</a>
-
         <h2> &middot; FOX-POP &middot; </h2>
         <a href="https://www.furaffinity.net/gallery/fox-pop/folder/688314/01-I-wont-go-in-Vietnam"><img src="https://kemono.cafe/wp-content/uploads/2020/11/truckoff-banner.jpg" alt="Truck Off"></a>
         <a href="https://www.furaffinity.net/gallery/fox-pop/folder/688314/01-I-wont-go-in-Vietnam">Truck Off</a>
@@ -105,6 +93,10 @@
         <h2> &middot; Bone &middot; </h2>
         <a href="https://www.furaffinity.net/view/7966557"><img src="https://kemono.cafe/wp-content/uploads/2020/11/falsestart-banner.jpg" alt="False Start"></a>
         <a href="https://www.furaffinity.net/view/7966557">False Start</a>
+
+        <h2> &middot; Wukrii &middot; </h2>
+        <a href="https://www.wukrii.com/"><img src="https://kemono.cafe/wp-content/uploads/2021/01/Wukrii-Banner.png" alt="Wukrii"></a>
+        <a href="https://www.wukrii.com/">Wukrii</a>
       </section>
     </div>
   </div>
