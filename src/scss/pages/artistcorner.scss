@@ -1,5 +1,44 @@
 .artistcorner-page {
 
+  ul.social {
+    a {
+      @include image-link;
+      height: 60px;
+      width: 60px;
+      border-radius: 5px;
+    }
+
+  .twitter {
+      a {
+        background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/twitter.png");
+      }
+    }
+
+  .instagram {
+      a {
+        background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/instagram.png");
+      }
+    }
+  }
+
+  .deviant-art {
+    a {
+      background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/deviantart.png");
+    }
+  }
+
+  .picarto {
+    a {
+      background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/picarto.png");
+    }
+  }
+
+  .fur-affinity {
+    a {
+      background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/furaffinity.png");
+    }
+  }
+
   .box {
     background-color: $sandy_peach;
     border-radius: 20px;
@@ -30,6 +69,7 @@
       justify-content: space-between;
 
       .avatar {
+        border-radius: 5px;
         max-width: 200px;
       }
       h2 {
@@ -46,19 +86,9 @@
         margin-top: .2em;
         li {
           list-style: none;
-          padding-left: 5px;
+          padding: 0 5px;
           a {
             text-decoration: none;
-          }
-          a::after {
-            content: "\00B7";
-            padding-left: 5px;
-          }
-        }
-        li:last-child {
-          a::after {
-            content: none;
-            padding-right: 5px;
           }
         }
       }
@@ -89,11 +119,19 @@
         flex-grow: 3;
       }
     }
+    ul.social {
+      a {
+        height: 50px !important;
+        width: 50px !important;
+      }
+    }
     .art-gallery {
       flex-direction: row !important;
+      a {
+        padding: 0 .5em;
+      }
       img {
         margin-bottom: 0 !important;
-        max-width: 22% !important;
       }
     }
   }
