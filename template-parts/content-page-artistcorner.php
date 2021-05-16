@@ -20,7 +20,6 @@
           <ul class="social">
             <li class="twitter"><a href="https://twitter.com/luxar92"></a></li>
             <li class="instagram"><a href="https://www.instagram.com/luxar.insta/"></a></li>
-            <li class="twitter"><a href="https://piczel.tv/watch/luxarman"></a></li>
           </ul>
           <p class="tagline">A delightful artist that focuses on feline cuties that provided the Kemono Cafe an exclusive interview.</p>
         </h2>
@@ -50,7 +49,6 @@
           <ul class="social">
             <li class="twitter"><a href="https://twitter.com/N8Dogg5k_Art"></a></li>
             <li class="deviant-art"><a href="https://www.deviantart.com/n8dogg5k"></a></li>
-            <li class="twitter"><a href="https://n8dogg5k.blogspot.com/"></a></li>
           </ul>
           <p class="tagline">A wonderfully talented digital artist that provided the Kemono Cafe with fan art at the beginning.</p>
         </h2>
@@ -111,7 +109,6 @@
           <ul class="social">
             <li class="twitter"><a href="https://twitter.com/abd_artist"></a></li>
             <li class="fur-affinity"><a href="https://www.furaffinity.net/user/abluedeer"></a></li>
-            <li class="picarto"><a href="https://darkbluecomics.com/"></a></li>
           </ul>
           <p class="tagline">An awesome artist from Central American with stellar comics and awesome digital works that provided the Kemono Cafe with amazing link exchanges and an interview.</p>
         </h2>
