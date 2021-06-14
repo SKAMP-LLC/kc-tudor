@@ -99,16 +99,19 @@
       }
     }
     .art-gallery {
+      align-items: flex-start; 
       display: flex;
-      align-items: center;
-      justify-content: space-evenly;
       flex-direction: column;
+      flex-flow: row;
+      justify-content: space-between;
       margin-top: 2em;
 
       img {
         border-radius: 5px;
-        max-width: 100%;
+        height: auto;
         margin-bottom: 1em;
+        max-height: 200px;
+        width: 100%;
       }
     }
   }
