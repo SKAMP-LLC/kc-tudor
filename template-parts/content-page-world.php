@@ -43,6 +43,33 @@
         <emote character="eclipse" emotion="happy" side="right" name="Eclipse">
           Miner
         </emote>
+        <emote character="mora" emotion="laugh" side="left" name="Mora Linda">
+          Visitor
+        </emote>
+        <emote character="reiko" emotion="datass" side="right" name="Reiko">
+          Visitor
+        </emote>
+        <emote character="fulvus" emotion="happy" side="left" name="Fulvus">
+          Visitor
+        </emote>
+        <emote character="lily" emotion="sassy" side="right" name="Lily">
+          ?????
+        </emote>
+        <emote character="rex" emotion="happy" side="left" name="Rex">
+          Gym Assistant
+        </emote>
+        <emote character="rachael" emotion="happy" side="right" name="Rachael">
+          Visitor
+        </emote>
+        <emote character="sarah" emotion="happy" side="left" name="Sarah">
+          Visitor
+        </emote>
+        <emote character="mayte" emotion="happy" side="right" name="Mayte">
+          Visitor
+        </emote>
+        <emote character="merankhes" emotion="happy" side="left" name="Merankhes">
+          Visitor
+        </emote>
 
         <hr />
         <div class="patreon">
