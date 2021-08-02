@@ -32,5 +32,5 @@ jobs:
           --exclude /.github/ \
           --exclude /node_modules/ \
           ./ ${{secrets.PRODUCTION_USER}}@${{env.dest}}
-        ssh -p ${{secrets.PRODUCTION_PORT}} ${{secrets.PRODUCTION_USER}}@${{secrets.PRODUCTION_IP}} "sudo find /var/www/html/wp-content/themes/test-theme/ -type d -exec chmod 755 {} \;"
-        ssh -p ${{secrets.PRODUCTION_PORT}} ${{secrets.PRODUCTION_USER}}@${{secrets.PRODUCTION_IP}} "sudo find /var/www/html/wp-content/themes/test-theme/ -type f -exec chmod 644 {} \;"
+        ssh -p ${{secrets.PRODUCTION_PORT}}  -i ./deploy_key -o StrictHostKeyChecking=no ${{secrets.PRODUCTION_USER}}@${{secrets.PRODUCTION_IP}} "sudo find /var/www/html/wp-content/themes/test-theme/ -type d -exec chmod 755 {} \;"
+        ssh -p ${{secrets.PRODUCTION_PORT}}  -i ./deploy_key -o StrictHostKeyChecking=no ${{secrets.PRODUCTION_USER}}@${{secrets.PRODUCTION_IP}} "sudo find /var/www/html/wp-content/themes/test-theme/ -type f -exec chmod 644 {} \;"
