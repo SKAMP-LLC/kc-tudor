@@ -60,6 +60,10 @@
       </section>
       <section>
 
+        <h2> &middot; Alexandria Bowersox &middot; </h2>
+        <a href="https://huxcyn.com/"><img src="https://kemono.cafe/wp-content/uploads/2021/08/hux_banner.gif" alt="The Chronicles of Huxcyn"></a>
+        <a href="https://huxcyn.com/">The Chronicles of Huxcyn</a>
+
         <h2> &middot; Scotty &middot; </h2>
         <a href="http://www.rayfoxthecomic.com/"><img src="https://kemono.cafe/wp-content/uploads/2021/04/Ray-Fox-Comic-Banner.jpg" alt="Ray Fox the Webcomic"></a>
         <a href="http://www.rayfoxthecomic.com/">Ray Fox the Webcomic</a>
@@ -75,10 +79,10 @@
         <h2> &middot; Sage &middot; </h2>
         <a href="https://www.yoshsaga.com/"><img src="https://kemono.cafe/wp-content/uploads/2020/09/yosh-banner.png" alt="Yosh! Saga"></a>
         <a href="https://www.yoshsaga.com/">Yosh! Saga</a>
-        
+
         <a href="https://www.artificialincident.com"><img src="https://kemono.cafe/wp-content/uploads/2020/09/ai-banner.png" alt="Artificial Incident"></a>
         <a href="https://www.artificialincident.com">Artificial Incident</a>
-        
+
         <h2> &middot; Skidd & Phuufy &middot; </h2>
         <a href="https://uberquest.studiokhimera.com/"><img src="https://kemono.cafe/wp-content/uploads/2020/09/uberquest-banner.png" alt="Uberquest"></a>
         <a href="https://uberquest.studiokhimera.com/">Uber Quest</a>
