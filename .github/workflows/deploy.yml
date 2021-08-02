@@ -15,8 +15,8 @@ jobs:
       with:
         node-version: 14.x
         cache: 'npm'
-    - run: NODE_ENV="production" npm install
-    - run: NODE_ENV="production" npm run build
+    - run: npm install
+    - run: npm run build
 
     - name: Sync to KC Server
       env:
