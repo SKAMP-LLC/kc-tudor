@@ -129,5 +129,62 @@
       </div>
     </div>
 
+     <!-- HeadOfNights -->
+     <div class="box">
+      <header>
+        <img class="avatar" src="https://kemono.cafe/wp-content/uploads/2021/08/SwaMPFzj_400x400.jpg">
+        <h2>
+          HeadOfNights
+          <ul class="social">
+            <li class="twitter"><a href="https://twitter.com/HeadofNights"></a></li>
+          </ul>
+          <p class="tagline">A longtime friend and creator of the DevilHorns comic.</p>
+        </h2>
+      </header>
+      <div class="art-gallery">
+        <a href="https://twitter.com/HeadofNights">
+          <img src="https://kemono.cafe/wp-content/uploads/2021/08/E58mtlqWUAAPnoO.jpg">
+        </a>
+        <a href="https://twitter.com/HeadofNights">
+          <img src="https://kemono.cafe/wp-content/uploads/2021/06/deixu2b-e08308f9-318a-4a2c-93b7-ea655787a9cd.png">
+        </a>
+        <a href="https://twitter.com/HeadofNights">
+          <img src="https://kemono.cafe/wp-content/uploads/2021/08/E58mSkyXMAAbDoz.jpg">
+        </a>
+        <a href="https://twitter.com/HeadofNights">
+          <img src="https://kemono.cafe/wp-content/uploads/2020/12/1571345055.kemonocafe_19-05-08_sandy_headofnights.png">
+        </a>
+      </div>
+    </div>
+
+     <!-- JWink -->
+     <div class="box">
+      <header>
+        <img class="avatar" src="https://kemono.cafe/wp-content/uploads/2021/08/Avatar-Jwink.jpg">
+        <h2>
+          JWink
+          <ul class="social">
+            <li class="twitter"><a href="https://twitter.com/artjwink"></a></li>
+            <li class="fur-affinity"><a href="https://www.furaffinity.net/user/jaywnk23/"></a></li>
+          </ul>
+          <p class="tagline">A stunning artist from the USA with “big skills” in the digital art world that provided the Kemono Cafe with fan art and an interview.</p>
+        </h2>
+      </header>
+      <div class="art-gallery">
+        <a href="https://www.furaffinity.net/view/42863210/">
+          <img src="https://kemono.cafe/wp-content/uploads/2021/08/Beach-Episode.jpg">
+        </a>
+        <a href="https://www.furaffinity.net/view/41347847/">
+          <img src="https://kemono.cafe/wp-content/uploads/2021/08/Happy-Easter.jpg">
+        </a>
+        <a href="https://www.deviantart.com/kemonocafe/art/Sandy-Welcome-by-ArtJWink-851935253">
+          <img src="https://kemono.cafe/wp-content/uploads/2021/08/Sandy-by-Jwink.jpg">
+        </a>
+        <a href="https://www.furaffinity.net/view/42376083/">
+          <img src="https://kemono.cafe/wp-content/uploads/2021/08/Sundress-Season.jpg">
+        </a>
+      </div>
+    </div>
+
   </div>
 </article>
