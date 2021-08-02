@@ -31,7 +31,7 @@
         <emote character="terrific" emotion="smile" side="right" name="Terrific Twenty">
           Musician
         </emote>
-        <emote character="janelle" emotion="joy" side="left" name="Janelle">
+        <emote character="jenelle" emotion="joy" side="left" name="Jenelle">
           Business manager
         </emote>
         <emote character="kin" emotion="smile" side="right" name="Kin">
