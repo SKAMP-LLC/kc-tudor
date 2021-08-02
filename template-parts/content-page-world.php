@@ -11,7 +11,7 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
   <div class="world-page">
     <header>
-      Fable
+      Map of Fable
     </header>
     <div class="map"></div>
     <div class="patrons emote-wrapper">
