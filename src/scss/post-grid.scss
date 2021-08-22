@@ -1,7 +1,7 @@
 main.site-main {
   .barista {
     @include image-link;
-    background-image: url("https://kemono.cafe/wp-content/uploads/2021/06/baristas-1.png");
+    background-image: url("https://kemono.cafe/wp-content/uploads/2021/08/barista-banner.png");
     display: none;
     height: 129px;
     margin: 0 auto $default-margin * 2;
@@ -117,10 +117,10 @@ main.site-main {
 
   @include respond-to("lg") {
     .barista {
-     display: block; 
+     display: block;
     }
     .divider {
-      display: block; 
+      display: block;
       height: 26px;
       width: 795px;
     }
