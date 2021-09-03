@@ -61,7 +61,7 @@
     </div>
     <div class="comic_slot slot_12" data-title="Bethellium" data-rating="PG-13"
       data-description="Master alchemist Zoana is invited to the mystical city of Bethellium under false pretenses. Brought to save a life, why is her craft treated with fear and suspicion?">
-      <a href="https://bethellium.darkbluecomics.com/"></a>
+      <a href="https://bethellium.kemono.cafe"></a>
     </div>
     <div class="comic_slot slot_13" data-title="Knuckle Up" data-rating="Mature"
       data-description="After an incident involving an inexperienced space wizard, things got weird for space bounty hunters Hawk and Rushana. Now, in order to revert the 	&ldquo;curse&rdquo;, they must embark on a quest spanning the galaxy... Hang in there Hawke, you're not as hot as you think you look!">
@@ -125,7 +125,7 @@
     </div>
     <div class="comic_slot slot_12" data-title="Bethellium" data-rating="PG-13"
       data-description="Master alchemist Zoana is invited to the mystical city of Bethellium under false pretenses. Brought to save a life, why is her craft treated with fear and suspicion?">
-      <a href="https://bethellium.darkbluecomics.com/"></a>
+      <a href="https://bethellium.kemono.cafe"></a>
     </div>
     <div class="comic_slot slot_13" data-title="Knuckle Up" data-rating="Mature"
       data-description="After an incident involving an inexperienced space wizard, things got weird for space bounty hunters Hawk and Rushana. Now, in order to revert the 	&ldquo;curse&rdquo;, they must embark on a quest spanning the galaxy... Hang in there Hawke, you're not as hot as you think you look!">
@@ -189,7 +189,7 @@
     </div>
     <div class="comic_slot slot_12" data-title="Bethellium" data-rating="PG-13"
       data-description="Master alchemist Zoana is invited to the mystical city of Bethellium under false pretenses. Brought to save a life, why is her craft treated with fear and suspicion?">
-      <a href="https://bethellium.darkbluecomics.com/"></a>
+      <a href="https://bethellium.kemono.cafe"></a>
     </div>
     <div class="comic_slot slot_13" data-title="Knuckle Up" data-rating="Mature"
       data-description="After an incident involving an inexperienced space wizard, things got weird for space bounty hunters Hawk and Rushana. Now, in order to revert the 	&ldquo;curse&rdquo;, they must embark on a quest spanning the galaxy... Hang in there Hawke, you're not as hot as you think you look!">
