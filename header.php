@@ -21,6 +21,22 @@
       gtag('js', new Date());
       gtag('config', 'UA-152386556-1');
     </script>
+    <!-- Pinterest Tag -->
+    <script>
+    !function(e){if(!window.pintrk){window.pintrk = function () {
+    window.pintrk.queue.push(Array.prototype.slice.call(arguments))};var
+      n=window.pintrk;n.queue=[],n.version="3.0";var
+      t=document.createElement("script");t.async=!0,t.src=e;var
+      r=document.getElementsByTagName("script")[0];
+      r.parentNode.insertBefore(t,r)}}("https://s.pinimg.com/ct/core.js");
+    pintrk('load', '2613846191251', {em: '<user_email_address>'});
+    pintrk('page');
+    </script>
+    <noscript>
+    <img height="1" width="1" style="display:none;" alt=""
+      src="https://ct.pinterest.com/v3/?event=init&tid=2613846191251&pd[em]=<hashed_email_address>&noscript=1" />
+    </noscript>
+    <!-- end Pinterest Tag -->
     <title>Kemono Cafe | A Furry Webcomic Community</title>
     <meta name="description" content="Kemono Cafe is a furry webcomic community with a unique webcomic of its own. The members of the community can contribute characters to a world-between-worlds setting, visiting the actual Kemono Cafe in the mystical land of Fable.">
     <meta name="keywords" content="webcomic list, webcomic, webcomics, art, anime, digital, digital art, kemono, kemono cafe, furry, furry art, furry comic, furry comic community, furry comics, furry webcomic, furry webcomic community, furry webcomics, manga, action, comedy, humor, drama, slice of life, chalo, chalodillo, mastergodai, Kelvin Challenger, Avencri, Nekonny, freelancemanga, Cervelet, laslindas, las lindas, knighthood, addictive science, tina of the south, imew, i mew, paprika, caribbean blue, practice makes perfect, rascals, rascals webcomic,  the eye, the eye of ramalach">
@@ -35,11 +51,11 @@
     <?php wp_head(); ?>
   </head>
 
-  <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Merriweather:400,700" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Merriweather:400,700" rel="stylesheet">
 
   <body <?php body_class(); ?>>
     <div id="page" class="site">
-      
+
       <header id="masthead" class="site-header" role="banner">
         <div class="site-header-main">
 
@@ -87,5 +103,5 @@
           <?php endif; ?>
         </div>
       </header>
-      
+
       <div id="content" class="site-content">
