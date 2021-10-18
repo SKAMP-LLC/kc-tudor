@@ -100,35 +100,6 @@
       </div>
     </div>
 
-    <!-- ABlueDeer -->
-    <div class="box">
-      <header>
-        <img class="avatar" src="https://kemono.cafe/wp-content/uploads/2021/04/ABD-Avatar.png">
-        <h2>
-          ABlueDeer
-          <ul class="social">
-            <li class="twitter"><a href="https://twitter.com/abd_artist"></a></li>
-            <li class="fur-affinity"><a href="https://www.furaffinity.net/user/abluedeer"></a></li>
-          </ul>
-          <p class="tagline">An awesome artist from Central American with stellar comics and awesome digital works that provided the Kemono Cafe with amazing link exchanges and an interview.</p>
-        </h2>
-      </header>
-      <div class="art-gallery">
-        <a href="https://www.deviantart.com/a-bluedeer/art/Patreon-Reward-Holly-Ice-Cream-852527782">
-          <img src="https://kemono.cafe/wp-content/uploads/2021/04/ABD-Image-1.jpg">
-        </a>
-        <a href="https://www.deviantart.com/a-bluedeer/art/Moonlace-Team-Summertime-760410187">
-          <img src="https://kemono.cafe/wp-content/uploads/2021/04/ABD-Image-2.jpg">
-        </a>
-        <a href="https://www.deviantart.com/a-bluedeer/art/Zoana-Ice-Cream-872043624">
-          <img src="https://kemono.cafe/wp-content/uploads/2021/04/ABD-Image-3.jpg">
-        </a>
-        <a href="https://kemono.cafe/2020/12/16/the-abd-interview/ ">
-          <img src="https://kemono.cafe/wp-content/uploads/2021/04/ABD-Image-4.jpg">
-        </a>
-      </div>
-    </div>
-
      <!-- HeadOfNights -->
      <div class="box">
       <header>
