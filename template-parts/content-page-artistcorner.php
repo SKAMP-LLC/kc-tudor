@@ -18,6 +18,7 @@
         <h2>
           Luxarman
           <ul class="social">
+            <li class="patreon"><a href="https://www.patreon.com/luxarman"></a></li>
             <li class="twitter"><a href="https://twitter.com/luxar92"></a></li>
             <li class="instagram"><a href="https://www.instagram.com/luxar.insta/"></a></li>
           </ul>
@@ -47,6 +48,7 @@
         <h2>
           N8Dogg5k
           <ul class="social">
+            <li class="blogspot"><a href="http://n8dogg5k.blogspot.com/"></a></li>
             <li class="twitter"><a href="https://twitter.com/N8Dogg5k_Art"></a></li>
             <li class="deviant-art"><a href="https://www.deviantart.com/n8dogg5k"></a></li>
           </ul>
@@ -107,6 +109,8 @@
         <h2>
           HeadOfNights
           <ul class="social">
+            <li class="twitch"><a href="https://www.twitch.tv/nighto_ch"></a></li>
+            <li class="patreon"><a href="https://www.patreon.com/nighthead"></a></li>
             <li class="twitter"><a href="https://twitter.com/HeadofNights"></a></li>
           </ul>
           <p class="tagline">A longtime friend and creator of the DevilHorns comic.</p>
@@ -135,6 +139,7 @@
         <h2>
           JWink
           <ul class="social">
+            <li class="patreon"><a href="https://www.patreon.com/JWink"></a></li>
             <li class="twitter"><a href="https://twitter.com/artjwink"></a></li>
             <li class="fur-affinity"><a href="https://www.furaffinity.net/user/jaywnk23/"></a></li>
           </ul>
@@ -153,6 +158,66 @@
         </a>
         <a href="https://www.furaffinity.net/view/42376083/">
           <img src="https://kemono.cafe/wp-content/uploads/2021/08/Sundress-Season.jpg">
+        </a>
+      </div>
+    </div>
+
+    <!-- Kenno -->
+    <div class="box">
+      <header>
+        <img class="avatar" src="https://emote.kemono.cafe/emote?key=kenno_ehthinking">
+        <h2>
+          Kenno
+          <ul class="social">
+            <li class="personal"><a href="https://www.mylifewithfel.com/index"></a></li>
+            <li class="linktree"><a href="https://linktr.ee/kennoarkkan"></a></li>
+            <li class="ejunkie"><a href="https://kennoarkkan.e-junkie.com/"></a></li>
+          </ul>
+          <p class="tagline">A talented artist with a unique style that provided a stellar interview.</p>
+        </h2>
+      </header>
+      <div class="art-gallery">
+        <a href="https://linktr.ee/kennoarkkan">
+          <img src="https://kemono.cafe/wp-content/uploads/2021/11/webtoon-thumbnail-vertical.jpg">
+        </a>
+        <a href="https://linktr.ee/kennoarkkan">
+          <img src="https://kemono.cafe/wp-content/uploads/2021/11/469.jpg">
+        </a>
+        <a href="https://linktr.ee/kennoarkkan">
+          <img src="https://kemono.cafe/wp-content/uploads/2021/11/03.png">
+        </a>
+        <a href="https://linktr.ee/kennoarkkan">
+          <img src="https://kemono.cafe/wp-content/uploads/2021/11/01.jpg">
+        </a>
+      </div>
+    </div>
+
+    <!-- Allie -->
+    <div class="box">
+      <header>
+        <img class="avatar" src="https://kemono.cafe/wp-content/uploads/2021/11/Avatar.jpg">
+        <h2>
+          Allie
+          <ul class="social">
+            <li class="personal"><a href="https://huxcyn.com/"></a></li>
+            <li class="twitter"><a href="https://twitter.com/Jyinxxed"></a></li>
+            <li class="fur-affinity"><a href="https://www.furaffinity.net/user/xizana/"></a></li>
+          </ul>
+          <p class="tagline">A superb artist and webcomic artist with a fresh style that provided an interesting interview.</p>
+        </h2>
+      </header>
+      <div class="art-gallery">
+        <a href="http://huxcyn.com/comic/chapter-5-099">
+          <img src="https://kemono.cafe/wp-content/uploads/2021/11/chapter-5-099.jpg">
+        </a>
+        <a href="https://www.furaffinity.net/view/40475507/">
+          <img src="https://kemono.cafe/wp-content/uploads/2021/11/Bar-Maid-Merah.jpg">
+        </a>
+        <a href="https://www.furaffinity.net/view/39857669/">
+          <img src="https://kemono.cafe/wp-content/uploads/2021/11/For-Merah.jpg">
+        </a>
+        <a href="https://www.furaffinity.net/view/37305800/">
+          <img src="https://kemono.cafe/wp-content/uploads/2021/11/sitting-pretty.jpg">
         </a>
       </div>
     </div>

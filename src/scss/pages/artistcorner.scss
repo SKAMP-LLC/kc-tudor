@@ -8,6 +8,42 @@
       border-radius: 5px;
     }
 
+  .personal {
+    a {
+      background-image: url("https://kemono.cafe/wp-content/uploads/2021/11/personal.png");
+    }
+  }
+
+  .ejunkie {
+    a {
+      background-image: url("https://kemono.cafe/wp-content/uploads/2021/11/ejunkie.png");
+    }
+  }
+
+  .linktree {
+    a {
+      background-image: url("https://kemono.cafe/wp-content/uploads/2021/11/linktree.png");
+    }
+  }
+
+  .blogspot {
+    a {
+      background-image: url("https://kemono.cafe/wp-content/uploads/2021/11/blogspot.png");
+    }
+  }
+
+  .twitch {
+    a {
+      background-image: url("https://kemono.cafe/wp-content/uploads/2021/11/twitch.png");
+    }
+  }
+
+  .patreon {
+    a {
+      background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/patreon.png");
+    }
+  }
+
   .twitter {
       a {
         background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/twitter.png");
@@ -99,7 +135,7 @@
       }
     }
     .art-gallery {
-      align-items: center; 
+      align-items: center;
       display: flex;
       flex-direction: column;
       justify-content: space-evenly;
@@ -114,7 +150,7 @@
       }
     }
   }
-  
+
 
   @include respond-to("md") {
     header {
