@@ -5,8 +5,8 @@
  * Contains the closing of the #content div and all content after
  *
  * @package WordPress
- * @subpackage Tudor
- * @since Tudor 1.0
+ * @subpackage KC Tudor
+ * @since KC Tudor 1.0
  */
 ?>
   </div><!-- .site-content -->

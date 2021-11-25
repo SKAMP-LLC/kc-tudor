@@ -1,10 +1,10 @@
 <?php
 /**
- * The template for the Tudor World Page
+ * The template for the KC Tudor World Page
  *
  * @package WordPress
- * @subpackage Tudor
- * @since Tudor 1.0
+ * @subpackage KC Tudor
+ * @since KC Tudor 1.0
  */
 ?>
 

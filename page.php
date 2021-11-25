@@ -7,8 +7,8 @@
  * other "pages" on your WordPress site will use a different template.
  *
  * @package WordPress
- * @subpackage Tudor
- * @since Tudor 1.0
+ * @subpackage KC Tudor
+ * @since KC Tudor 1.0
  */
 
 get_header(); ?>

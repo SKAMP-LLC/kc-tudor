@@ -1,6 +1,6 @@
 <?php
 /**
- * Tudor functions and definitions
+ * KC Tudor functions and definitions
  *
  * Set up the theme and provides some helper functions, which are used in the
  * theme as custom template tags. Others are attached to action and filter
@@ -21,12 +21,12 @@
  * {@link https://codex.wordpress.org/Plugin_API}
  *
  * @package WordPress
- * @subpackage Tudor
- * @since Tudor 1.0
+ * @subpackage KC Tudor
+ * @since KC Tudor 1.0
  */
 
 /**
- * Tudor only works in WordPress 4.4 or later.
+ * KC Tudor only works in WordPress 4.4 or later.
  */
 if ( version_compare( $GLOBALS['wp_version'], '4.4-alpha', '<' ) ) {
 	require get_template_directory() . '/inc/back-compat.php';
@@ -42,13 +42,13 @@ if ( ! function_exists( 'tudor_setup' ) ) :
  *
  * Create your own tudor_setup() function to override in a child theme.
  *
- * @since Tudor 1.0
+ * @since KC Tudor 1.0
  */
 function tudor_setup() {
 	/*
 	 * Make theme available for translation.
 	 * Translations can be filed at WordPress.org. See: https://translate.wordpress.org/projects/wp-themes/tudor
-	 * If you're building a theme based on Tudor, use a find and replace
+	 * If you're building a theme based on KC Tudor, use a find and replace
 	 * to change 'tudor' to the name of your theme in all the template files
 	 */
 	load_theme_textdomain( 'tudor' );
@@ -67,7 +67,7 @@ function tudor_setup() {
 	/*
 	 * Enable support for custom logo.
 	 *
-	 *  @since Tudor 1.2
+	 *  @since KC Tudor 1.2
 	 */
 	add_theme_support( 'custom-logo', array(
 		'height'      => 240,
@@ -100,7 +100,7 @@ function tudor_setup() {
 		'gallery',
 		'caption',
   ) );
-  
+
   // https://stackoverflow.com/questions/25491619/how-to-delete-margin-top-32px-important-from-twenty-twelve
   function remove_admin_login_header() {
     remove_action('wp_head', '_admin_bar_bump_cb');
@@ -156,7 +156,7 @@ add_action( 'after_setup_theme', 'tudor_setup' );
  *
  * @global int $content_width
  *
- * @since Tudor 1.0
+ * @since KC Tudor 1.0
  */
 function tudor_content_width() {
 	$GLOBALS['content_width'] = apply_filters( 'tudor_content_width', 840 );
@@ -168,7 +168,7 @@ add_action( 'after_setup_theme', 'tudor_content_width', 0 );
  *
  * @link https://developer.wordpress.org/reference/functions/register_sidebar/
  *
- * @since Tudor 1.0
+ * @since KC Tudor 1.0
  */
 function tudor_widgets_init() {
 	register_sidebar( array(
@@ -205,11 +205,11 @@ add_action( 'widgets_init', 'tudor_widgets_init' );
 
 if ( ! function_exists( 'tudor_fonts_url' ) ) :
 /**
- * Register Google fonts for Tudor.
+ * Register Google fonts for KC Tudor.
  *
  * Create your own tudor_fonts_url() function to override in a child theme.
  *
- * @since Tudor 1.0
+ * @since KC Tudor 1.0
  *
  * @return string Google fonts URL for the theme.
  */
@@ -249,7 +249,7 @@ endif;
  *
  * Adds a `js` class to the root `<html>` element when JavaScript is detected.
  *
- * @since Tudor 1.0
+ * @since KC Tudor 1.0
  */
 function tudor_javascript_detection() {
 	echo "<script>(function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);</script>\n";
@@ -259,7 +259,7 @@ add_action( 'wp_head', 'tudor_javascript_detection', 0 );
 /**
  * Enqueues scripts and styles.
  *
- * @since Tudor 1.0
+ * @since KC Tudor 1.0
  */
 function tudor_scripts() {
 	// Add custom fonts, used in the main stylesheet.
@@ -312,7 +312,7 @@ add_action( 'wp_enqueue_scripts', 'tudor_scripts' );
 /**
  * Adds custom classes to the array of body classes.
  *
- * @since Tudor 1.0
+ * @since KC Tudor 1.0
  *
  * @param array $classes Classes for the body element.
  * @return array (Maybe) filtered body classes.
@@ -345,7 +345,7 @@ add_filter( 'body_class', 'tudor_body_classes' );
 /**
  * Converts a HEX value to RGB.
  *
- * @since Tudor 1.0
+ * @since KC Tudor 1.0
  *
  * @param string $color The original color, in 3- or 6-digit hexadecimal form.
  * @return array Array containing RGB (red, green, and blue) values for the given
@@ -383,7 +383,7 @@ require get_template_directory() . '/inc/customizer.php';
  * Add custom image sizes attribute to enhance responsive image functionality
  * for content images
  *
- * @since Tudor 1.0
+ * @since KC Tudor 1.0
  *
  * @param string $sizes A source size value for use in a 'sizes' attribute.
  * @param array  $size  Image size. Accepts an array of width and height
@@ -417,7 +417,7 @@ add_filter( 'wp_calculate_image_sizes', 'tudor_content_image_sizes_attr', 10 , 2
  * Add custom image sizes attribute to enhance responsive image functionality
  * for post thumbnails
  *
- * @since Tudor 1.0
+ * @since KC Tudor 1.0
  *
  * @param array $attr Attributes for the image markup.
  * @param int   $attachment Image attachment ID.
@@ -440,7 +440,7 @@ add_filter( 'wp_get_attachment_image_attributes', 'tudor_post_thumbnail_sizes_at
  * Modifies tag cloud widget arguments to display all tags in the same font size
  * and use list format for better accessibility.
  *
- * @since Tudor 1.1
+ * @since KC Tudor 1.1
  *
  * @param array $args Arguments for tag cloud widget.
  * @return array The filtered arguments for tag cloud widget.

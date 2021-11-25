@@ -3,8 +3,8 @@
  * The template part for displaying an Author biography
  *
  * @package WordPress
- * @subpackage Tudor
- * @since Tudor 1.0
+ * @subpackage KC Tudor
+ * @since KC Tudor 1.0
  */
 ?>
 
@@ -12,9 +12,9 @@
 	<div class="author-avatar">
 		<?php
 		/**
-		 * Filter the Tudor author bio avatar size.
+		 * Filter the KC Tudor author bio avatar size.
 		 *
-		 * @since Tudor 1.0
+		 * @since KC Tudor 1.0
 		 *
 		 * @param int $size The avatar height and width size in pixels.
 		 */

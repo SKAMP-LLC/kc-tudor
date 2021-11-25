@@ -1,4 +1,4 @@
-# Tudor Theme
+# KC Tudor Theme
 
 Wordpress theme for [Kemono Cafe](https://kemono.cafe/).
 

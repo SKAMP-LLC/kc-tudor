@@ -3,8 +3,8 @@
  * The template for displaying image attachments
  *
  * @package WordPress
- * @subpackage Tudor
- * @since Tudor 1.0
+ * @subpackage KC Tudor
+ * @since KC Tudor 1.0
  */
 
 get_header(); ?>
@@ -37,7 +37,7 @@ get_header(); ?>
 								/**
 								 * Filter the default tudor image attachment size.
 								 *
-								 * @since Tudor 1.0
+								 * @since KC Tudor 1.0
 								 *
 								 * @param string $image_size Image size. Default 'large'.
 								 */

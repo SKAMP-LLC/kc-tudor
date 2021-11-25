@@ -3,8 +3,8 @@
  * The template part for displaying single posts
  *
  * @package WordPress
- * @subpackage Tudor
- * @since Tudor 1.0
+ * @subpackage KC Tudor
+ * @since KC Tudor 1.0
  */
 ?>
 
@@ -20,7 +20,7 @@
 	</header><!-- .entry-header -->
 
 	<?php tudor_excerpt(); ?>
-	
+
   <div class="entry-content">
 		<?php
 			the_content();

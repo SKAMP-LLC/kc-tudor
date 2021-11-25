@@ -1,10 +1,10 @@
 <?php
 /**
- * Template for displaying search forms in Tudor
+ * Template for displaying search forms in KC Tudor
  *
  * @package WordPress
- * @subpackage Tudor
- * @since Tudor 1.0
+ * @subpackage KC Tudor
+ * @since KC Tudor 1.0
  */
 ?>
 

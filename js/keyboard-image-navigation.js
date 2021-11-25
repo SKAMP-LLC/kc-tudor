@@ -1,5 +1,5 @@
 /**
- * Tudor keyboard support for image navigation.
+ * KC Tudor keyboard support for image navigation.
  */
 
 (function ($) {

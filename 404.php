@@ -3,8 +3,8 @@
  * The template for displaying 404 pages (not found)
  *
  * @package WordPress
- * @subpackage Tudor
- * @since Tudor 1.0
+ * @subpackage KC Tudor
+ * @since KC Tudor 1.0
  */
 
 get_header(); ?>

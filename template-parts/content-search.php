@@ -3,8 +3,8 @@
  * The template part for displaying results in search pages
  *
  * @package WordPress
- * @subpackage Tudor
- * @since Tudor 1.0
+ * @subpackage KC Tudor
+ * @since KC Tudor 1.0
  */
 ?>
 
@@ -17,4 +17,3 @@
     <?php tudor_post_thumbnail(); ?>
   </div>
 </article><!-- #post-## -->
-

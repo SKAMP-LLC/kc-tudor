@@ -10,8 +10,8 @@
  * @link https://codex.wordpress.org/Template_Hierarchy
  *
  * @package WordPress
- * @subpackage Tudor
- * @since Tudor 1.0
+ * @subpackage KC Tudor
+ * @since KC Tudor 1.0
  */
 
 get_header(); ?>
@@ -54,7 +54,7 @@ get_header(); ?>
               'next_text'          => __( 'Next page', 'tudor' ),
               'before_page_number' => '<span class="meta-nav screen-reader-text">' . __( 'Page', 'tudor' ) . ' </span>',
             ) );
-              
+
           else :
             get_template_part( 'template-parts/content', 'none' );
 
@@ -66,7 +66,7 @@ get_header(); ?>
         <a class="middle-divider"></a>
         <a href="https://kemono.cafe/category/news/" class="more-news"></a>
       </div>
-      
+
       <div class="bottom-content-desktop">
         <script type="text/javascript" src="https://www.comicad.net/r/6Bcj0095JF/"></script>
       </div>
