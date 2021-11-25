@@ -1,22 +1,22 @@
 <?php
 /**
- * Kemono Cafe (KC Tudor) back compat functionality
+ * KC Tudor back compat functionality
  *
- * Prevents Kemono Cafe (KC Tudor) from running on WordPress versions prior to 4.4,
+ * Prevents KC Tudor from running on WordPress versions prior to 4.4,
  * since this theme is not meant to be backward compatible beyond that and
  * relies on many newer functions and markup changes introduced in 4.4.
  *
  * @package WordPress
- * @subpackage Kemono Cafe (KC Tudor)
- * @since Kemono Cafe (KC Tudor) 1.0
+ * @subpackage KC Tudor
+ * @since KC Tudor 1.0
  */
 
 /**
- * Prevent switching to Kemono Cafe (KC Tudor) on old versions of WordPress.
+ * Prevent switching to KC Tudor on old versions of WordPress.
  *
  * Switches to the default theme.
  *
- * @since Kemono Cafe (KC Tudor) 1.0
+ * @since KC Tudor 1.0
  */
 function tudor_switch_theme() {
     switch_theme( WP_DEFAULT_THEME, WP_DEFAULT_THEME );
@@ -33,7 +33,7 @@ add_action( 'after_switch_theme', 'tudor_switch_theme' );
  * Prints an update nag after an unsuccessful attempt to switch to
  * KC Tudor on WordPress versions prior to 4.4.
  *
- * @since Kemono Cafe (KC Tudor) 1.0
+ * @since KC Tudor 1.0
  *
  * @global string $wp_version WordPress version.
  */
@@ -59,7 +59,7 @@ add_action( 'load-customize.php', 'tudor_customize' );
 /**
  * Prevents the Theme Preview from being loaded on WordPress versions prior to 4.4.
  *
- * @since Kemono Cafe (KC Tudor) 1.0
+ * @since KC Tudor 1.0
  *
  * @global string $wp_version WordPress version.
  */
