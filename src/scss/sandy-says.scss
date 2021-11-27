@@ -1,3 +1,5 @@
+@use 'sass:math';
+
 .sandy-says {
   background-color: $kemono_brown;
   border-radius: 5px;
@@ -102,7 +104,7 @@
     .rating,
     .title {
       border-radius: 5px;
-      margin-top: $default-margin / 2;
+      margin-top: math.div($default-padding, 2);
       padding: 10px;
       position: absolute;
       top: 0;
@@ -111,7 +113,7 @@
     .rating {
       background-color: $kemono_brown;
       color: $off_white;
-      margin-right: $default-margin / 2;
+      margin-right: math.div($default-margin, 2);
       right: 0;
     }
 

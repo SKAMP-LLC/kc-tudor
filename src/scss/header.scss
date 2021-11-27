@@ -1,3 +1,5 @@
+@use 'sass:math';
+
 header.site-header {
   font-family: "Roboto Slab", serif;
 
@@ -41,7 +43,7 @@ header.site-header {
       li {
         font-size: 1em;
         line-height: 2em;
-        padding-right: $default-padding / 2;
+        padding-right: math.div($default-padding, 2);
 
         a {
           text-shadow: 1px 1px $shadow_black;
