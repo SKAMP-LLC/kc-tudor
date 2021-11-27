@@ -66,5 +66,9 @@
       <div class="thumbnail"></div>
       <span>Kemono Cafe Stories</span>
     </a>
+    <a href="https://princessbunny.kemono.cafe" class="comic_list_item slot_15">
+      <div class="thumbnail"></div>
+      <span>Princess Bunny</span>
+    </a>
   </div>
 </section>

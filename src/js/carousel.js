@@ -36,7 +36,7 @@ function sammySays (index, numberOfComics) {
 
 document.addEventListener('DOMContentLoaded', () => {
   if (document.body.contains(document.querySelector('.siema'))) {
-    const numberOfComics = 16;
+    const numberOfComics = 17;
     const comicSlots = new Siema({
       perPage: 5,
       loop: true,

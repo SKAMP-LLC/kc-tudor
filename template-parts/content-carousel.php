@@ -23,7 +23,7 @@
       data-description="Tina and Yuki travel to the island of Caribbean Blue in search of a cure for their friend's strange feline curse, only to discover the island has many more secrets than they bargained for. Will they save the island after accidentally unearthing one of its greatest mysteries? Read and find out!">
       <a href="https://cb.kemono.cafe"></a>
     </div>
-    <div class="comic_slot slot_3" data-title="Practice makes Perfect" data-rating="Rated E"
+    <div class="comic_slot slot_3" data-title="Practice makes Perfect" data-rating="Rated G"
       data-description="A four panel gag comic with a cast of adorable characters! Jess Drea and Addy are just kids trying to make sense of the world in their own unique way, using imagination as their guide!">
       <a href="https://pmp.kemono.cafe/"></a>
     </div>
@@ -64,7 +64,7 @@
       <a href="https://bethellium.kemono.cafe"></a>
     </div>
     <div class="comic_slot slot_13" data-title="Knuckle Up" data-rating="Mature"
-      data-description="After an incident involving an inexperienced space wizard, things got weird for space bounty hunters Hawk and Rushana. Now, in order to revert the 	&ldquo;curse&rdquo;, they must embark on a quest spanning the galaxy... Hang in there Hawke, you're not as hot as you think you look!">
+      data-description="After an incident involving an inexperienced space wizard, things got weird for space bounty hunters Hawk and Rushana. Now, in order to revert the     &ldquo;curse&rdquo;, they must embark on a quest spanning the galaxy... Hang in there Hawke, you're not as hot as you think you look!">
       <a href="https://knuckle-up.kemono.cafe"></a>
     </div>
     <div class="comic_slot slot_14" data-title="Kemono Cafe Stories" data-rating="Rated PG-13"
@@ -74,6 +74,10 @@
     <div class="comic_slot slot_15" data-title="Artist Corner" data-rating="Rated PG-13"
       data-description="A lot of artists helped us get to where we are. We want to thank each and every one of them. Check them out here and please follow them on social media!">
       <a href="https://kemono.cafe/artist-corner"></a>
+    </div>
+    <div class="comic_slot slot_16" data-title="Princess Bunny" data-rating="Rated G"
+      data-description="Ella’s never got to spend much time with her family as her father is a governor, her mother a busy sorceress and her older brother getting trained to become a knight. Ella always admired her family and instead of crying for being alone, she used that time to become someone as interesting as them. Things got complicated and now Ella must use her training to find her mother that never returned from a dangerous mission.">
+      <a href="https://princessbunny.kemono.cafe"></a>
     </div>
     <div class="comic_slot slot_0" data-title="iMew" data-rating="Rated PG-13"
       data-description="Ever think your phone's controlling your life? Sammy sure feels that way! After purchasing a mysterious knock-off phone, she's discovered the apps control a little more than you or I would expect! Now she has to get her life back before the battery runs out!">
@@ -87,7 +91,7 @@
       data-description="Tina and Yuki travel to the island of Caribbean Blue in search of a cure for their friend's strange feline curse, only to discover the island has many more secrets than they bargained for. Will they save the island after accidentally unearthing one of its greatest mysteries? Read and find out!">
       <a href="https://cb.kemono.cafe"></a>
     </div>
-    <div class="comic_slot slot_3" data-title="Practice makes Perfect" data-rating="Rated E"
+    <div class="comic_slot slot_3" data-title="Practice makes Perfect" data-rating="Rated G"
       data-description="A four panel gag comic with a cast of adorable characters! Jess Drea and Addy are just kids trying to make sense of the world in their own unique way, using imagination as their guide!">
       <a href="https://pmp.kemono.cafe/"></a>
     </div>
@@ -128,7 +132,7 @@
       <a href="https://bethellium.kemono.cafe"></a>
     </div>
     <div class="comic_slot slot_13" data-title="Knuckle Up" data-rating="Mature"
-      data-description="After an incident involving an inexperienced space wizard, things got weird for space bounty hunters Hawk and Rushana. Now, in order to revert the 	&ldquo;curse&rdquo;, they must embark on a quest spanning the galaxy... Hang in there Hawke, you're not as hot as you think you look!">
+      data-description="After an incident involving an inexperienced space wizard, things got weird for space bounty hunters Hawk and Rushana. Now, in order to revert the     &ldquo;curse&rdquo;, they must embark on a quest spanning the galaxy... Hang in there Hawke, you're not as hot as you think you look!">
       <a href="https://knuckle-up.kemono.cafe"></a>
     </div>
     <div class="comic_slot slot_14" data-title="Kemono Cafe Stories" data-rating="Rated PG-13"
@@ -138,6 +142,10 @@
     <div class="comic_slot slot_15" data-title="Artist Corner" data-rating="Rated PG-13"
       data-description="A lot of artists helped us get to where we are. We want to thank each and every one of them. Check them out here and please follow them on social media!">
       <a href="https://kemono.cafe/artist-corner"></a>
+    </div>
+    <div class="comic_slot slot_16" data-title="Princess Bunny" data-rating="Rated G"
+      data-description="Ella’s never got to spend much time with her family as her father is a governor, her mother a busy sorceress and her older brother getting trained to become a knight. Ella always admired her family and instead of crying for being alone, she used that time to become someone as interesting as them. Things got complicated and now Ella must use her training to find her mother that never returned from a dangerous mission.">
+      <a href="https://princessbunny.kemono.cafe"></a>
     </div>
     <div class="comic_slot slot_0" data-title="iMew" data-rating="Rated PG-13"
       data-description="Ever think your phone's controlling your life? Sammy sure feels that way! After purchasing a mysterious knock-off phone, she's discovered the apps control a little more than you or I would expect! Now she has to get her life back before the battery runs out!">
@@ -151,7 +159,7 @@
       data-description="Tina and Yuki travel to the island of Caribbean Blue in search of a cure for their friend's strange feline curse, only to discover the island has many more secrets than they bargained for. Will they save the island after accidentally unearthing one of its greatest mysteries? Read and find out!">
       <a href="https://cb.kemono.cafe"></a>
     </div>
-    <div class="comic_slot slot_3" data-title="Practice makes Perfect" data-rating="Rated E"
+    <div class="comic_slot slot_3" data-title="Practice makes Perfect" data-rating="Rated G"
       data-description="A four panel gag comic with a cast of adorable characters! Jess Drea and Addy are just kids trying to make sense of the world in their own unique way, using imagination as their guide!">
       <a href="https://pmp.kemono.cafe/"></a>
     </div>
@@ -192,7 +200,7 @@
       <a href="https://bethellium.kemono.cafe"></a>
     </div>
     <div class="comic_slot slot_13" data-title="Knuckle Up" data-rating="Mature"
-      data-description="After an incident involving an inexperienced space wizard, things got weird for space bounty hunters Hawk and Rushana. Now, in order to revert the 	&ldquo;curse&rdquo;, they must embark on a quest spanning the galaxy... Hang in there Hawke, you're not as hot as you think you look!">
+      data-description="After an incident involving an inexperienced space wizard, things got weird for space bounty hunters Hawk and Rushana. Now, in order to revert the     &ldquo;curse&rdquo;, they must embark on a quest spanning the galaxy... Hang in there Hawke, you're not as hot as you think you look!">
       <a href="https://knuckle-up.kemono.cafe"></a>
     </div>
     <div class="comic_slot slot_14" data-title="Kemono Cafe Stories" data-rating="Rated PG-13"
@@ -202,6 +210,10 @@
     <div class="comic_slot slot_15" data-title="Artist Corner" data-rating="Rated PG-13"
       data-description="A lot of artists helped us get to where we are. We want to thank each and every one of them. Check them out here and please follow them on social media!">
       <a href="https://kemono.cafe/artist-corner"></a>
+    </div>
+    <div class="comic_slot slot_16" data-title="Princess Bunny" data-rating="Rated G"
+      data-description="Ella’s never got to spend much time with her family as her father is a governor, her mother a busy sorceress and her older brother getting trained to become a knight. Ella always admired her family and instead of crying for being alone, she used that time to become someone as interesting as them. Things got complicated and now Ella must use her training to find her mother that never returned from a dangerous mission.">
+      <a href="https://princessbunny.kemono.cafe"></a>
     </div>
   </div>
   <div class="control next_slot"></div>
