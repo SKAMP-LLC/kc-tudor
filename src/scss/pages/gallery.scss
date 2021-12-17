@@ -1,0 +1,17 @@
+.gallery-page {
+  background-color: $kemono_brown;
+  border-radius: $default_border_radius;
+  color: $off_white;
+  margin-top: $default_margin;
+  padding: $default_padding;
+
+  a {
+    color: $off_white;
+  }
+
+  @include respond-to("md") {
+  }
+
+  @include respond-to("lg") {
+  }
+}

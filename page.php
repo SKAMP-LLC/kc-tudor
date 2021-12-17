@@ -29,6 +29,8 @@ get_header(); ?>
           get_template_part( 'template-parts/content', 'page-katboxinn' );
         else if(is_page('Artist Corner'))
           get_template_part( 'template-parts/content', 'page-artistcorner' );
+        else if(is_page('Gallery'))
+          get_template_part( 'template-parts/content', 'page-gallery' );
         else
           get_template_part( 'template-parts/content', 'page' );
       endwhile;
