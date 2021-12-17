@@ -59,9 +59,9 @@
         <a href="https://ringtailcafe.com/itsybitsy_webcomic/iba-ch1-00/">Itsy Bitsy Adventures</a>
       </section>
       <section>
-        <h2> &middot; Bun Bun &middot; </h2>
-        <a href="https://bun-bun.art/"><img src="https://kemono.cafe/wp-content/uploads/2021/10/300x200.png" alt="Princess Bunny"></a>
-        <a href="https://bun-bun.art/">Princess Bunny</a>
+        <h2> &middot; Sonokido &middot; </h2>
+        <a href="https://tapas.io/series/Ventura-City-Drifters/info"><img src="https://kemono.cafe/wp-content/uploads/2021/12/Ventura-City-Drifters.gif" alt="Ventura City Drifters"></a>
+        <a href="https://tapas.io/series/Ventura-City-Drifters/info">Ventura City Drifters</a>
 
         <h2> &middot; Alexandria Bowersox &middot; </h2>
         <a href="https://huxcyn.com/"><img src="https://kemono.cafe/wp-content/uploads/2021/08/hux_banner.gif" alt="The Chronicles of Huxcyn"></a>
