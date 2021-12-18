@@ -24,7 +24,7 @@ main.site-main {
     align-content: center;
     justify-content: space-evenly;
     flex-wrap: nowrap;
-    margin: $default-margin * 2;
+    margin: 0 $default-margin * 2 $default-margin * 2;
     padding: $default-padding;
     background-color: $kemono_brown;
     border-radius: $default-border-radius;
