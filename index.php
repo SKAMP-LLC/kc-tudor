@@ -62,9 +62,9 @@ get_header(); ?>
           ?>
       </div><!-- .article-container -->
       <div class="archive-bar">
-        <a href="https://kemono.cafe/category/story/" class="more-story"></a>
-        <a class="middle-divider"></a>
-        <a href="https://kemono.cafe/category/news/" class="more-news"></a>
+        <a href="https://kemono.cafe/category/story/" class="more-story">More Stories</a>
+        <a href="https://kemono.cafe/artist-corner/" class="artist-corner">Artist Corner</a>
+        <a href="https://kemono.cafe/category/news/" class="more-news">More Posts</a>
       </div>
 
       <div class="bottom-content-desktop">

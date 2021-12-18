@@ -18,28 +18,30 @@ main.site-main {
   }
 
   .archive-bar {
-    align-items: center;
+    font-family: "Roboto Slab", serif;
     display: flex;
     flex-direction: column;
+    align-content: center;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
     margin: $default-margin * 2;
-    .more-story {
-      @include image-link;
-      background-image: url("https://kemono.cafe/wp-content/uploads/2020/06/divider_more_stories.png");
-      height: 17px;
-      width: 175px;
-    }
-    .middle-divider {
-      @include image-link;
-      background-image: url("https://kemono.cafe/wp-content/uploads/2020/06/divider_more_divider.png");
-      height: 17px;
-      width: 175px;
-      margin: $default-margin * 2 0;
-    }
-    .more-news {
-      @include image-link;
-      background-image: url("https://kemono.cafe/wp-content/uploads/2020/06/divider_more_news.png");
-      height: 17px;
-      width: 175px;
+    padding: $default-padding;
+    background-color: $kemono_brown;
+    border-radius: $default-border-radius;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.5em;
+
+    a {
+      display: inline-block;
+      color: $off_white;
+      text-decoration: none;
+      padding-bottom: $default-padding;
+
+
+      &:last-child {
+        padding-bottom: 0;
+      }
     }
   }
 
@@ -96,6 +98,10 @@ main.site-main {
   @include respond-to("md") {
     .archive-bar {
       flex-direction: row !important;
+
+      a {
+        padding-bottom: 0;
+      }
     }
     .article-container {
       flex-direction: row;
@@ -123,21 +129,6 @@ main.site-main {
       display: block;
       height: 26px;
       width: 795px;
-    }
-    .archive-bar {
-      flex-direction: column;
-      .more-story {
-        height: 27px;
-        width: 272px;
-      }
-      .middle-divider {
-        height: 27px;
-        width: 274px;
-      }
-      .more-news {
-        height: 27px;
-        width: 272px;
-      }
     }
     .article-container {
       article {
