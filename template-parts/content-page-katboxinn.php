@@ -15,6 +15,17 @@
 
       <section>
 
+        <h2> &middot; Nekonny &middot; </h2>
+        <a href="https://cb.kemono.cafe/"><img src="https://kemono.cafe/wp-content/uploads/2021/12/cb.jpg" alt="Caribbean Blue"></a>
+        <a href="https://cb.kemono.cafe/">Caribbean Blue</a>
+
+        <a href="https://pmp.kemono.cafe/"><img src="https://kemono.cafe/wp-content/uploads/2021/12/pmp.jpg" alt="Practice Makes Perfect"></a>
+        <a href="https://pmp.kemono.cafe/">Practice Makes Perfect</a>
+
+        <h2> &middot; Avencri &middot; </h2>
+        <a href="https://tots.kemono.cafe/"><img src="https://kemono.cafe/wp-content/uploads/2021/12/tots.jpg" alt="Tina of the South"></a>
+        <a href="https://tots.kemono.cafe/">Tina of the South</a>
+
         <h2> &middot; Leilani &middot; </h2>
         <a href="https://www.thedepthscomic.com/"><img src="https://kemono.cafe/wp-content/uploads/2021/04/The-Depths-Banner.png" alt="The Depths"></a>
         <a href="https://www.thedepthscomic.com/">The Depths</a>
@@ -62,6 +73,10 @@
         <h2> &middot; Sonokido &middot; </h2>
         <a href="https://tapas.io/series/Ventura-City-Drifters/info"><img src="https://kemono.cafe/wp-content/uploads/2021/12/Ventura-City-Drifters.gif" alt="Ventura City Drifters"></a>
         <a href="https://tapas.io/series/Ventura-City-Drifters/info">Ventura City Drifters</a>
+
+        <h2> &middot; Desert Fox &middot; </h2>
+        <a href="https://desertfoxcomics.net/"><img src="https://kemono.cafe/wp-content/uploads/2021/12/desert-fox.jpg" alt="Desert Fox"></a>
+        <a href="https://desertfoxcomics.net/">Desert Fox</a>
 
         <h2> &middot; Alexandria Bowersox &middot; </h2>
         <a href="https://huxcyn.com/"><img src="https://kemono.cafe/wp-content/uploads/2021/08/hux_banner.gif" alt="The Chronicles of Huxcyn"></a>
