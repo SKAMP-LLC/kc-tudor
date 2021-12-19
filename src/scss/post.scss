@@ -37,16 +37,20 @@
     }
 
     .kc-navigation-bar {
-      align-items: center;
+      align-content: center;
       display: flex;
-      font-family: "microns";
-      font-size: 2em;
-      justify-content: space-evenly;;
+      justify-content: space-evenly;
+
       a {
         color: $jill_orange;
-        display: block;
+        font-size: 1.25em;
         text-align: center;
         width: 100%;
+
+        span, i {
+          display: inline-block;
+          vertical-align: middle;
+        }
       }
     }
   }
