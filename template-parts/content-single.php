@@ -42,6 +42,10 @@
 
   <hr />
 
+  <div class="patreon-banner">
+    <a href="https://www.patreon.com/KemonoCafe"></a>
+  </div>
+
   <div class="can-content">
     <script type="text/javascript" src="https://www.comicad.net/r/25UaiAuEGF/"></script>
   </div>

@@ -25,6 +25,16 @@
       }
     }
 
+    .patreon-banner {
+      a {
+        @include image-link;
+        background-image: url("https://kemono.cafe/wp-content/uploads/2021/10/Patreon-Articles-and-News-Bottom-Banner.jpg");
+        width: 728px;
+        height: 90px;
+        margin: 0 auto;
+      }
+    }
+
     .can-content {
       margin: 1em auto;
       text-align: center;
@@ -64,7 +74,7 @@
 
   @include respond-to("md") {
     .content-area {
-      padding: $default-padding * 5;
+      padding: $default-padding * 5 $default-padding * 5 $default-padding;
     }
   }
 
