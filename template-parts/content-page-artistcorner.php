@@ -222,5 +222,60 @@
       </div>
     </div>
 
+    <!-- SuperiX -->
+    <div class="box">
+      <header>
+        <img class="avatar" src="https://kemono.cafe/wp-content/uploads/2022/01/Avatar-for-X.png">
+        <h2>
+          SuperiX
+          <ul class="social">
+            <li class="twitter"><a href="https://twitter.com/XSuperiX"></a></li>
+            <li class="fur-affinity"><a href="https://www.furaffinity.net/user/superix/"></a></li>
+            <li class="picarto"><a href="https://picarto.tv/SuperiX"></a></li>
+          </ul>
+        </h2>
+      </header>
+      <div class="art-gallery">
+        <a href="https://twitter.com/XSuperiX">
+          <img src="https://kemono.cafe/wp-content/uploads/2022/01/Image-X-4.png">
+        </a>
+        <a href="https://twitter.com/XSuperiX">
+          <img src="https://kemono.cafe/wp-content/uploads/2022/01/Image-X-3.png">
+        </a>
+        <a href="https://twitter.com/XSuperiX">
+          <img src="https://kemono.cafe/wp-content/uploads/2022/01/Image-X-2.png">
+        </a>
+        <a href="https://twitter.com/XSuperiX">
+          <img src="https://kemono.cafe/wp-content/uploads/2022/01/Image-X-1.png">
+        </a>
+      </div>
+    </div>
+
+    <!-- LunarSpy -->
+    <div class="box">
+      <header>
+        <img class="avatar" src="https://kemono.cafe/wp-content/uploads/2022/01/Articon.png">
+        <h2>
+        LunarSpy
+          <ul class="social">
+            <li class="twitter"><a href="https://www.twitter.com/lunarspy"></a></li>
+            <li class="picarto"><a href="https://www.picarto.tv/lunarspy"></a></li>
+            <li class="discord"><a href="https://discord.gg/zm5FTy4u9v "></a></li>
+          </ul>
+        </h2>
+      </header>
+      <div class="art-gallery">
+        <a href="https://twitter.com/LunarSpy">
+          <img src="https://kemono.cafe/wp-content/uploads/2022/01/ShiYuExp.png">
+        </a>
+        <a href="https://twitter.com/LunarSpy">
+          <img src="https://kemono.cafe/wp-content/uploads/2022/01/Xuehat.png">
+        </a>
+        <a href="https://twitter.com/LunarSpy">
+          <img src="https://kemono.cafe/wp-content/uploads/2022/01/Hoodie.png">
+        </a>
+      </div>
+    </div>
+
   </div>
 </article>
