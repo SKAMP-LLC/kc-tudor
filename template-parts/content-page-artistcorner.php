@@ -274,6 +274,9 @@
         <a href="https://twitter.com/LunarSpy">
           <img src="https://kemono.cafe/wp-content/uploads/2022/01/Hoodie.png">
         </a>
+        <a href="https://www.deviantart.com/kemonocafe/art/Mayor-Snow-by-LunarSpy-859600117">
+          <img src="https://kemono.cafe/wp-content/uploads/2022/01/de7s7p1-58c6d9f4-9fd6-433e-b0bb-089093904a6e.png">
+        </a>
       </div>
     </div>
 
