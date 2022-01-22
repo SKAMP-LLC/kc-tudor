@@ -59,6 +59,10 @@
       data-description="Ella's never got to spend much time with her family as her father is a governor, her mother a busy sorceress and her older brother getting trained to become a knight. Ella always admired her family and instead of crying for being alone, she used that time to become someone as interesting as them. Things got complicated and now Ella must use her training to find her mother that never returned from a dangerous mission.">
       <a href="https://princessbunny.kemono.cafe"></a>
     </div>
+    <div class="comic_slot slot_12" data-title="Ultra Rosa" data-rating="Suggestive"
+      data-description="Ultra power imbued Bounty Hunter and her eccentric crew travel the stars for their next mark!">
+      <a href="https://ultrarosa.kemono.cafe"></a>
+    </div>
     <div class="comic_slot slot_0" data-title="iMew" data-rating="Rated PG-13"
       data-description="Ever think your phone's controlling your life? Sammy sure feels that way! After purchasing a mysterious knock-off phone, she's discovered the apps control a little more than you or I would expect! Now she has to get her life back before the battery runs out!">
       <a href="https://imew.kemono.cafe"></a>
@@ -107,6 +111,10 @@
       data-description="Ella's never got to spend much time with her family as her father is a governor, her mother a busy sorceress and her older brother getting trained to become a knight. Ella always admired her family and instead of crying for being alone, she used that time to become someone as interesting as them. Things got complicated and now Ella must use her training to find her mother that never returned from a dangerous mission.">
       <a href="https://princessbunny.kemono.cafe"></a>
     </div>
+    <div class="comic_slot slot_12" data-title="Ultra Rosa" data-rating="Suggestive"
+      data-description="Ultra power imbued Bounty Hunter and her eccentric crew travel the stars for their next mark!">
+      <a href="https://ultrarosa.kemono.cafe"></a>
+    </div>
     <div class="comic_slot slot_0" data-title="iMew" data-rating="Rated PG-13"
       data-description="Ever think your phone's controlling your life? Sammy sure feels that way! After purchasing a mysterious knock-off phone, she's discovered the apps control a little more than you or I would expect! Now she has to get her life back before the battery runs out!">
       <a href="https://imew.kemono.cafe"></a>
@@ -153,6 +161,10 @@
     <div class="comic_slot slot_11" data-title="Princess Bunny" data-rating="Rated G"
       data-description="Ella's never got to spend much time with her family as her father is a governor, her mother a busy sorceress and her older brother getting trained to become a knight. Ella always admired her family and instead of crying for being alone, she used that time to become someone as interesting as them. Things got complicated and now Ella must use her training to find her mother that never returned from a dangerous mission.">
       <a href="https://princessbunny.kemono.cafe"></a>
+    </div>
+    <div class="comic_slot slot_12" data-title="Ultra Rosa" data-rating="Suggestive"
+      data-description="Ultra power imbued Bounty Hunter and her eccentric crew travel the stars for their next mark!">
+      <a href="https://ultrarosa.kemono.cafe"></a>
     </div>
   </div>
   <div class="control next_slot"></div>
