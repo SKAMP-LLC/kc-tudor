@@ -265,8 +265,7 @@
           </ul>
         </h2>
       </header>
-      <p class="tagline">A talented artist that provided the Kemono Cafe with Mayor Snow Puff fan art!
-</p>
+      <p class="tagline">A talented artist that provided the Kemono Cafe with Mayor Snow Puff fan art!</p>
       <div class="art-gallery">
         <a href="https://twitter.com/LunarSpy">
           <img src="https://kemono.cafe/wp-content/uploads/2022/01/ShiYuExp.png">
@@ -279,6 +278,36 @@
         </a>
         <a href="https://www.deviantart.com/kemonocafe/art/Mayor-Snow-by-LunarSpy-859600117">
           <img src="https://kemono.cafe/wp-content/uploads/2022/01/de7s7p1-58c6d9f4-9fd6-433e-b0bb-089093904a6e.png">
+        </a>
+      </div>
+    </div>
+
+    <!-- Lionheartxiii -->
+    <div class="box">
+      <header>
+        <img class="avatar" src="https://kemono.cafe/wp-content/uploads/2022/02/a.jpg">
+        <h2>
+        Lionheartxiii
+          <ul class="social">
+            <li class="fur-affinity"><a href="https://www.furaffinity.net/user/lionheart1013/"></a></li>
+            <li class="deviant-art"><a href="https://www.deviantart.com/lionheartxiii"></a></li>
+            <li class="patreon"><a href="https://www.patreon.com/lionheartxiii"></a></li>
+          </ul>
+        </h2>
+      </header>
+      <p class="tagline">A wonderful artist that has done fan art for the Kemono Cafe and the artists of the site.</p>
+      <div class="art-gallery">
+        <a href="https://www.deviantart.com/lionheartxiii/art/Asuna-at-the-Beach-Practice-02-865589416">
+          <img src="https://kemono.cafe/wp-content/uploads/2022/02/asuna_at_the_beach_practice_02_by_lionheartxiii_debcl2g-fullview.jpg">
+        </a>
+        <a href="https://www.furaffinity.net/user/lionheart1013/3">
+          <img src="https://kemono.cafe/wp-content/uploads/2022/02/New_Year_2021_Textless.png">
+        </a>
+        <a href="https://www.furaffinity.net/user/lionheart1013/">
+          <img src="https://kemono.cafe/wp-content/uploads/2022/02/Kemeno_Cafe.png">
+        </a>
+        <a href="https://www.furaffinity.net/user/lionheart1013/">
+          <img src="https://kemono.cafe/wp-content/uploads/2022/02/Cast.png">
         </a>
       </div>
     </div>
