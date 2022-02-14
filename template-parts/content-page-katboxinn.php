@@ -25,7 +25,7 @@
         <a href="https://www.tigerknight.com/"><img src="https://kemono.cafe/wp-content/uploads/2020/11/Jans-Comics-Banner.png" alt="Jans Comics"></a>
         <a href="https://www.wukrii.com/"><img src="https://kemono.cafe/wp-content/uploads/2021/01/Wukrii-Banner.png" alt="Wukrii"></a>
         <a href="https://tapas.io/series/Ventura-City-Drifters/info"><img src="https://kemono.cafe/wp-content/uploads/2021/12/Ventura-City-Drifters.gif" alt="Ventura City Drifters"></a>
-
+        <a href="http://www.peterandcompany.com/"><img src="https://kemono.cafe/wp-content/uploads/2020/11/peterandcompany-banner.jpg" alt="Peter & Company"></a>
 
 
       </section>
@@ -40,6 +40,7 @@
         <a href="https://huxcyn.com/"><img src="https://kemono.cafe/wp-content/uploads/2021/08/hux_banner.gif" alt="The Chronicles of Huxcyn"></a>
         <a href="https://www.sdamned.com/"><img src="https://kemono.cafe/wp-content/uploads/2020/09/slightlydamned-banner.png" alt="Slightly Damned"></a>
         <a href="https://crimsonflagcomic.com/"><img src="https://kemono.cafe/wp-content/uploads/2020/12/cfbanner_300x200.png" alt="Crimson Flag"></a>
+        <a href="http://www.peterandwhitney.com/"><img src="https://kemono.cafe/wp-content/uploads/2020/11/peterandwhitney-banner.jpg" alt="Peter & Whitney"></a>
       </section>
     </div>
   </div>
