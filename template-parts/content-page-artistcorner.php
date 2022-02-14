@@ -234,6 +234,7 @@
             <li class="picarto"><a href="https://picarto.tv/SuperiX"></a></li>
           </ul>
         </h2>
+        <p class="tagline">An amazing artist that provided the Kemono Cafe of everyone’s favorite foxy maid, Sandy.</p>
       </header>
       <div class="art-gallery">
         <a href="https://twitter.com/XSuperiX">
@@ -264,6 +265,8 @@
           </ul>
         </h2>
       </header>
+      <p class="tagline">A talented artist that provided the Kemono Cafe with Mayor Snow Puff fan art!
+</p>
       <div class="art-gallery">
         <a href="https://twitter.com/LunarSpy">
           <img src="https://kemono.cafe/wp-content/uploads/2022/01/ShiYuExp.png">
