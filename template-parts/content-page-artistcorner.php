@@ -285,7 +285,7 @@
     <!-- Lionheartxiii -->
     <div class="box">
       <header>
-        <img class="avatar" src="https://kemono.cafe/wp-content/uploads/2022/02/a.jpg">
+        <img class="avatar" src="https://kemono.cafe/wp-content/uploads/2022/03/Seth_Lionheart_Profile.png">
         <h2>
         Lionheartxiii
           <ul class="social">
