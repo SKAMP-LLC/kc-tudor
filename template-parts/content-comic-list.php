@@ -58,5 +58,9 @@
       <div class="thumbnail"></div>
       <span>Princess Bunny</span>
     </a>
+    <a href="https://ultrarosa.kemono.cafe" class="comic_list_item slot_12">
+      <div class="thumbnail"></div>
+      <span>Ultra Rosa</span>
+    </a>
   </div>
 </section>

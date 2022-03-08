@@ -102,6 +102,12 @@
     }
   }
 
+  .slot_12 {
+    div.thumbnail {
+      background-image: url("https://kemono.cafe/wp-content/uploads/2022/01/main_carousel_ultrarosa.png");
+    }
+  }
+
   @include respond-to("md") {
     display: none;
   }
