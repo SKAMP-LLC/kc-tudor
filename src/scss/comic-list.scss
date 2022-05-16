@@ -108,6 +108,12 @@
     }
   }
 
+  .slot_13 {
+    div.thumbnail {
+      background-image: url("https://kemono.cafe/wp-content/uploads/2022/05/caughtinorbit_link_XX.png");
+    }
+  }
+
   @include respond-to("md") {
     display: none;
   }

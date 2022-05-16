@@ -63,6 +63,10 @@
       data-description="Ultra power imbued Bounty Hunter and her eccentric crew travel the stars for their next mark!">
       <a href="https://ultrarosa.kemono.cafe"></a>
     </div>
+    <div class="comic_slot slot_13" data-title="Caught in Orbit" data-rating="Suggestive"
+      data-description="Tilven's biggest dream is to be the first to explore uncharted planets for the Galactic Alliance. BUT to get to that point she will have to endure a year with her mentor and the one that she was placed with is not what she ever could have expected. Join her adventure as she learns more about the worlds of the cosmos, herself, and the alliance she holds so highly.">
+      <a href="https://caughtinorbit.kemono.cafe"></a>
+    </div>
     <div class="comic_slot slot_0" data-title="iMew" data-rating="Rated PG-13"
       data-description="Ever think your phone's controlling your life? Sammy sure feels that way! After purchasing a mysterious knock-off phone, she's discovered the apps control a little more than you or I would expect! Now she has to get her life back before the battery runs out!">
       <a href="https://imew.kemono.cafe"></a>
@@ -115,6 +119,10 @@
       data-description="Ultra power imbued Bounty Hunter and her eccentric crew travel the stars for their next mark!">
       <a href="https://ultrarosa.kemono.cafe"></a>
     </div>
+    <div class="comic_slot slot_13" data-title="Caught in Orbit" data-rating="Suggestive"
+      data-description="Tilven's biggest dream is to be the first to explore uncharted planets for the Galactic Alliance. BUT to get to that point she will have to endure a year with her mentor and the one that she was placed with is not what she ever could have expected. Join her adventure as she learns more about the worlds of the cosmos, herself, and the alliance she holds so highly.">
+      <a href="https://caughtinorbit.kemono.cafe"></a>
+    </div>
     <div class="comic_slot slot_0" data-title="iMew" data-rating="Rated PG-13"
       data-description="Ever think your phone's controlling your life? Sammy sure feels that way! After purchasing a mysterious knock-off phone, she's discovered the apps control a little more than you or I would expect! Now she has to get her life back before the battery runs out!">
       <a href="https://imew.kemono.cafe"></a>
@@ -165,6 +173,10 @@
     <div class="comic_slot slot_12" data-title="Ultra Rosa" data-rating="Suggestive"
       data-description="Ultra power imbued Bounty Hunter and her eccentric crew travel the stars for their next mark!">
       <a href="https://ultrarosa.kemono.cafe"></a>
+    </div>
+    <div class="comic_slot slot_13" data-title="Caught in Orbit" data-rating="Suggestive"
+      data-description="Tilven's biggest dream is to be the first to explore uncharted planets for the Galactic Alliance. BUT to get to that point she will have to endure a year with her mentor and the one that she was placed with is not what she ever could have expected. Join her adventure as she learns more about the worlds of the cosmos, herself, and the alliance she holds so highly.">
+      <a href="https://caughtinorbit.kemono.cafe"></a>
     </div>
   </div>
   <div class="control next_slot"></div>
