@@ -14,12 +14,14 @@
   <html <?php language_attributes(); ?> class="no-js">
 
   <head>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-152386556-1"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-N06Q2JDVW1"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-      gtag('config', 'UA-152386556-1');
+
+      gtag('config', 'G-N06Q2JDVW1');
     </script>
     <!-- Pinterest Tag -->
     <script>
