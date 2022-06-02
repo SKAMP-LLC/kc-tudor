@@ -67,9 +67,9 @@
           <!-- Header / Banner -->
           <?php if ( get_header_image() ) : ?>
           <div class="header-image">
-            <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+            <a href="https://www.patreon.com/KemonoCafe" rel="home">
               <img class="u-full-width" src="<?php header_image(); ?>" srcset="<?php echo esc_attr( wp_get_attachment_image_srcset( get_custom_header()->attachment_id ) ); ?>"
-                alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>">
+                alt="Support us on Patreon">
             </a>
           </div>
           <?php endif; ?>
@@ -77,17 +77,6 @@
           <!-- Primary Navigation & Social Menu -->
           <?php if ( has_nav_menu( 'primary' ) || has_nav_menu( 'social' ) ) : ?>
           <div id="site-header-menu" class="site-header-menu">
-            <?php if ( has_nav_menu( 'primary' ) ) : ?>
-            <nav id="site-navigation" class="main-navigation" role="navigation" aria-label="<?php esc_attr_e( 'Primary Menu', 'tudor' ); ?>">
-              <?php
-                  wp_nav_menu( array(
-                    'theme_location' => 'primary',
-                    'menu_class'     => 'primary-menu',
-                  ) );
-                ?>
-            </nav>
-            <?php endif; ?>
-
             <?php if ( has_nav_menu( 'social' ) ) : ?>
             <nav id="social-navigation" class="social-navigation" role="navigation" aria-label="<?php esc_attr_e( 'Social Links Menu', 'tudor' ); ?>">
               <?php
@@ -101,6 +90,18 @@
                 ?>
             </nav>
             <?php endif; ?>
+
+            <?php if ( has_nav_menu( 'primary' ) ) : ?>
+            <nav id="site-navigation" class="main-navigation" role="navigation" aria-label="<?php esc_attr_e( 'Primary Menu', 'tudor' ); ?>">
+              <?php
+                  wp_nav_menu( array(
+                    'theme_location' => 'primary',
+                    'menu_class'     => 'primary-menu',
+                  ) );
+                ?>
+            </nav>
+            <?php endif; ?>
+
           </div>
           <?php endif; ?>
         </div>

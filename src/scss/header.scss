@@ -17,6 +17,10 @@ header.site-header {
   }
 
   .site-header-menu {
+    align-items: center;
+    display: flex;
+    flex-direction: column-reverse !important;
+    justify-content: center;
     margin-top: $default-margin;
     text-align: center;
 
@@ -39,6 +43,7 @@ header.site-header {
       background-color: $kemono_brown;
       border-radius: $default-border-radius;
       text-transform: uppercase;
+      width: 100%;
 
       li {
         font-size: 1em;
@@ -66,6 +71,7 @@ header.site-header {
     #social-navigation {
       margin-top: $default-margin;
       li {
+        padding: 0 math.div($default-padding, 2);
         a {
           @include image-link;
           height: 50px;
@@ -79,43 +85,35 @@ header.site-header {
 
       li:nth-child(1n) {
         a {
-          background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/social_twitter.png");
+          background-image: url("https://kemono.cafe/wp-content/uploads/2022/06/socialsSmall_0010_Twitter.png");
         }
       }
 
       li:nth-child(2n) {
         a {
-          background-image: url("https://kemono.cafe/wp-content/uploads/2021/02/social_discord.png");
+          background-image: url("https://kemono.cafe/wp-content/uploads/2022/06/socialsSmall_0005_patreon.png");
         }
       }
 
       li:nth-child(3n) {
         a {
-          background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/social_instagram.png");
+          background-image: url("https://kemono.cafe/wp-content/uploads/2022/06/socialsSmall_0010_Discord.png");
         }
       }
 
-      li:nth-child(4n) {
-        a {
-          background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/social_youtube.png");
-        }
-      }
-
-      li:nth-child(5n) {
-        a {
-          background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/social_patreon.png");
-        }
-      }
-      li:nth-child(6n) {
-        a {
-          background-image: url("https://kemono.cafe/wp-content/uploads/2020/06/social_mail.png");
-        }
-      }
     }
   }
 
   @include respond-to("md") {
+
+    .site-header-menu {
+      flex-direction: row !important;
+    }
+
     #site-navigation {
+      margin-left: $default-margin;
+      padding: 0 $default-padding;
+      width: 60% !important;
       li {
         font-size: 1.5em !important;
       }
@@ -123,7 +121,7 @@ header.site-header {
 
     #social-navigation {
       li {
-        padding: 0 1em !important;
+        padding: 0 math.div($default-padding, 2) !important;
         a {
           height: 65px !important;
           margin: 0 !important;
@@ -134,14 +132,7 @@ header.site-header {
   }
 
   @include respond-to("lg") {
-    .site-header-menu {
-      display: flex !important;
-      align-items: center !important;
-      justify-content: space-around !important;
-    }
-
     #site-navigation {
-      width: 55% !important;
       height: 65px !important;
       li {
         font-size: 1.6em !important;
@@ -150,7 +141,6 @@ header.site-header {
     }
 
     #social-navigation {
-      width: 45% !important;
       height: 65px !important;
       margin-top: 0 !important;
       li {
